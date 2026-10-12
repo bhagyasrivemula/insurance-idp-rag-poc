@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InsureAssist</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%230f766e' d='M12 2 4 5v6c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5l-8-3z'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Applies the saved theme before first paint (classic script, intentionally render-blocking) -->
+  <script src="js/theme-init.js"></script>
+  <!-- Application code: ES modules, entry point js/main.js -->
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <!-- ================================================================ -->
+  <!-- Top bar: brand, view tabs, model status                          -->
+  <!-- ================================================================ -->
+  <header class="topbar">
+    <!-- Logo: always takes you back to the Assistant -->
+    <a class="brand" href="#assistant" title="Go to Assistant">
+      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 2 4 5v6c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5l-8-3z"/>
+        <path class="tick" d="m8.5 12 2.5 2.5 4.5-5" />
+      </svg>
+      <div>
+        <div class="brand-name">InsureAssist</div>
+        <div class="brand-sub" id="brand-sub">Brochure intelligence</div>
+      </div>
+    </a>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-view="assistant" role="tab">Assistant</button>
+      <button class="tab" data-view="products" role="tab">Products</button>
+      <button class="tab" data-view="knowledge" role="tab">Knowledge base</button>
+    </nav>
+
+    <div class="status" id="status">
+      <span class="dot"></span><span class="status-text">Connecting&hellip;</span>
+    </div>
+
+    <!-- Theme picker: light / dark / system + accent colour -->
+    <div class="theme">
+      <button class="icon-btn" id="theme-btn" aria-label="Appearance" aria-haspopup="true" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-.9-.1-1.4A5.5 5.5 0 0 1 13.4 3.1 9 9 0 0 0 12 3z"/></svg>
+      </button>
+      <div class="theme-menu" id="theme-menu" hidden>
+        <div class="menu-label">Appearance</div>
+        <div class="mode-group" id="mode-group">
+          <button data-mode="light">Light</button>
+          <button data-mode="dark">Dark</button>
+          <button data-mode="system">System</button>
+        </div>
+        <div class="menu-label">Accent colour</div>
+        <div class="swatches" id="swatches">
+          <button data-accent="teal" title="Teal"></button>
+          <button data-accent="blue" title="Blue"></button>
+          <button data-accent="violet" title="Violet"></button>
+          <button data-accent="rose" title="Rose"></button>
+          <button data-accent="amber" title="Amber"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================== -->
+    <!-- View 1: Assistant (chat)                                        -->
+    <!-- ============================================================== -->
+    <section class="view active" id="view-assistant">
+      <aside class="sidebar">
+        <div class="panel">
+          <div class="panel-title">I am&hellip;</div>
+          <div class="segmented" id="persona">
+            <button class="seg active" data-persona="buyer">
+              <strong>Looking to buy</strong><span>Compare plans &amp; features</span>
+            </button>
+            <button class="seg" data-persona="policyholder">
+              <strong>A policyholder</strong><span>Claims, renewals &amp; service</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">
+            Search scope
+            <button class="link-btn" id="reset-filters">Reset</button>
+          </div>
+          <label class="field"><span>Insurer</span><select id="f-company"></select></label>
+          <label class="field"><span>Product type</span><select id="f-type"></select></label>
+          <label class="field"><span>Product</span><select id="f-product"></select></label>
+          <label class="field"><span>Topic</span><select id="f-topic"></select></label>
+          <p class="hint">Leave on &ldquo;All&rdquo; and the assistant detects products and insurers from your question.</p>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">Try asking</div>
+          <div id="suggestions" class="suggestions"></div>
+        </div>
+      </aside>
+
+      <div class="chat">
+        <div class="messages" id="messages">
+          <!-- Welcome screen (removed once the conversation starts) -->
+          <div class="welcome" id="welcome">
+            <h1>How can I help with your insurance today?</h1>
+            <p>Answers come only from official product brochures, with page-level citations you can open.</p>
+            <div class="welcome-cards" id="welcome-cards"></div>
+          </div>
+        </div>
+
+        <form class="composer" id="composer">
+          <div class="context-bar" id="context-bar" hidden></div>
+          <div class="composer-box">
+            <textarea id="input" rows="1" placeholder="Ask about eligibility, benefits, exclusions, claims&hellip;" autocomplete="off"></textarea>
+            <button type="submit" class="send" id="send" aria-label="Send">
+              <svg viewBox="0 0 24 24"><path d="M3 20.5 21 12 3 3.5l2.6 7L15 12l-9.4 1.5z"/></svg>
+            </button>
+            <button type="button" class="stop" id="stop" hidden aria-label="Stop">
+              <svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>
+            </button>
+          </div>
+          <div class="disclaimer">AI-generated from brochures for information only. Policy wording prevails &mdash; please verify before purchase or claim.</div>
+        </form>
+      </div>
+
+      <aside class="sources" id="sources">
+        <div class="sources-head">
+          <div>
+            <div class="panel-title">Sources</div>
+            <div class="sources-sub" id="sources-sub">Citations for the latest answer appear here.</div>
+          </div>
+        </div>
+        <div id="source-list" class="source-list"></div>
+      </aside>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- View 2: Product catalog (built from IDP key facts)             -->
+    <!-- ============================================================== -->
+    <section class="view" id="view-products">
+      <div class="page">
+        <div class="page-head">
+          <div>
+            <h2>Product catalog</h2>
+            <p class="muted">Key facts extracted automatically from each brochure by the IDP pipeline. <span class="verified-pill">&#10003; verified</span> means every number was found in the source PDF.</p>
+          </div>
+          <div class="chips" id="type-chips"></div>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- View 3: Knowledge base (IDP stats + retrieval explorer)        -->
+    <!-- ============================================================== -->
+    <section class="view" id="view-knowledge">
+      <div class="page">
+        <div class="page-head">
+          <div>
+            <h2>Knowledge base</h2>
+            <p class="muted">How the brochures were processed and what the vector database contains.</p>
+          </div>
+        </div>
+
+        <div class="stat-row" id="stat-row"></div>
+
+        <div class="pipeline">
+          <div class="step"><b>1</b><strong>Ingest &amp; classify</strong><span>Fingerprint, product type, UIN / CIN</span></div>
+          <div class="step"><b>2</b><strong>Layout extraction</strong><span>Headings, paragraphs, tables &rarr; Markdown, header/footer removal</span></div>
+          <div class="step"><b>3</b><strong>Key-fact extraction</strong><span>LLM with JSON schema output, grounding check against the PDF</span></div>
+          <div class="step"><b>4</b><strong>Semantic chunking</strong><span>Splits where the meaning shifts (sentence embeddings), tables split by rows, topic tags</span></div>
+          <div class="step"><b>5</b><strong>Embed &amp; index</strong><span id="step5">ChromaDB + metadata filters, BM25</span></div>
+        </div>
+
+        <div class="kb-grid">
+          <div class="card">
+            <div class="card-title">Documents</div>
+            <div class="table-wrap"><table class="data" id="doc-table"></table></div>
+          </div>
+          <div class="card">
+            <div class="card-title">Chunks by topic</div>
+            <div id="topic-bars" class="bars"></div>
+          </div>
+        </div>
+
+        <div class="card explorer">
+          <div class="card-title">Retrieval explorer <span class="muted small">&mdash; compare semantic, keyword and hybrid search under any metadata filter</span></div>
+          <form id="explore-form" class="explore-form">
+            <input id="x-query" placeholder="e.g. waiting period for pre-existing diseases" required>
+            <select id="x-mode" title="Search mode">
+              <option value="hybrid">Hybrid search</option>
+              <option value="semantic">Semantic only</option>
+              <option value="keyword">Keyword only</option>
+            </select>
+            <select id="x-company"></select>
+            <select id="x-type"></select>
+            <select id="x-topic"></select>
+            <button class="btn" type="submit">Search</button>
+          </form>
+          <pre class="where" id="x-where" hidden></pre>
+          <div id="x-results" class="x-results"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">Quality evaluation (RAGAS) <span class="muted small">&mdash; LLM-judged scores on a test set with reference answers</span></div>
+          <div id="ragas"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Copyright footer (year kept current by main.js) -->
+  <footer class="site-footer">
+    &copy; <span id="copyright-year">2026</span> Bhagya Sri Vemula. All rights reserved.
+  </footer>
+
+  <!-- Product detail modal -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+</body>
+</html>

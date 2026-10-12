@@ -1,0 +1,11 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data (rebuild with ingest.ps1)
+data/chroma/
+data/*.log

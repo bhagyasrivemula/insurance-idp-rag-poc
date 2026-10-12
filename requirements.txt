@@ -1,0 +1,31 @@
+# PDF parsing: layout, fonts and table detection
+pymupdf>=1.26
+# Vector database (persistent, with metadata filtering)
+chromadb>=1.0
+numpy>=1.26
+# Web API + server
+fastapi>=0.115
+uvicorn[standard]>=0.30
+# LLM + embeddings + moderation
+openai>=1.40
+# Reads OPENAI_API_KEY and other settings from .env
+python-dotenv>=1.0
+pydantic>=2.7
+# Tracing
+langsmith>=0.3
+
+# --- RAGAS evaluation -------------------------------------------------------
+# ragas itself is installed by setup.ps1 with --no-deps: its optional dependency
+# scikit-network has no Python 3.14 build (it is only used for synthetic test-set
+# generation, which this project does not use). Its other dependencies:
+langchain<1
+langchain-core<1
+langchain-community==0.3.31
+langchain-openai<1
+datasets
+diskcache
+instructor
+appdirs
+nest-asyncio
+networkx
+tiktoken
