@@ -16,8 +16,8 @@
     "pdf_title": "Travel Ace",
     "classification_method": "manifest"
   },
-  "processed_at": "2026-10-12T15:18:48+00:00",
-  "processing_seconds": 13.4,
+  "processed_at": "2026-10-13T14:58:19+00:00",
+  "processing_seconds": 14.5,
   "extraction_stats": {
     "pages": 8,
     "tables": 12,
@@ -26,10 +26,16 @@
     "furniture_lines_removed": 27,
     "body_font_size": 11.0
   },
+  "chunking": {
+    "method": "semantic",
+    "sentences": 58,
+    "similarity_threshold": 0.711,
+    "text_chunks": 11
+  },
   "key_facts": {
     "facts": {
-      "plan_summary": "This is a modular overseas travel insurance plan designed to cover medical emergencies, hospitalization, and incidental expenses during travel. It allows customers to select from multiple plan options and add-ons to suit specific travel insurance needs.",
-      "target_customer": "Individuals and corporates travelling overseas, including senior citizens (Super Age plan) and groups (Corporate Lite/Plus), up to age 120 years.",
+      "plan_summary": "This is a modular overseas travel insurance plan designed to cover medical emergencies, hospitalization, and incidental expenses during travel. It allows customization by selecting from various plan options and add-ons to suit specific travel insurance needs.",
+      "target_customer": "Individuals and corporates travelling overseas, including senior citizens and business travellers.",
       "entry_age": "Not mentioned",
       "maturity_age": "Not mentioned",
       "policy_term": "Not mentioned",
@@ -42,20 +48,20 @@
       "claim_process": "Not mentioned",
       "tax_benefits": "Not mentioned",
       "key_benefits": [
-        "Covers medical eventualities including hospitalization",
-        "No pre-policy medical health check-up required",
-        "Multiple sum insured options from USD 50,000 to USD 500,000",
-        "Personal accident and accidental death & disability cover",
-        "Coverage for loss of passport, baggage, and trip interruption",
-        "Pre-existing illness cover (up to USD 3,000 for life-threatening conditions)"
+        "Coverage for medical emergencies including hospitalization",
+        "Personal accident cover (international and in India)",
+        "Accidental death & disability (common carrier)",
+        "Sickness medical exigencies and pre-existing illness cover (up to USD 3000 for life-threatening conditions)",
+        "Coverage for loss of passport, baggage delay/loss, trip interruption/cancellation",
+        "No pre-policy medical health check-up required"
       ],
       "optional_riders_or_addons": [
-        "Lifestyle Modification Benefit",
-        "Child Education Benefit",
-        "Accidental Death & Disability-Common Carrier (AD&D)",
-        "Personal Accident Cover in India",
-        "Pre-Existing Injury Cover",
-        "Waiver of Sub-limits"
+        "Trip Extension",
+        "Legal Expenses",
+        "Missed Connection",
+        "Bounced Hotel",
+        "Emergency Cash Assistance Service",
+        "Trip Delay Delight"
       ],
       "major_exclusions": [
         "The Insured Person's participation in any naval, military or air force operations whether in the form of military exercises or war games or actual engagement with the enemy, whether foreign or domestic.",
@@ -68,7 +74,7 @@
     },
     "grounded": {
       "plan_summary": true,
-      "target_customer": true,
+      "target_customer": false,
       "free_look_period": true,
       "key_benefits": true,
       "optional_riders_or_addons": true,
@@ -84,9 +90,9 @@
     ],
     "model": "gpt-4.1"
   },
-  "chunk_count": 28,
+  "chunk_count": 27,
   "topic_distribution": {
-    "general": 11,
+    "general": 10,
     "benefits": 10,
     "premiums": 4,
     "claims": 1,
@@ -96,7 +102,7 @@
   "chunks": [
     {
       "id": "bajaj_general_travel_ace_brochure::0000",
-      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nCIN: U66010PN2000PLC015329 | UIN: BAJTIOP24008V022324 The Real Ace in your Travel Pack: Bajaj General: Travel Ace: Bajaj General Insurance Limited (Formerly known as Bajaj Allianz General Insurance Company Limited) Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited) is one of India's leading, most trusted and dynamic private general insurance companies. It is a subsidiary of Bajaj Finserv Limited, India's leading and most diversified financial services group.",
+      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nCIN: U66010PN2000PLC015329 | UIN: BAJTIOP24008V022324 The Real Ace in your Travel Pack: Bajaj General: Travel Ace: Bajaj General Insurance Limited (Formerly known as Bajaj Allianz General Insurance Company Limited) Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited) is one of India's leading, most trusted and dynamic private general insurance companies. It is a subsidiary of Bajaj Finserv Limited, India's leading and most diversified financial services group. Bajaj General offers a broad portfolio of innovative and customer-focused insurance solutions, spanning motor, health, and home insurance, along with specialised products such as pet insurance, wedding insurance, event protection, cyber insurance, and rural insurance. From safeguarding your health and home to protecting your travels and life's most important moments, Bajaj General aims to be a constant partner in your journey. Bajaj General equally offers a comprehensive and a well-diversified range of products, including fire, marine, engineering, liability and surety insurance to corporates and SME's. The company also participates in various government schemes with a focus on financial inclusion. The company is also known for its robust risk selection capabilities, digital adoption and product innovation.",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
         "file_name": "bajaj_general_travel_ace_brochure.pdf",
@@ -110,7 +116,7 @@
         "page_start": 1,
         "page_end": 2,
         "content_type": "text",
-        "char_count": 511,
+        "char_count": 1330,
         "topic": "general",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -126,36 +132,6 @@
     },
     {
       "id": "bajaj_general_travel_ace_brochure::0001",
-      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nIt is a subsidiary of Bajaj Finserv Limited, India's leading and most diversified financial services group. Bajaj General offers a broad portfolio of innovative and customer-focused insurance solutions, spanning motor, health, and home insurance, along with specialised products such as pet insurance, wedding insurance, event protection, cyber insurance, and rural insurance. From safeguarding your health and home to protecting your travels and life's most important moments, Bajaj General aims to be a constant partner in your journey. Bajaj General equally offers a comprehensive and a well-diversified range of products, including fire, marine, engineering, liability and surety insurance to corporates and SME's. The company also participates in various government schemes with a focus on financial inclusion. The company is also known for its robust risk selection capabilities, digital adoption and product innovation.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_ace_brochure",
-        "file_name": "bajaj_general_travel_ace_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Ace",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24008V022324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/Travel-Ace/Travel-Ace-Policy-brochure.pdf",
-        "section": "Overview",
-        "page_start": 2,
-        "page_end": 2,
-        "content_type": "text",
-        "char_count": 926,
-        "topic": "general",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": false,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_ace_brochure::0002",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| Section | Coverage | Plan | Standard USD 50,000 | Silver USD 1 Lakhs | Gold USD 2Lakhs | Platinum USD 5Lakhs | Super Age USD 50,000 | Corporate Lite USD 2.5Lakhs | Corporate Plus USD 5Lakhs | Deductible |\n|---|---|---|---|---|---|---|---|---|---|\n| Age |  | 0-70 yrs | 0-70 yrs | 0-70 yrs | 0-70 yrs | 70+ | 0-120 yrs | 0-70 yrs |  |\n| Section 1 | Personal Accident (International) | 10000 | 12000 | 15000 | 25000 | 10000 | 10000 | 10000 |  |\n| Extn. 1 for Section 1 | Lifestyle Modification Benefit | 3000 | 5000 | 6000 | 10000 | NA | Optional | Optional |  |\n| Extn. 2 for Section 1 | Child Education Benefit | 2000 | 3000 | 4000 | 8000 | NA | Optional | Optional |  |\n| Section 2 | Accidental Death & Disability- Common Carrier (AD&D) | 5000 | 6000 | 7000 | 10000 | 2000 | 5000 | 6000 |  |\n| Section 3 | Personal Accident Cover in India (INR) | 100000 | 200000 | 500000 | 1000000 | 100000 | 100000 | 200000 |  |\n| Section 5 | Sickness Medical Exigencies | 50000 | 100000 | 200000 | 500000 | 50000 | 250000 | 500000 | USD100 |\n| Extn. 3 for Section 5 | Pre- Existing Illness Cover | NA | NA | NA | 5000 | NA | NA | NA | USD100 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -185,7 +161,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0003",
+      "id": "bajaj_general_travel_ace_brochure::0002",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nEstablished in 2001, the company has grown its footprint to nearly 1,500 towns and cities across India, ensuring easy access and a close connection to its customers. This access is enabled through the largest distribution network, spanning across individual agents, point-of-sales personnel, banks, NBFCs, motor dealers, brokers and the company's proprietary sales force. It holds an [ICRA]AAA rating from ICRA Limited, reflecting the highest level of confidence in its financial strength and stability. With a strong legacy, a forward-looking mindset, and an unwavering focus on its 'Customer-First' philosophy, Bajaj General remains committed to protecting what matters most, empowering individuals, families, and businesses to live with confidence and peace of mind. What is Travel ACE Plan:",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -215,8 +191,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0004",
-      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nWhat is Travel ACE Plan: Travel ACE is our Modular overseas travel insurance plan. Plan covers all medical eventualities including hospitalization and other incidental expenses at a fraction of the amount thatwould be otherwise needed, then allows you to select options to suit your specific travel insurance needs. Choose from any of these below plans: Travel Ace Standard - USD 50,000 Travel Ace Silver - USD 1,00,000 Travel Ace Gold - USD 200,000 Travel Ace Platinum - USD 500,000 Travel Ace Super Age - USD 50,000 Travel Ace Corporate Lite - USD 250,000 Travel Ace Corporate Plus - USD 500,000 Are there any pre policy medical health check up? No pre policy medical health check up is required. Choose the best plan for your Travel needs Summary of Coverage:",
+      "id": "bajaj_general_travel_ace_brochure::0003",
+      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nTravel ACE is our Modular overseas travel insurance plan. Plan covers all medical eventualities including hospitalization and other incidental expenses at a fraction of the amount thatwould be otherwise needed, then allows you to select options to suit your specific travel insurance needs. Choose from any of these below plans: Travel Ace Standard - USD 50,000 Travel Ace Silver - USD 1,00,000 Travel Ace Gold - USD 200,000 Travel Ace Platinum - USD 500,000 Travel Ace Super Age - USD 50,000 Travel Ace Corporate Lite - USD 250,000 Travel Ace Corporate Plus - USD 500,000 Are there any pre policy medical health check up? No pre policy medical health check up is required. Choose the best plan for your Travel needs Summary of Coverage:",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
         "file_name": "bajaj_general_travel_ace_brochure.pdf",
@@ -230,7 +206,7 @@
         "page_start": 2,
         "page_end": 2,
         "content_type": "text",
-        "char_count": 762,
+        "char_count": 737,
         "topic": "benefits",
         "topic_eligibility": false,
         "topic_benefits": true,
@@ -245,7 +221,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0005",
+      "id": "bajaj_general_travel_ace_brochure::0004",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| Section | Coverage | Plan | Standard USD 50,000 | Silver USD 1Lakhs | Gold USD 2Lakhs | Platinum USD 5Lakhs | Super Age USD 50,000 | Corporate Lite USD 2.5Lakhs | Corporate Plus USD 5Lakhs | Deductible |\n|---|---|---|---|---|---|---|---|---|---|\n| Section 6 | Accidental Medical Exigencies | 50000 | 100000 | 200000 | 500000 | 50000 | 250000 | 500000 | USD100 |\n| Section 7 | Emergency Dental Pain Relief | 500 | 500 | 500 | 500 | 500 | 500 | 500 | USD 25 |\n| Section 8 | Hospitalization Daily Allowance | 50/7 days | 50/7 days | 75/7 days | 100/7 days | 50/7 days | 50/7 days | 50/7 days |  |\n| Section 13 | Trip and Event Cancellation | 1000 | 1500 | 2000 | 5000 | 1000 | 1000 | 2000 |  |\n| Section 14 | Trip Interruption | 500 | 750 | 1000 | 2000 | 500 | 500 | 750 |  |\n| Section 18 | Loss of Checked-in Baggage | 500 | 500 | 750 | 1000 | 500 | 500 | 750 |  |\n| Section 19 | Delay of Checked-in Baggage |  |  |  |  |  |  |  |  |\n|  | Geography - Abroad | 100/10 hrs | 100/10 hrs | 200/8 hrs | 300/6 hrs | 200/8 hrs | 100/10 hrs | 100/10 hrs | 6/8/10 hrs |\n|  | Geography - India (INR) | 1000/10 hrs | 1000/10 hrs | 2000/8 hrs | 3000/6 hrs | 2000/8 hrs | 1000/10 hrs | 1000/10 hrs | 6/8/10 hrs |\n| Section 21 | Personal Liability | 50000 | 100000 | 150000 | 200000 | 100000 | 100000 | 100000 |  |\n| Section 22 | Loss of Passport and Driving License | 300 | 300 | 400 | 500 | 250 | 300 | 400 |  |\n| Section 28 | Golfers Hole-in-one | 300 | 300 | 500 | 1000 | Optional | 300 | 300 |  |\n| Section 30 | Hijack Cover | 2000 | 3000 | 5000 | 10000 | 3000 | 2000 | 3000 |  |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -275,7 +251,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0006",
+      "id": "bajaj_general_travel_ace_brochure::0005",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| Section | Coverage | Plan | Standard USD 50,000 | Silver USD 1Lakhs | Gold USD 2Lakhs | Platinum USD 5Lakhs | Super Age USD 50,000 | Corporate Lite USD 2.5Lakhs | Corporate Plus USD 5Lakhs | Deductible |\n|---|---|---|---|---|---|---|---|---|---|\n| Section 33 | Home Burglary and Robbery Insurance (INR) |  |  |  |  |  |  |  |  |\n| Sub Section 1 | Portable Equipments other than Laptop | 100000 | 150000 | 200000 | 500000 | 100000 | 100000 | 150000 |  |\n| Sub Section 2 | Laptop | 100000 | 100000 | 100000 | 100000 | 100000 | 100000 | 150000 |  |\n| Sub Section 4 | Others | 100000 | 150000 | 200000 | 400000 | 100000 | 100000 | 150000 |  |\n| Section 34 | Standard Fire and Special Perils Cover (INR) |  |  |  |  |  |  |  |  |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -305,7 +281,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0007",
+      "id": "bajaj_general_travel_ace_brochure::0006",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| Section | Coverage | Plan | Standard USD 50,000 | Silver USD 1Lakhs | Gold USD 2Lakhs | Platinum USD 5Lakhs | Super Age USD 50,000 | Corporate Lite USD 2.5Lakhs | Corporate Plus USD 5Lakhs | Deductible |\n|---|---|---|---|---|---|---|---|---|---|\n| Sub Section 1 | Portable Equipments other than Laptop | 100000 | 150000 | 200000 | 500000 | 100000 | 100000 | 150000 |  |\n| Sub Section 2 | Laptop | 100000 | 100000 | 100000 | 100000 | 100000 | 100000 | 150000 |  |\n| Sub Section 4 | Others | 100000 | 150000 hrs | 200000 hrs | 500000 | 100000 | 100000 | 150000 |  |\n| Section 41 | Trip Delay Delight | 80/6 hrs | 100/6 | 120/5 | 150/4 hrs | 80/6 hrs | 80/6 hrs | 80/6 hrs | 4/5/6 hrs |\n| Section 31 | Emergency Cash Assistance Service | 500 | 1000 | 1000 | 1500 | 1000 | 1000 | 1000 |  |\n| Section 15 | Missed Connection | 250 | 300 | 300 | 300 | 300 | Optional | Optional |  |\n| Section 29 | Bounced Hotel | Optional | 400 | 500 | 500 | 500 | 500 | 500 |  |\n| Section 16 | Trip Extension | Optional | 750 | 1000 | 1500 | 1000 | 750 | 750 |  |\n| Section 25 | Legal Expenses | Optional | Optional | 1000 | 1000 | Optional | Optional | Optional |  |\n| Section 27 | Weather Guarantee | Optional | Optional | 200 | 500 | Optional | NA | NA |  |\n| Section 32 | Extended Pet Stay (INR) | Optional | Optional | 3000 | 3000 | Optional | Optional | Optional |  |\n| Section 20 | Loss of Personal Belonging including Mobile, Laptop, Ipad, E-Reader | Optional | Optional | Optional | 1500 | Optional | Optional | Optional |  |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -335,7 +311,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0008",
+      "id": "bajaj_general_travel_ace_brochure::0007",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| Section | Coverage | Plan | Standard USD 50,000 | Silver USD 1Lakhs | Gold USD 2Lakhs | Platinum USD 5Lakhs | Super Age USD 50,000 | Corporate Lite USD 2.5Lakhs | Corporate Plus USD 5Lakhs | Deductible |\n|---|---|---|---|---|---|---|---|---|---|\n| Section 23 | Car Hire Excess Insurance | Optional | Optional | Optional | 50 | 100 | Optional | Optional |  |\n| Section 24 | Alternative Transport Expenses | Optional | Optional | Optional | 200 | 1000 | Optional | Optional |  |\n| Section 9 | Compassionate Visit | Optional | Optional | Optional | 1000 | 1000 | Optional | Optional |  |\n| Section 10 | Compassionate Stay | Optional | Optional | Optional | 1000 | 1000 | Optional | Optional |  |\n| Section 11 | Return of Minor Child | Optional | Optional | Optional | 1000 | NA | NA | NA |  |\n| Section 17 | Ticket Overbooking | Optional | Optional | Optional | 200 | 200 | Optional | Optional |  |\n| Extn. 5 for Section 5 & 6 | Sporting Activities Cover | Optional | Optional | Optional | Optional | NA | NA | NA |  |\n| Section 4 | Disability Benefit Cover | Optional | Optional | Optional | Optional | NA | Optional | Optional |  |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -365,7 +341,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0009",
+      "id": "bajaj_general_travel_ace_brochure::0008",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| Section | Coverage | Plan | Standard USD 50,000 | Silver USD 1Lakhs | Gold USD 2Lakhs | Platinum USD 5Lakhs | Super Age USD 50,000 | Corporate Lite USD 2.5Lakhs | Corporate Plus USD 5Lakhs | Deductible |\n|---|---|---|---|---|---|---|---|---|---|\n| Section 12 | Replacement and Rearrangement of Staff | Optional | Optional | Optional | Optional | 4000 | Optional | Optional |  |\n| Extn. 3 for Section 6 | Pre- Existing Injury Cover | NA | NA | NA | Optional | NA | NA | NA |  |\n| Extn. 4 for Section 5 & 6 | Waiver of Sub-limits | Optional | Optional | Optional | Optional | Optional | Optional | Optional |  |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -395,7 +371,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0010",
+      "id": "bajaj_general_travel_ace_brochure::0009",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n|  | Standard/Super Age USD 50,000 |  |  |  |  |  |  |  | Silver USD 1Lakhs |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | Excl USA & Canada |  |  |  | Incl USA & Canada |  |  |  | Excl USA & Canada |  |  | Incl USA & Canada |  |  |\n| Travel Days | 0-50 | 51-60 | 61-70 | 70+ | 0-50 | 51-60 | 61-70 | 70+ | 0-50 | 51-60 | 61-70 | 0-50 | 51-60 | 61-70 |\n| 1-15 | 718 | 1142 | 1611 | 3867 | 1402 | 2126 | 2831 | 6631 | 863 | 1336 | 1860 | 1658 | 2476 | 3273 |\n| 16-30 | 1169 | 2017 | 2955 | 7346 | 2537 | 3986 | 5395 | 12858 | 1387 | 2332 | 3380 | 2962 | 4598 | 6191 |\n| 31-45 | 1620 | 2891 | 4299 | 10826 | 3672 | 5845 | 7959 | 19085 | 1910 | 3328 | 4900 | 4267 | 6721 | 9110 |\n| 46-60 | 2071 | 3766 | 5643 | 14306 | 4807 | 7704 | 10523 | 25312 | 2433 | 4325 | 6420 | 5571 | 8843 | 12028 |\n| 61-75 | 2522 | 4641 | 6987 | 17785 | 5942 | 9563 | 13087 | 31539 | 2956 | 5321 | 7941 | 6875 | 10965 | 14947 |\n| 76-90 | 2973 | 5515 | 8331 | 21265 | 7077 | 11422 | 15651 | 37766 | 3480 | 6317 | 9461 | 8179 | 13088 | 17866 |\n| 91-120 | 3875 | 7265 | 11019 | 28224 | 9347 | 15140 | 20778 | 50221 | 4526 | 8309 | 12501 | 10788 | 17332 | 23703 |\n| 121-150 | 4777 | 9014 | 13707 | 35183 | 11617 | 18859 | 25906 | 62675 | 5573 | 10302 | 15541 | 13396 | 21577 | 29540 |\n| 151-180 | 5679 | 10764 | 16395 | 42142 | 13888 | 22577 | 31034 | 75129 | 6619 | 12294 | 18581 | 16005 | 25821 | 35377 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -425,7 +401,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0011",
+      "id": "bajaj_general_travel_ace_brochure::0010",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nSub limits as shown below will be applicable for the ages above 50 years. The sub-limits will apply per hospitalization/ OPD under Section \"Sickness Medical Exigencies\" and \"Accidental Medical Exigencies\" *Emergency medical treatment for life-threatening conditions arising out of any pr-existing medical condition upto USD 3000 is covered under medical expenses *Refer policy wordings for T&C",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -455,7 +431,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0012",
+      "id": "bajaj_general_travel_ace_brochure::0011",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| Benefits(in USD) | Standard USD 50,000 | Silver USD 1 Lakhs | Gold USD 2 Lakhs | Platinum USD 5 Lakhs | Super Age USD 50,000 | Corporate Lite USD 2.5 Lakhs | Corporate Plus USD 5Lakhs |\n|---|---|---|---|---|---|---|---|\n| Hospital Room, Emergency Room, Board and hospital miscellaneous | 1200/ day | 1500/ day | 1500/ day | 1700/ day | 1200/ day | 1700/ day | 1700/ day |\n| Intensive Care Unit | 2000/ day | 2500/ day | 2500/ day | 2500/ day | 2000/ day | 2500/ day | 2500/ day |\n| Surgical Treatment | 8000 | 9000 | 9000 | 11500 | 8000 | 11500 | 11500 |\n| Anesthetist Services | 25% of Surgical treatment |  |  |  |  |  |  |\n| Consultation Charges | 150/ Visit | 200/ Visit | 200/ Visit | 200/ Visit | 150/ Visit | 200/ Visit | 200/ Visit |\n| Diagnostic and Testing | 1000 | 1250 | 1250 | 1500 | 1000 | 1500 | 1500 |\n| Ambulance Services | 300 | 400 | 400 | 500 | 300 | 500 | 500 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -485,7 +461,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0013",
+      "id": "bajaj_general_travel_ace_brochure::0012",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n|  | Gold USD 2Lakhs |  |  |  |  |  | Platinum USD 5Lakhs |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | Excl USA & Canada |  |  | Incl USA & Canada |  |  | Excl USA & Canada |  |  | Incl USA & Canada |  |  |\n| Travel Days | 0-50 | 51-60 | 61-70 | 0-50 | 51-60 | 61-70 | 0-50 | 51-60 | 61-70 | 0-50 | 51-60 | 61-70 |\n| 1-15 | 1072 | 1607 | 2200 | 1977 | 2908 | 3814 | 2768 | 3814 | 4996 | 4227 | 6298 | 8246 |\n| 16-30 | 1681 | 2751 | 3937 | 3474 | 5336 | 7148 | 4776 | 6867 | 9232 | 7644 | 11787 | 15683 |\n| 31-45 | 2290 | 3895 | 5674 | 4972 | 7765 | 10483 | 6783 | 9921 | 13468 | 11062 | 17275 | 23120 |\n| 46-60 | 2899 | 5039 | 7411 | 6469 | 10193 | 13817 | 8791 | 12974 | 17704 | 14480 | 22764 | 30557 |\n| 61-75 | 3509 | 6184 | 9148 | 7966 | 12622 | 17152 | 10799 | 16028 | 21940 | 17898 | 28253 | 37994 |\n| 76-90 | 4118 | 7328 | 10886 | 9464 | 15050 | 20486 | 12807 | 19081 | 26176 | 21316 | 33742 | 45431 |\n| 91-120 | 5336 | 9616 | 14360 | 12459 | 19907 | 27155 | 16822 | 25188 | 34648 | 28152 | 44720 | 60305 |\n| 121-150 | 6555 | 11905 | 17835 | 15453 | 24764 | 33824 | 20837 | 31295 | 43120 | 34987 | 55697 | 75179 |\n| 151-180 | 7773 | 14194 | 21309 | 18448 | 29621 | 40493 | 24853 | 37401 | 51591 | 41823 | 66675 | 90053 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -515,7 +491,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0014",
+      "id": "bajaj_general_travel_ace_brochure::0013",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nPlease refer to the Policy Wording for the full terms, conditions and exclusions of your Travel ACE plans Travel Ace Premium with Medical Sub-limit: Travel Ace Premium without Medical Sublimit:",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -545,7 +521,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0015",
+      "id": "bajaj_general_travel_ace_brochure::0014",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n|  | Standard/Super Age USD 50,000 |  |  |  |  |  | Silver USD 1 Lakhs |  |  |  | Gold USD 2Lakhs |  |  |  | Platinum USD 5Lakhs |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | Excl USA & Canada |  |  | Incl USA & Canada |  |  | Excl USA & Canada |  | Incl USA & Canada |  | Excl USA & Canada |  | Incl USA & Canada |  | Excl USA & Canada |  | Incl USA & Canada |  |\n| Travel Days | 51-60 | 61-70 | 70+ | 51-60 | 61-70 | 70+ | 51-60 | 61-70 | 51-60 | 61-70 | 51-60 | 61-70 | 51-60 | 61-70 | 51-60 | 61-70 | 51-60 | 61-70 |\n| 1-15 | 1298 | 1856 | 4243 | 3870 | 5251 | 10867 | 1511 | 2136 | 4456 | 6020 | 1803 | 2510 | 5149 | 6925 | 4044 | 5359 | 8932 | 11903 |\n| 16-30 | 2328 | 3447 | 8100 | 7472 | 10235 | 21330 | 2681 | 3931 | 8557 | 11687 | 3144 | 4559 | 9820 | 13372 | 7327 | 9958 | 17056 | 22998 |\n| 31-45 | 3358 | 5036 | 11956 | 11075 | 15219 | 31793 | 3852 | 5727 | 12659 | 17353 | 4486 | 6607 | 14490 | 19818 | 10610 | 14557 | 25180 | 34092 |\n| 46-60 | 4388 | 6626 | 15812 | 14678 | 20203 | 42256 | 5022 | 7522 | 16761 | 23019 | 5827 | 8655 | 19160 | 26264 | 13893 | 19156 | 33303 | 45187 |\n| 61-75 | 5419 | 8216 | 19668 | 18280 | 25187 | 52719 | 6193 | 9318 | 20862 | 28685 | 7168 | 10703 | 23830 | 32710 | 17176 | 23755 | 41427 | 56281 |\n| 76-90 | 6449 | 9806 | 23524 | 21883 | 30171 | 62182 | 7363 | 11114 | 24964 | 34352 | 8509 | 12751 | 28500 | 39156 | 20460 | 28354 | 49661 | 67376 |\n| 91-120 | 8509 | 12985 | 31236 | 29088 | 40139 | 84109 | 9705 | 14705 | 33167 | 45684 | 11191 | 16847 | 37840 | 52048 | 27026 | 37552 | 65798 | 89565 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -575,7 +551,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0016",
+      "id": "bajaj_general_travel_ace_brochure::0015",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n|  | Standard/Super Age USD 50,000 |  |  |  |  |  | Silver USD 1 Lakhs |  |  |  | Gold USD 2Lakhs |  |  |  | Platinum USD 5Lakhs |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | Excl USA & Canada |  |  | Incl USA & Canada |  |  | Excl USA & Canada |  | Incl USA & Canada |  | Excl USA & Canada |  | Incl USA & Canada |  | Excl USA & Canada |  | Incl USA & Canada |  |\n| 121-150 | 10570 | 16164 | 38949 | 36293 | 50107 | 105035 | 12046 | 18296 | 41371 | 57017 | 13873 | 20943 | 47180 | 64940 | 33593 | 46749 | 82045 | 111754 |\n| 151-180 | 12630 | 19344 | 46661 | 43498 | 60076 | 125961 | 14387 | 21887 | 49574 | 68349 | 16555 | 25040 | 56520 | 77832 | 40159 | 55947 | 98293 | 133943 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -605,7 +581,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0017",
+      "id": "bajaj_general_travel_ace_brochure::0016",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nTravelling Companion Discount: Below mentioned discount on published premium rates will be provided in case policy is taken by more than 1 travelling companions. Travelling Companion discount applicable only for Travel Ace Standard, Silver, Gold, Platinum and Super Age plan only. This is applied only for the same plan and same trip duration.",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -635,7 +611,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0018",
+      "id": "bajaj_general_travel_ace_brochure::0017",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n|  | Multi Trip- With Medical Sublimit |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|\n|  | Corporate Lite USD 2.5Lakhs |  |  |  | Corporate Plus USD 5Lakhs |  |  |\n|  | Incl USA & Canada |  |  |  | Incl USA & Canada |  |  |\n| Stay Overseas | 0-50 | 51-60 | 61-70 | 70+ | 0-50 | 51-60 | 61-70 |\n| 30 | 3462 | 5380 | 7248 | 12137 | 3929 | 6087 | 8189 |\n| 60 | 6621 | 10457 | 14192 | 23970 | 7495 | 11811 | 16014 |\n| 90 | 9704 | 15458 | 21060 | 35728 | 10969 | 17444 | 23748 |\n| 120 | 12786 | 20458 | 27928 | 47485 | 14444 | 23076 | 31482 |\n| 150 | 15869 | 25459 | 34796 | 59243 | 17918 | 28709 | 39216 |\n| 180 | 18952 | 30460 | 41665 | 71000 | 21393 | 34342 | 46950 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -665,7 +641,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0019",
+      "id": "bajaj_general_travel_ace_brochure::0018",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| Travelling Member(s) | Discount % |\n|---|---|\n| Self | 0% |\n| Self + 1 or 2 travel Partner | 5% |\n| Self + 3 or more travel partner (max 8 partners in one policy) | 10% |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -695,7 +671,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0020",
+      "id": "bajaj_general_travel_ace_brochure::0019",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nPolicy Cancellation: You may terminate this Policy at any time before the commencement of the Risk Period, by giving Us written notice and the Policy shall terminate. If no claim has been made under the Policy, We will deduct INR 250 + applicable tax as cancellation charges and will refund the premium paid. In case of any early return of the insured person prior to expiry of the Policy Period, We will refund premium at the following rates subject to no claims being incurred on the policy.",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -725,7 +701,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0021",
+      "id": "bajaj_general_travel_ace_brochure::0020",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n|  | Multi Trip- Without Medical Sublimit |  |  |  |  |\n|---|---|---|---|---|---|\n|  | Corporate Lite USD 2.5Lakhs |  |  | Corporate Plus USD 5Lakhs |  |\n|  | Incl USA & Canada |  |  | Incl USA & Canada |  |\n| Stay Overseas | 51-60 | 61-70 | 70+ | 51-60 | 61-70 |\n| 30 | 10047 | 13726 | 23475 | 11357 | 15504 |\n| 60 | 19790 | 27148 | 46647 | 22350 | 30644 |\n| 90 | 29458 | 40494 | 69743 | 33253 | 45693 |\n| 120 | 39125 | 53840 | 92839 | 44155 | 60742 |\n| 150 | 48792 | 67186 | 115935 | 55057 | 75791 |\n| 180 | 58460 | 80532 | 139031 | 65959 | 90840 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -755,7 +731,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0022",
+      "id": "bajaj_general_travel_ace_brochure::0021",
       "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n| For Polices with Term upto 1 year |  |\n|---|---|\n| Period in Risk | Refund Rounded |\n| Within 20% of the policy period | 65% |\n| Exceeding 20% but less than 30% of the policy period | 55% |\n| Exceeding 30% but less than 40% of the policy period | 50% |\n| Exceeding 40% but less than 50% of the policy period | 40% |\n| Exceeding 50% of the policy period | 0% |",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -785,8 +761,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0023",
-      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nNo claim will be considered under this policy once cancelled on the request of Insured. General Exclusions Applicable to All Sections The Company shall be under no liability to make payment hereunder in respect of any Claim directly or indirectly caused by, based on, arising out of or howsoever attributable to any of the following: 1. The Insured Person's participation in any naval, military or air force operations whether in the form of military exercises or war games or actual engagement with the enemy, whether foreign or domestic. 2. War, invasion, acts of foreign enemy, hostilities (whether war be declared or not), civil war, civil unrest, rebellion, revolution, insurrection, military or usurped power or confiscation or nationalization or requisition of or destruction of or damage to property by or under the order of any government or local authority.",
+      "id": "bajaj_general_travel_ace_brochure::0022",
+      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nNo claim will be considered under this policy once cancelled on the request of Insured. General Exclusions Applicable to All Sections The Company shall be under no liability to make payment hereunder in respect of any Claim directly or indirectly caused by, based on, arising out of or howsoever attributable to any of the following: 1. The Insured Person's participation in any naval, military or air force operations whether in the form of military exercises or war games or actual engagement with the enemy, whether foreign or domestic.",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
         "file_name": "bajaj_general_travel_ace_brochure.pdf",
@@ -800,7 +776,7 @@
         "page_start": 6,
         "page_end": 7,
         "content_type": "text",
-        "char_count": 867,
+        "char_count": 539,
         "topic": "claims",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -815,8 +791,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0024",
-      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n3. The loss or destruction or damage to any property whatsoever or any loss or expenses whatsoever resulting or arising there from or any consequential loss directly or indirectly caused by or contributed to or arising from: Ionising radiation or contamination by radioactivity form any nuclear waste from combustion of nuclear fuel; or The radioactive, toxic, explosive or other hazardous properties of any explosive nuclear assembly or nuclear component thereof, or Asbestosis or any related Sickness or Disease resulting from the existence, production, handling, processing, manufacture, sale, distribution, deposit or use of asbestos, or products thereof. 4. The Insured Person's actual or attempted engagement in any criminal or other unlawful act. 5. Any consequential losses.",
+      "id": "bajaj_general_travel_ace_brochure::0023",
+      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n2. War, invasion, acts of foreign enemy, hostilities (whether war be declared or not), civil war, civil unrest, rebellion, revolution, insurrection, military or usurped power or confiscation or nationalization or requisition of or destruction of or damage to property by or under the order of any government or local authority. 3. The loss or destruction or damage to any property whatsoever or any loss or expenses whatsoever resulting or arising there from or any consequential loss directly or indirectly caused by or contributed to or arising from: Ionising radiation or contamination by radioactivity form any nuclear waste from combustion of nuclear fuel; or The radioactive, toxic, explosive or other hazardous properties of any explosive nuclear assembly or nuclear component thereof, or Asbestosis or any related Sickness or Disease resulting from the existence, production, handling, processing, manufacture, sale, distribution, deposit or use of asbestos, or products thereof. 4. The Insured Person's actual or attempted engagement in any criminal or other unlawful act. 5. Any consequential losses. 6. In respect of travel by the Insured Person to any country against whom the Republic of India has imposed general or special travel restrictions, or against whom it may impose such restrictions, or any country which has imposed or may impose subsequently, such restrictions against travel by a citizen of the Republic of India to such country. 7.",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
         "file_name": "bajaj_general_travel_ace_brochure.pdf",
@@ -830,7 +806,7 @@
         "page_start": 7,
         "page_end": 7,
         "content_type": "text",
-        "char_count": 782,
+        "char_count": 1459,
         "topic": "general",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -845,8 +821,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0025",
-      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\n4. The Insured Person's actual or attempted engagement in any criminal or other unlawful act. 5. Any consequential losses. 6. In respect of travel by the Insured Person to any country against whom the Republic of India has imposed general or special travel restrictions, or against whom it may impose such restrictions, or any country which has imposed or may impose subsequently, such restrictions against travel by a citizen of the Republic of India to such country. 7. The Insured Person engaging in air travel unless he flies as a passenger on an Airline. For the purpose of this exclusion, air travel means being in or on, or boarding an Aircraft for the purpose of flying therein or alighting there from following a flight.",
+      "id": "bajaj_general_travel_ace_brochure::0024",
+      "text": "Bajaj General | Travel Ace | Travel | Section: Overview\nThe Insured Person engaging in air travel unless he flies as a passenger on an Airline. For the purpose of this exclusion, air travel means being in or on, or boarding an Aircraft for the purpose of flying therein or alighting there from following a flight.",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
         "file_name": "bajaj_general_travel_ace_brochure.pdf",
@@ -860,7 +836,7 @@
         "page_start": 7,
         "page_end": 7,
         "content_type": "text",
-        "char_count": 729,
+        "char_count": 257,
         "topic": "exclusions",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -875,7 +851,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_ace_brochure::0026",
+      "id": "bajaj_general_travel_ace_brochure::0025",
       "text": "Bajaj General | Travel Ace | Travel | Section: BAJAJ GENERAL INSURANCE LIMITED\n(Formerly known as Bajaj Allianz General Insurance Co. Ltd.) BAJAJ INSURANCE HOUSE, AIRPORT ROAD, YERAWADA, PUNE - 411006. IRDAI REG NO.: 113. FOR ANY QUERY (TOLL FREE): 1800-209-0144 /1800-209-5858 www.bajajgeneralinsurance.com careforyou@bajajgeneral.com Note: It is mandatory to keep updated your policy with your correct contact details and bank account details, to process any of your service requests faster and hassle-free. To update your contact details i.e. Mobile No., Email ID, PAN Card, and Bank Account details, please use chatbot, visit our website, contact your agent or nearest branch. For more details on risk factors, Terms and Conditions, please read the Policy Wordings and Prospectus before concluding a sale. CIN: U66010PN2000PLC015329 | UIN: BAJTIOP24008V022324 | BGI-O-0222/13-11-2025 Policy holders can download Bajaj General app for one - touch access. Available on - | -",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
@@ -906,7 +882,7 @@
     },
     {
       "id": "bajaj_general_travel_ace_brochure::summary",
-      "text": "Bajaj General | Travel Ace | Travel | Section: Product summary\nTravel Ace by Bajaj General (Travel).\nUIN: BAJTIOP24008V022324\nPlan summary: This is a modular overseas travel insurance plan designed to cover medical emergencies, hospitalization, and incidental expenses during travel. It allows customers to select from multiple plan options and add-ons to suit specific travel insurance needs.\nWho it is for: Individuals and corporates travelling overseas, including senior citizens (Super Age plan) and groups (Corporate Lite/Plus), up to age 120 years.\nFree-look period: You may terminate this Policy at any time before the commencement of the Risk Period, by giving Us written notice and the Policy shall terminate.\nKey benefits: Covers medical eventualities including hospitalization; No pre-policy medical health check-up required; Multiple sum insured options from USD 50,000 to USD 500,000; Personal accident and accidental death & disability cover; Coverage for loss of passport, baggage, and trip interruption; Pre-existing illness cover (up to USD 3,000 for life-threatening conditions)\nOptional riders / add-ons: Lifestyle Modification Benefit; Child Education Benefit; Accidental Death & Disability-Common Carrier (AD&D); Personal Accident Cover in India; Pre-Existing Injury Cover; Waiver of Sub-limits\nMajor exclusions: The Insured Person's participation in any naval, military or air force operations whether in the form of military exercises or war games or actual engagement with the enemy, whether foreign or domestic.; War, invasion, acts of foreign enemy, hostilities (whether war be declared or not), civil war, civil unrest, rebellion, revolution, insurrection, military or usurped power or confiscation or nationalization or requisition of or destruction of or damage to property by or under the order of any government or local authority.; The loss or destruction or damage to any property whatsoever or any loss or expenses whatsoever resulting or arising there from or any consequential loss directly or indirectly caused by or contributed to or arising from: Ionising radiation or contamination by radioactivity form any nuclear waste from combustion of nuclear fuel; or The radioactive, toxic, explosive or other hazardous properties of any explosive nuclear assembly or nuclear component thereof, or Asbestosis or any related Sickness or Disease resulting from the existence, production, handling, processing, manufacture, sale, distribution, deposit or use of asbestos, or products thereof.; The Insured Person's actual or attempted engagement in any criminal or other unlawful act.; Any consequential losses.; In respect of travel by the Insured Person to any country against whom the Republic of India has imposed general or special travel restrictions, or against whom it may impose such restrictions, or any country which has imposed or may impose subsequently, such restrictions against travel by a citizen of the Republic of India to such country.",
+      "text": "Bajaj General | Travel Ace | Travel | Section: Product summary\nTravel Ace by Bajaj General (Travel).\nUIN: BAJTIOP24008V022324\nPlan summary: This is a modular overseas travel insurance plan designed to cover medical emergencies, hospitalization, and incidental expenses during travel. It allows customization by selecting from various plan options and add-ons to suit specific travel insurance needs.\nFree-look period: You may terminate this Policy at any time before the commencement of the Risk Period, by giving Us written notice and the Policy shall terminate.\nKey benefits: Coverage for medical emergencies including hospitalization; Personal accident cover (international and in India); Accidental death & disability (common carrier); Sickness medical exigencies and pre-existing illness cover (up to USD 3000 for life-threatening conditions); Coverage for loss of passport, baggage delay/loss, trip interruption/cancellation; No pre-policy medical health check-up required\nOptional riders / add-ons: Trip Extension; Legal Expenses; Missed Connection; Bounced Hotel; Emergency Cash Assistance Service; Trip Delay Delight\nMajor exclusions: The Insured Person's participation in any naval, military or air force operations whether in the form of military exercises or war games or actual engagement with the enemy, whether foreign or domestic.; War, invasion, acts of foreign enemy, hostilities (whether war be declared or not), civil war, civil unrest, rebellion, revolution, insurrection, military or usurped power or confiscation or nationalization or requisition of or destruction of or damage to property by or under the order of any government or local authority.; The loss or destruction or damage to any property whatsoever or any loss or expenses whatsoever resulting or arising there from or any consequential loss directly or indirectly caused by or contributed to or arising from: Ionising radiation or contamination by radioactivity form any nuclear waste from combustion of nuclear fuel; or The radioactive, toxic, explosive or other hazardous properties of any explosive nuclear assembly or nuclear component thereof, or Asbestosis or any related Sickness or Disease resulting from the existence, production, handling, processing, manufacture, sale, distribution, deposit or use of asbestos, or products thereof.; The Insured Person's actual or attempted engagement in any criminal or other unlawful act.; Any consequential losses.; In respect of travel by the Insured Person to any country against whom the Republic of India has imposed general or special travel restrictions, or against whom it may impose such restrictions, or any country which has imposed or may impose subsequently, such restrictions against travel by a citizen of the Republic of India to such country.",
       "metadata": {
         "doc_id": "bajaj_general_travel_ace_brochure",
         "file_name": "bajaj_general_travel_ace_brochure.pdf",
@@ -920,7 +896,7 @@
         "page_start": 1,
         "page_end": 8,
         "content_type": "key_facts",
-        "char_count": 2920,
+        "char_count": 2730,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,

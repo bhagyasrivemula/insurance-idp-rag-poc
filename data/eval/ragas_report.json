@@ -1,0 +1,234 @@
+{
+  "run_at": "2026-10-13T15:09:34+00:00",
+  "questions": 17,
+  "chat_model": "gpt-4.1-mini",
+  "judge_model": "gpt-4.1-mini",
+  "embed_model": "text-embedding-3-small",
+  "chunking": "semantic",
+  "scores": {
+    "faithfulness": 0.946,
+    "answer_relevancy": 0.833,
+    "llm_context_precision_with_reference": 0.549,
+    "context_recall": 0.98,
+    "factual_correctness(mode=f1)": 0.775
+  },
+  "metric_info": {
+    "faithfulness": "Answer is supported by the retrieved excerpts (no hallucination)",
+    "answer_relevancy": "Answer addresses the question that was asked",
+    "llm_context_precision_with_reference": "Relevant excerpts are ranked at the top",
+    "context_recall": "Excerpts contain everything needed for the reference answer",
+    "factual_correctness(mode=f1)": "Answer agrees with the reference answer"
+  },
+  "rows": [
+    {
+      "question": "What is the grace period if I miss a premium on HDFC Life Sanchay Plus?",
+      "answer": "The grace period for HDFC Life Sanchay Plus depends on the premium payment frequency and policy type:\n\n- For Single Premium Policy: No grace period is applicable.\n- For Limited / Regular Premium Policy:\n  - 15 days grace period for monthly premium payments.\n  - 30 days grace period for other premium payment frequencies.\n\nDuring the grace period, the policy remains in-force with risk cover without interruption. If the premium is not paid by the end of the grace period, the policy will lapse or become reduced paid-up depending on whether it has acquired a surrender value [1][2].",
+      "reference": "For Sanchay Plus the grace period is 15 days for monthly premium payment and 30 days for other premium payment frequencies. It does not apply to single premium policies. If the premium is not paid within the grace period, the policy lapses or becomes paid-up.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.897,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.43,
+      "guardrails": []
+    },
+    {
+      "question": "What is the minimum entry age for Sanchay Plus?",
+      "answer": "The minimum entry age for HDFC Life Sanchay Plus varies by plan option but generally starts from 301 days (approximately 1 year) for Guaranteed Income and Guaranteed Maturity options, and from 31 years for Long Term Income option, and 50 years for Life Long Income option [1], [4], [6]. \n\nSummary:\n- Guaranteed Income & Guaranteed Maturity: 301 days (about 1 year) minimum entry age\n- Long Term Income: 31 years minimum entry age\n- Life Long Income: 50 years minimum entry age\n\nAll ages are as on last birthday [5].",
+      "reference": "The minimum age at entry for Sanchay Plus is 301 days for the Guaranteed Income and Guaranteed Maturity options. The Long Term Income option starts at 31 years and the Life Long Income option at 50 years (55 years for the POSP variant).",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.765,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.77,
+      "guardrails": []
+    },
+    {
+      "question": "What is the free look period for Click 2 Protect Supreme Plus?",
+      "answer": "The free look period for HDFC Life Click 2 Protect Supreme Plus is 30 days from the date of receipt of the policy [1].",
+      "reference": "The free look period for HDFC Life Click 2 Protect Supreme Plus is 30 days from the date of receipt of the policy, whether received electronically or otherwise.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.801,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.8,
+      "guardrails": []
+    },
+    {
+      "question": "What is the grace period for premiums under Click 2 Protect Supreme Plus?",
+      "answer": "The grace period for premiums under HDFC Life Click 2 Protect Supreme Plus is:\n\n- 30 days for yearly, half yearly, and quarterly premium frequencies from the premium due date.\n- 15 days for monthly premium frequency from the premium due date.\n\nIf a valid claim arises during the grace period but before payment of the due premium, the claim will be honored after deducting the unpaid premium from the benefit payable [1].",
+      "reference": "The grace period is 30 days for yearly, half-yearly and quarterly premium frequencies and 15 days for the monthly frequency, counted from the premium due date.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.855,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.8,
+      "guardrails": []
+    },
+    {
+      "question": "What is the entry age range for Click 2 Protect Supreme Plus?",
+      "answer": "The entry age range for HDFC Life Click 2 Protect Supreme Plus varies by plan option:\n\n- Life option: 18 years to 84 years\n- Life Plus option: 18 years to 65 years\n- Life Goal option: 18 years to 65 years\n- POS Life/Life Plus option: 18 years to 60 years\n\nThese details are summarized in the product summary and eligibility tables [1], [2], [5], [7].",
+      "reference": "Entry age is 18 to 84 years for the Life option, 18 to 65 years for Life Plus and Life Goal, and 18 to 60 years for the POS Life/Life Plus variants.",
+      "excerpts": 8,
+      "faithfulness": 0.857,
+      "answer_relevancy": 0.731,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.91,
+      "guardrails": []
+    },
+    {
+      "question": "Is there a waiting period for policies of Smart Secure Plus sold through the POS channel?",
+      "answer": "Yes, there is a waiting period of ninety (90) days for policies of Smart Secure Plus sold through the POS channel. If the customer dies during this waiting period, no benefit is payable except a refund of 100% of the premium paid since the date of acceptance of risk, excluding taxes and cess. However, if death occurs due to an accident, the waiting period does not apply and the full death benefit is payable. The waiting period is also not applicable on policy revival [2][6].",
+      "reference": "Yes. For Axis Max Life Smart Secure Plus policies sourced through the POS channel, a waiting period of 90 days from the date of acceptance of risk applies. If the customer dies during this period only a refund of 100% of premiums paid (excluding taxes) is payable, except for accidental death where the full death benefit is paid.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.965,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 0.667,
+      "factual_correctness(mode=f1)": 0.8,
+      "guardrails": []
+    },
+    {
+      "question": "What is the free look period for Smart Secure Plus?",
+      "answer": "The free look period for Axis Max Life Smart Secure Plus Plan is thirty (30) days from the date of receipt of the policy document. During this period, the policyholder can review the terms and conditions and return the policy for cancellation if dissatisfied, with a refund of the premium paid minus proportionate risk premium and expenses incurred [1].",
+      "reference": "Smart Secure Plus has a free look period of thirty (30) days beginning from the date of receipt of the policy document, whether received electronically or otherwise.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.816,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.33,
+      "guardrails": []
+    },
+    {
+      "question": "What is the waiting period for pre-existing diseases in Bajaj Health Guard?",
+      "answer": "The waiting period for pre-existing diseases in Bajaj General Health Guard is 36 months of continuous coverage after the date of inception of the first Health Guard Policy with the insurer [1][5].",
+      "reference": "Under Health Guard, expenses related to pre-existing diseases and their direct complications are excluded until 36 months of continuous coverage after the inception of the first Health Guard policy.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.979,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.75,
+      "guardrails": []
+    },
+    {
+      "question": "Does Health Guard have a waiting period for illnesses in the first month?",
+      "answer": "Yes, Bajaj General Health Guard has a 30-day waiting period for illnesses. Expenses related to the treatment of any illness within 30 days from the first policy commencement date are excluded, except for claims arising due to an accident, provided the same are covered [3][5].",
+      "reference": "Yes. Expenses for any illness within 30 days from the first policy commencement date are excluded, except for claims arising due to an accident.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.796,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 1.0,
+      "guardrails": []
+    },
+    {
+      "question": "Which Health Guard plans cover maternity expenses?",
+      "answer": "Maternity expenses are covered only under the Gold and Platinum plans of Bajaj General Health Guard [1][2][4][8]. \n\n- Silver plan does not cover maternity expenses [7].\n- Coverage includes delivery (normal and cesarean), pre-natal and post-natal hospitalization up to 90 days, and lawful termination of pregnancy, limited to 2 deliveries or terminations [1][8].\n- Newborn baby cover is also available only with Gold and Platinum plans, linked to maternity claims [2].\n- There is a waiting period of 72 months for maternity benefits from the first policy issuance [1][4].",
+      "reference": "Maternity expense cover under Health Guard is applicable only for the Gold and Platinum plans.",
+      "excerpts": 8,
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.819,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.29,
+      "guardrails": []
+    },
+    {
+      "question": "What is the waiting period for pre-existing diseases in Star Family Health Optima?",
+      "answer": "The waiting period for pre-existing diseases in Star Health Family Health Optima is 48 months of continuous coverage from the date of inception of the first policy with the insurer [1], [4].",
+      "reference": "In Family Health Optima, pre-existing diseases are covered after 48 months of continuous coverage from the inception of the first policy with the insurer.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.979,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 1.0,
+      "guardrails": []
+    },
+    {
+      "question": "What is the free look period of Family Health Optima?",
+      "answer": "The free look period of Family Health Optima is fifteen days from the date of receipt of the policy document [1][5].",
+      "reference": "Family Health Optima offers a free look period of fifteen days from the date of receipt of the policy document.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 1.0,
+      "guardrails": []
+    },
+    {
+      "question": "What sum insured options are available in Family Health Optima?",
+      "answer": "The sum insured options available in Star Health Family Health Optima are Rs.3,00,000/-, Rs.4,00,000/-, Rs.5,00,000/-, Rs.10,00,000/-, Rs.15,00,000/-, Rs.20,00,000/-, and Rs.25,00,000/-. Additionally, Rs.1,00,000/- and Rs.2,00,000/- sum insured options are available only for renewals [1][2].",
+      "reference": "Family Health Optima offers sum insured options of Rs. 3, 4, 5, 10, 15, 20 and 25 lakh, with Rs. 1 lakh and Rs. 2 lakh available only for renewals.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.86,
+      "llm_context_precision_with_reference": null,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 1.0,
+      "guardrails": []
+    },
+    {
+      "question": "What is the entry age for Bajaj Travel Prime Individual?",
+      "answer": "The entry age for Bajaj Travel Prime Individual is from 0.6 years to 60 years [1][6].",
+      "reference": "Travel Prime Individual can be taken by people aged 6 months (0.6 years) to 60 years.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.979,
+      "llm_context_precision_with_reference": 0.569,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.8,
+      "guardrails": []
+    },
+    {
+      "question": "What sum insured options does Travel Prime Individual offer?",
+      "answer": "Travel Prime Individual offers the following sum insured options:\n\n- 50,000 USD\n- 200,000 USD\n- 500,000 USD\n- 750,000 USD\n- 1,000,000 USD\n\nThese options are available for the overall coverage and can be chosen based on your requirement [1][4].",
+      "reference": "Travel Prime Individual offers sum insured options of USD 50,000, 200,000, 500,000, 750,000 and 1,000,000.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "llm_context_precision_with_reference": 0.625,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.83,
+      "guardrails": []
+    },
+    {
+      "question": "Is a medical check-up needed before buying Travel Ace?",
+      "answer": "No, a pre-policy medical health check-up is not required before buying Travel Ace [1][2].",
+      "reference": "No pre-policy medical health check-up is required for Bajaj General Travel Ace.",
+      "excerpts": 8,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.918,
+      "llm_context_precision_with_reference": 1.0,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 1.0,
+      "guardrails": []
+    },
+    {
+      "question": "Do you offer crop insurance for farmers?",
+      "answer": "The provided excerpts do not mention crop insurance for farmers. For information on crop insurance, please contact the insurer directly or refer to the specific policy wording.",
+      "reference": "None of the brochures in the library cover crop insurance, so the assistant cannot answer from them and should suggest contacting an insurer.",
+      "excerpts": 8,
+      "faithfulness": 0.333,
+      "answer_relevancy": 0.0,
+      "llm_context_precision_with_reference": 0.0,
+      "context_recall": 1.0,
+      "factual_correctness(mode=f1)": 0.67,
+      "guardrails": [
+        {
+          "check": "Citations",
+          "status": "warn",
+          "detail": "Answer does not cite any brochure excerpt"
+        }
+      ]
+    }
+  ]
+}

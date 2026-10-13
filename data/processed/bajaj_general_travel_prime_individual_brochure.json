@@ -16,8 +16,8 @@
     "pdf_title": "Travel prime individual",
     "classification_method": "manifest"
   },
-  "processed_at": "2026-10-12T15:19:01+00:00",
-  "processing_seconds": 13.6,
+  "processed_at": "2026-10-13T14:58:36+00:00",
+  "processing_seconds": 16.8,
   "extraction_stats": {
     "pages": 12,
     "tables": 5,
@@ -26,10 +26,16 @@
     "furniture_lines_removed": 54,
     "body_font_size": 11.0
   },
+  "chunking": {
+    "method": "semantic",
+    "sentences": 158,
+    "similarity_threshold": 0.734,
+    "text_chunks": 28
+  },
   "key_facts": {
     "facts": {
-      "plan_summary": "This is an overseas travel insurance plan designed to cover individuals traveling abroad. It provides financial protection against medical emergencies, travel inconveniences, and other risks encountered during international trips.",
-      "target_customer": "Indian citizens going overseas with a valid Indian passport and overseas citizens residing in India traveling abroad for a maximum period of 90 days.",
+      "plan_summary": "This is an overseas travel insurance plan designed to cover individuals against medical and non-medical emergencies while traveling abroad. It provides financial protection for hospitalization, accidents, baggage loss, and other travel-related risks at a fraction of the cost that would otherwise be incurred.",
+      "target_customer": "Indian citizens with a valid Indian passport and overseas citizens residing in India traveling abroad for a maximum period of 90 days.",
       "entry_age": "0.6 yrs - 60yrs",
       "maturity_age": "Not mentioned",
       "policy_term": "180 days and can be extended further up to 180 days",
@@ -37,9 +43,9 @@
       "sum_assured_or_insured": "50,000 USD; 200,000 USD; 500,000 USD; 750,000 USD; 1,000,000 USD",
       "premium_payment_modes": "Not mentioned",
       "waiting_periods": "Not mentioned",
-      "free_look_period": "This Policy may be cancelled by the Insured after the expiry of 15 days from the effective date, in writing to the Company as long as the Insured is able to establish to the Company's satisfaction that the Insured Journey has not commenced, and this Policy shall stand cancelled if the Insured Journey has not commenced within 14 days of the commencement date shown on the Schedule.",
+      "free_look_period": "15 days from the effective date, provided the Insured Journey has not commenced. Policy shall stand cancelled if the Insured Journey has not commenced within 14 days of the commencement date shown on the Schedule.",
       "grace_period": "Not mentioned",
-      "claim_process": "In case of any claim or assistance abroad call Toll-Free Numbers provided for each country or email travel@bajajgeneral.com.",
+      "claim_process": "In case of any claim or assistance abroad call the provided Toll-Free Numbers or email travel@bajajgeneral.com. Written non-delivery confirmation from the Airline is required for Delay of Checked Baggage claims.",
       "tax_benefits": "Not mentioned",
       "key_benefits": [
         "Personal Accident cover",
@@ -56,7 +62,7 @@
         "Travelling against the advice of a Physician, travelling for the purpose of obtaining treatment, or in receipt of a terminal prognosis.",
         "Suicide, attempted suicide or willfully self-inflicted injury or illness, mental disorder, alcoholism, drunkenness or the abuse of drugs.",
         "Any injury, illness, death, loss, expenses or other liability attributable to HIV and/or any HIV related illness including AIDS, venereal disease and/or any mutant derivative or variation thereof.",
-        "Participation in winter sports, mountaineering (where ropes or guides are customarily used), caving or potholing, hunting or equestrian, skin diving or other underwater activity, rafting or canoeing involving white water rapids, yachting or boating outside coastal waters (2 miles), professional sports or any other hazardous or potentially dangerous sport."
+        "Participation in hazardous sports or activities (e.g., winter sports, mountaineering, caving, hunting, professional sports, etc.) unless under supervision of a trained professional."
       ]
     },
     "grounded": {
@@ -84,21 +90,21 @@
     ],
     "model": "gpt-4.1"
   },
-  "chunk_count": 43,
+  "chunk_count": 39,
   "topic_distribution": {
-    "premiums": 10,
-    "benefits": 9,
-    "general": 6,
-    "exclusions": 5,
+    "benefits": 10,
+    "premiums": 8,
+    "general": 7,
     "contact": 4,
-    "eligibility": 4,
-    "claims": 3,
-    "policy_servicing": 2
+    "eligibility": 3,
+    "exclusions": 3,
+    "policy_servicing": 2,
+    "claims": 2
   },
   "chunks": [
     {
       "id": "bajaj_general_travel_prime_individual_brochure::0000",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nCIN: U66010PN2000PLC015329 | UIN: BAJTIOP24007V042324",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nCIN: U66010PN2000PLC015329 | UIN: BAJTIOP24007V042324 Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited) Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited) is one of India's leading, most trusted and dynamic private general insurance companies. It is a subsidiary of Bajaj Finserv Limited, India's leading and most diversified financial services group. Bajaj General offers a broad portfolio of innovative and customer-focused insurance solutions, spanning motor, health, and home insurance, along with specialised products such as pet insurance, wedding insurance, event protection, cyber insurance, and rural insurance. From safeguarding your health and home to protecting your travels and life's most important moments, Bajaj General aims to be a constant partner in your journey. Bajaj General equally offers a comprehensive and a well-diversified range of products, including fire, marine, engineering, liability and surety insurance to corporates and SME's. The company also participates in various government schemes with a focus on financial inclusion.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -110,9 +116,9 @@
         "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
         "section": "Bajaj General",
         "page_start": 1,
-        "page_end": 1,
+        "page_end": 2,
         "content_type": "text",
-        "char_count": 53,
+        "char_count": 1158,
         "topic": "general",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -128,7 +134,7 @@
     },
     {
       "id": "bajaj_general_travel_prime_individual_brochure::0001",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nCIN: U66010PN2000PLC015329 | UIN: BAJTIOP24007V042324 Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited) Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited) is one of India's leading, most trusted and dynamic private general insurance companies. It is a subsidiary of Bajaj Finserv Limited, India's leading and most diversified financial services group. Bajaj General offers a broad portfolio of innovative and customer-focused insurance solutions, spanning motor, health, and home insurance, along with specialised products such as pet insurance, wedding insurance, event protection, cyber insurance, and rural insurance. From safeguarding your health and home to protecting your travels and life's most important moments, Bajaj General aims to be a constant partner in your journey. Bajaj General equally offers a comprehensive and a well-diversified range of products, including fire, marine, engineering, liability and surety insurance to corporates and SME's. The company also participates in various government schemes with a focus on financial inclusion. The company is also known for its robust risk selection capabilities, digital adoption and product innovation.",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nThe company is also known for its robust risk selection capabilities, digital adoption and product innovation. Established in 2001, the company has grown its footprint to nearly 1,500 towns and cities across India, ensuring easy access and a close connection to its customers. This access is enabled through the largest distribution network, spanning across individual agents, point-of-sales personnel, banks, NBFCs, motor dealers, brokers and the company's proprietary sales force. It holds an [ICRA]AAA rating from ICRA Limited, reflecting the highest level of confidence in its financial strength and stability. With a strong legacy, a forward-looking mindset, and an unwavering focus on its 'Customer-First' philosophy, Bajaj General remains committed to protecting what matters most, empowering individuals, families, and businesses to live with confidence and peace of mind. What is Travel Prime Individual Plan? Travel Prime is a specially customized travel plan that caters to the needs of an individual traveling abroad. Plan covers all medical eventualities including hospitalization and other incidental expenses at a fraction of the amount that would be otherwise needed.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -139,10 +145,10 @@
         "uin": "BAJTIOP24007V042324",
         "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
         "section": "Bajaj General",
-        "page_start": 1,
+        "page_start": 2,
         "page_end": 2,
         "content_type": "text",
-        "char_count": 1269,
+        "char_count": 1183,
         "topic": "general",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -158,7 +164,7 @@
     },
     {
       "id": "bajaj_general_travel_prime_individual_brochure::0002",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nThe company is also known for its robust risk selection capabilities, digital adoption and product innovation. Established in 2001, the company has grown its footprint to nearly 1,500 towns and cities across India, ensuring easy access and a close connection to its customers. This access is enabled through the largest distribution network, spanning across individual agents, point-of-sales personnel, banks, NBFCs, motor dealers, brokers and the company's proprietary sales force. It holds an [ICRA]AAA rating from ICRA Limited, reflecting the highest level of confidence in its financial strength and stability. With a strong legacy, a forward-looking mindset, and an unwavering focus on its 'Customer-First' philosophy, Bajaj General remains committed to protecting what matters most, empowering individuals, families, and businesses to live with confidence and peace of mind.",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nThis plan shall not be valid for Manasarovar Yatra, any other pilgrimage and any other countries which involve hazards to travel for e.g.: Iran, Iraq, Afghanistan, Pakistan, Certain African countries like Congo etc. The declinature list shall be amended on timely basis, to know the current declinature list you are requested to contact us on our toll free numbers. Travel Policies cannot be issued more than 30 days in advance. In case if you wish to issue a policy more than 30 days in advance, you shall have to provide us the reason towards the same.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -172,37 +178,7 @@
         "page_start": 2,
         "page_end": 2,
         "content_type": "text",
-        "char_count": 880,
-        "topic": "general",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": false,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0003",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nWhat is Travel Prime Individual Plan? Travel Prime is a specially customized travel plan that caters to the needs of an individual traveling abroad. Plan covers all medical eventualities including hospitalization and other incidental expenses at a fraction of the amount that would be otherwise needed. This plan shall not be valid for Manasarovar Yatra, any other pilgrimage and any other countries which involve hazards to travel for e.g.: Iran, Iraq, Afghanistan, Pakistan, Certain African countries like Congo etc. The declinature list shall be amended on timely basis, to know the current declinature list you are requested to contact us on our toll free numbers. Travel Policies cannot be issued more than 30 days in advance. In case if you wish to issue a policy more than 30 days in advance, you shall have to provide us the reason towards the same. Who can purchase this plan?",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 2,
-        "page_end": 2,
-        "content_type": "text",
-        "char_count": 885,
+        "char_count": 554,
         "topic": "contact",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -217,8 +193,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0004",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nWho can purchase this plan? Indian citizens going overseas who have a valid Indian passport Overseas citizens residing in India and are travelling abroad for a maximum period of 90 days Depending upon your requirement (the sum insured and the premium payable), you can choose from any of these below plans: - Travel Prime Individual Silver - Travel Prime Individual Gold - Travel Prime Individual Platinum - Travel Prime Individual Super Platinum - Travel Prime Individual Maximum What does the Travel Prime Individual Plan cover for me? Personal Accident: Covers Death or Permanent Total Disablement due to accidently bodily injury. Medical Expenses and Medical Evacuation: Covers Medical Treatment Cost incurred for any illness, injury suffered during overseas trip. Medical Evacuation Covers cost of evacuation to India on advice of treating doctor with prior approval from Bajaj General Insurance Ltd.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0003",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nWho can purchase this plan? Indian citizens going overseas who have a valid Indian passport Overseas citizens residing in India and are travelling abroad for a maximum period of 90 days Depending upon your requirement (the sum insured and the premium payable), you can choose from any of these below plans: - Travel Prime Individual Silver - Travel Prime Individual Gold - Travel Prime Individual Platinum - Travel Prime Individual Super Platinum - Travel Prime Individual Maximum What does the Travel Prime Individual Plan cover for me? Personal Accident: Covers Death or Permanent Total Disablement due to accidently bodily injury. Medical Expenses and Medical Evacuation: Covers Medical Treatment Cost incurred for any illness, injury suffered during overseas trip. Medical Evacuation Covers cost of evacuation to India on advice of treating doctor with prior approval from Bajaj General Insurance Ltd. Emergency dental pain relief: Emergency dental pain relief is extended up to sum insured (USD 500) as stated on policy schedule under section \"emergency dental pain relief\" Repatriation: Covers cost of repatriation of mortal remains to India. Loss of Checked Baggage: Covers complete, permanent loss or destruction of the Insured's Checked Baggage.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -232,7 +208,7 @@
         "page_start": 2,
         "page_end": 2,
         "content_type": "text",
-        "char_count": 905,
+        "char_count": 1254,
         "topic": "eligibility",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -247,38 +223,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0005",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nMedical Evacuation Covers cost of evacuation to India on advice of treating doctor with prior approval from Bajaj General Insurance Ltd. Emergency dental pain relief: Emergency dental pain relief is extended up to sum insured (USD 500) as stated on policy schedule under section \"emergency dental pain relief\" Repatriation: Covers cost of repatriation of mortal remains to India. Loss of Checked Baggage: Covers complete, permanent loss or destruction of the Insured's Checked Baggage. Accidental Death & Disability (Common Carrier): Covers Death or Permanent Total Disablement due to accidently bodily injury suffered while travelling overseas in common carrier such as rail, bus, tram or aircraft. Loss of Passport: Covers cost of, duplicate passport in event of loss of passport. Personal Liability: Covers payment of Damages to Third Party Civil Claims arising out of Accident Bodily Injury or Accidental Property Damage occurring during overseas trip.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 2,
-        "page_end": 2,
-        "content_type": "text",
-        "char_count": 956,
-        "topic": "eligibility",
-        "topic_eligibility": true,
-        "topic_benefits": false,
-        "topic_premiums": false,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": true,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0006",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nHijack cover: If insured is detained by hijackers following hijacking of any aircraft in which the insured is travelling, the Company will pay up to the maximum sum specified in the schedule. Trip Delay: Company shall indemnify only one event of trip delay during policy period for any trip booked to travel from Republic of India or travel to Republic of India. This benefit is payable only for one event of Trip delay during the policy period. Hospitalization Daily Allowance: Cover extends daily allowance benefit for an event of hospitalization which is also admissible under medical section of the plan. Golfer's Hole-in-one: Cover extends a benefit for celebration on achieving a Golfers hole-in-one at any United States Golfers Association (USGA) recognized golf course any where in the world except India during the Insured Journey.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0004",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nAccidental Death & Disability (Common Carrier): Covers Death or Permanent Total Disablement due to accidently bodily injury suffered while travelling overseas in common carrier such as rail, bus, tram or aircraft. Loss of Passport: Covers cost of, duplicate passport in event of loss of passport. Personal Liability: Covers payment of Damages to Third Party Civil Claims arising out of Accident Bodily Injury or Accidental Property Damage occurring during overseas trip. Hijack cover: If insured is detained by hijackers following hijacking of any aircraft in which the insured is travelling, the Company will pay up to the maximum sum specified in the schedule. Trip Delay: Company shall indemnify only one event of trip delay during policy period for any trip booked to travel from Republic of India or travel to Republic of India. This benefit is payable only for one event of Trip delay during the policy period. Hospitalization Daily Allowance: Cover extends daily allowance benefit for an event of hospitalization which is also admissible under medical section of the plan. Golfer's Hole-in-one: Cover extends a benefit for celebration on achieving a Golfers hole-in-one at any United States Golfers Association (USGA) recognized golf course any where in the world except India during the Insured Journey. Trip Cancellation: Covers loss arising due to cancellation of personal accommodation or travel charges paid or contracted to be paid by Insured which are not recoverable from any other source due to necessary and unavoidable cancellation of the trip prior to its commencement.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -292,23 +238,23 @@
         "page_start": 2,
         "page_end": 3,
         "content_type": "text",
-        "char_count": 840,
+        "char_count": 1588,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
-        "topic_premiums": false,
+        "topic_premiums": true,
         "topic_exclusions": false,
         "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
+        "topic_claims": true,
+        "topic_policy_servicing": true,
         "topic_riders": false,
         "topic_tax": false,
         "topic_contact": false
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0007",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nTrip Cancellation: Covers loss arising due to cancellation of personal accommodation or travel charges paid or contracted to be paid by Insured which are not recoverable from any other source due to necessary and unavoidable cancellation of the trip prior to its commencement. Company shall indemnify only one event of trip cancellation during policy period for any trip delayed to travel from Republic of India and or to travel to Republic of India. Trip Curtailment: Covers loss arising due to cancellation of personal accommodation or travel charges paid or contracted to be paid by Insured which are not recoverable from any other source due to necessary and unavoidable curtailment of Insured Journey. (Cutting Short by early return to India)",
+      "id": "bajaj_general_travel_prime_individual_brochure::0005",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nCompany shall indemnify only one event of trip cancellation during policy period for any trip delayed to travel from Republic of India and or to travel to Republic of India. Trip Curtailment: Covers loss arising due to cancellation of personal accommodation or travel charges paid or contracted to be paid by Insured which are not recoverable from any other source due to necessary and unavoidable curtailment of Insured Journey. (Cutting Short by early return to India)",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -322,7 +268,7 @@
         "page_start": 3,
         "page_end": 3,
         "content_type": "text",
-        "char_count": 747,
+        "char_count": 470,
         "topic": "policy_servicing",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -337,8 +283,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0008",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n(Cutting Short by early return to India) Delay of Checked Baggage: Covers cost of emergency purchase of toiletries, medication and clothing if the baggage arrival is delayed beyond 12 hours of scheduled arrival destruction of the Insured's Checked Baggage. Home Burglary Insurance: Covers loss of or damage to contents of insured's home in India (located at the address mentioned in the policy schedule) caused by actual or attempted Burglary and/or Robbery during the policy period",
+      "id": "bajaj_general_travel_prime_individual_brochure::0006",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nDelay of Checked Baggage: Covers cost of emergency purchase of toiletries, medication and clothing if the baggage arrival is delayed beyond 12 hours of scheduled arrival destruction of the Insured's Checked Baggage. Home Burglary Insurance: Covers loss of or damage to contents of insured's home in India (located at the address mentioned in the policy schedule) caused by actual or attempted Burglary and/or Robbery during the policy period Emergency Cash Benefit: Extends assistance service when the insured person requires emergency cash following incidents like theft/burglary of luggage/money or hold up Missed Connection: Cover extends a benefit if the aircraft on which Insured is booked to travel from India is delayed for more than 12 hours than original scheduled time resulting in Insured Missing the connecting flight. This benefit is payable only for one event of Missed connection during the policy period. Difference in Airfare due to delayed or early return: Covers loss arising in event of Insured returning back to India before or after scheduled date or return due to illness or accident, because of which scheduled return flight is cancelled or delayed.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -352,37 +298,7 @@
         "page_start": 3,
         "page_end": 3,
         "content_type": "text",
-        "char_count": 482,
-        "topic": "general",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": false,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0009",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nEmergency Cash Benefit: Extends assistance service when the insured person requires emergency cash following incidents like theft/burglary of luggage/money or hold up Missed Connection: Cover extends a benefit if the aircraft on which Insured is booked to travel from India is delayed for more than 12 hours than original scheduled time resulting in Insured Missing the connecting flight. This benefit is payable only for one event of Missed connection during the policy period. Difference in Airfare due to delayed or early return: Covers loss arising in event of Insured returning back to India before or after scheduled date or return due to illness or accident, because of which scheduled return flight is cancelled or delayed. Bounced Hotel: Covers expenses related to transportation to alternative hotel, up gradation to a superior class of hotel arising in event of Insured not being able to avail hotel services booked on confirmed basis.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 3,
-        "page_end": 3,
-        "content_type": "text",
-        "char_count": 946,
+        "char_count": 1173,
         "topic": "benefits",
         "topic_eligibility": false,
         "topic_benefits": true,
@@ -397,8 +313,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0010",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nPA Cover in India: Covers death or permanent total disablement if the Insured sustains Accidental Bodily Injury during his travel intended from home to airport on the day of his overseas departure from India and on the day of his arrival back to India for his travel intended from Airport to home What is the entry age? - Entry age for proposer is 0.6 yrs - 60yrs. What is the policy period? The policy period is 180 days and can be extended further up to 180 days. How can I extend my policy? Travel Extensions can be granted on the basis of Good Health Declaration form duly signed by you. You shall have to apply for extension of the policy 7 days prior to the expiry of the existing policy. Policy can not be extended if the extension request is received 7 days after the expiry of the existing policy. In case of any major claim under the existing policy, the policy can be extended with exclusion of the ailment/injury on account of which the claim was lodged under the expiring policy.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0007",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nBounced Hotel: Covers expenses related to transportation to alternative hotel, up gradation to a superior class of hotel arising in event of Insured not being able to avail hotel services booked on confirmed basis. PA Cover in India: Covers death or permanent total disablement if the Insured sustains Accidental Bodily Injury during his travel intended from home to airport on the day of his overseas departure from India and on the day of his arrival back to India for his travel intended from Airport to home What is the entry age? - Entry age for proposer is 0.6 yrs - 60yrs. What is the policy period?",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -412,7 +328,37 @@
         "page_start": 3,
         "page_end": 3,
         "content_type": "text",
-        "char_count": 992,
+        "char_count": 606,
+        "topic": "eligibility",
+        "topic_eligibility": true,
+        "topic_benefits": true,
+        "topic_premiums": false,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "bajaj_general_travel_prime_individual_brochure::0008",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nThe policy period is 180 days and can be extended further up to 180 days. How can I extend my policy? Travel Extensions can be granted on the basis of Good Health Declaration form duly signed by you. You shall have to apply for extension of the policy 7 days prior to the expiry of the existing policy. Policy can not be extended if the extension request is received 7 days after the expiry of the existing policy. In case of any major claim under the existing policy, the policy can be extended with exclusion of the ailment/injury on account of which the claim was lodged under the expiring policy. What are the various Sum Insured options available under this plan? 50,000 USD 200,000 USD 500,000 USD 750,000 USD 1,000,000 USD What are various benefits/ coverage under the plans? The company agrees subject always to terms, conditions, exclusions, and limitations to indemnify the insured in excess of the amount of the deductible and subject always to the sum assured against such loss which is incurred within the policy period.",
+      "metadata": {
+        "doc_id": "bajaj_general_travel_prime_individual_brochure",
+        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
+        "company": "Bajaj General",
+        "product_name": "Travel Prime Individual",
+        "product_type": "travel",
+        "doc_type": "brochure",
+        "uin": "BAJTIOP24007V042324",
+        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
+        "section": "Bajaj General",
+        "page_start": 3,
+        "page_end": 3,
+        "content_type": "text",
+        "char_count": 1033,
         "topic": "eligibility",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -427,37 +373,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0011",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nWhat are the various Sum Insured options available under this plan? 50,000 USD 200,000 USD 500,000 USD 750,000 USD 1,000,000 USD What are various benefits/ coverage under the plans? The company agrees subject always to terms, conditions, exclusions, and limitations to indemnify the insured in excess of the amount of the deductible and subject always to the sum assured against such loss which is incurred within the policy period.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 3,
-        "page_end": 3,
-        "content_type": "text",
-        "char_count": 432,
-        "topic": "eligibility",
-        "topic_eligibility": true,
-        "topic_benefits": true,
-        "topic_premiums": false,
-        "topic_exclusions": true,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0012",
+      "id": "bajaj_general_travel_prime_individual_brochure::0009",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|\n| COVERAGE Personal Accident * | SILVER 50,000 USD | Gold 2 Lakhs USD | Platinum 5 Lakhs USD | Super Platinum 7.5 Lakhs USD | Maximum 10 Lakhs USD | Deductible |\n|  | 15,000 USD | 25,000 USD | 25,000 USD | 25,000 USD | 25,000 USD | Nil |\n| Medical Expenses and Evacuation | 50,000 USD | 200,000 USD | 500,000 USD | 750,000 USD | 100,000 USD | 100 USD |\n| Emergency Dental Pain Relief included in above limits | 500 USD | 500 USD | 500 USD | 500 USD | 500 USD | 100 USD |\n| Repatriation | 5,000 USD | 5,000 USD | 5,000 USD | 6,000 USD | 6,500 USD | Nil |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -487,7 +403,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0013",
+      "id": "bajaj_general_travel_prime_individual_brochure::0010",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|\n| Loss of Checked Baggage ** Accidental Death & Disability (Common Carrier) Loss of Passport Personal Liability Hijack cover Trip Delay Hospitalization Daily Allowance Golfer's Hole-in-one | 500 USD 2,500 USD 250 USD 100,000 USD 50 USD per day to maximum 300 USD USD 25 per 12 hours to max 120 USD USD 20 per day to max 100 USD 250 USD | 1,000 USD 5,000 USD 250 USD 200,000 USD 60 USD per day to maximum 360 USD USD 30 per 12 hours to max 180 USD USD 25 per day to max 125 USD 500 USD | 1,000 USD 5,000 USD 250 USD 200,000USD 60 USD per day to maximum 360 USD USD 30 per 12 hours to max 180 USD USD 20 per day to max 150 USD 500 USD | 1,000 USD 5,000 USD 300 USD 250,000USD 60 USD per day to maximum 360 USD USD 30 per 12 hours to max 180 USD USD 25 per day to max 125 USD 500 USD | 1,000 USD 5,000 USD 300 USD 250,000USD 60 USD per day to maximum 360 USD USD 30 per 12 hours to max 180 USD USD 25 per day to max 125 USD 500 USD | Nil Nil 25 USD 100 USD Nil 12 Hours Nil Nil |\n| Trip Cancellation | 500 USD | 1,000 USD | 1,000 USD | 1,000 USD | 1,000 USD | Nil |\n| Trip Curtailment | 200 USD | 300 USD | 500 USD | 500 USD | 500 USD | Nil |\n| Delay of Checked Baggage Home Burglary Insurance Emergecy Cash Benefit*** | 100 USD INR 100,000 500 USD | 100 USD INR 200,000 1,000 USD | 100 USD INR 300,000 1,000 USD | 100 USD INR 300,000 1,500 USD | 100 USD INR 300,000 1,500 USD | 12 Hours Nil 12 Hours |\n| Missed Connection | 100 USD | 100 USD | 100 USD | 100 USD | 100 USD | Nil |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -517,7 +433,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0014",
+      "id": "bajaj_general_travel_prime_individual_brochure::0011",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|\n| Difef rence in Airfare due to delayed or early return | 500 USD | 500 USD | 500 USD | 500 USD | 500 USD | Nil |\n| Bounced Hotel return | 500 USD | 500 USD | 500 USD | 500 USD | 500 USD | Nil |\n| PA Cover in India | INR 50,000 | INR 50,000 | INR 50,000 | INR 50,000 | INR 50,000 | Nil |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -547,8 +463,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0015",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n- Abbreviation INR indicates Indian National Rupees - Abbreviation * indicates only 50% of the Sum assured in respect of the death of the insured person below age of 18 years e.g in case of death of insured person who is below age of 18 years total liability will become 50% of total SI for personal accident i.e 50%*10000 USD= 5000 USD - Abbreviation ** Per Baggage maximum 50 % and per item in the baggage 10 % - Abbreviation *** Cash advance would include delivery charges What is Special Features of the Travel Prime Individual Plan? PA Cover in India Bounced Hotel Difference in Airfare due to delayed or early return Are there any pre policy medical health check up? No pre policy medical health check up is required What are exclusions under the policy? For detailed explanation of exclusions kindly refer policy wordings. Short description of exclusion is as appended below.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0012",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n- Abbreviation INR indicates Indian National Rupees - Abbreviation * indicates only 50% of the Sum assured in respect of the death of the insured person below age of 18 years e.g in case of death of insured person who is below age of 18 years total liability will become 50% of total SI for personal accident i.e 50%*10000 USD= 5000 USD - Abbreviation ** Per Baggage maximum 50 % and per item in the baggage 10 % - Abbreviation *** Cash advance would include delivery charges What is Special Features of the Travel Prime Individual Plan? PA Cover in India Bounced Hotel Difference in Airfare due to delayed or early return Are there any pre policy medical health check up? No pre policy medical health check up is required What are exclusions under the policy? For detailed explanation of exclusions kindly refer policy wordings.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -562,7 +478,7 @@
         "page_start": 5,
         "page_end": 5,
         "content_type": "text",
-        "char_count": 882,
+        "char_count": 829,
         "topic": "exclusions",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -577,8 +493,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0016",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nFor detailed explanation of exclusions kindly refer policy wordings. Short description of exclusion is as appended below. Benefit specific Exclusions applicable for Exclusions applicable to Sections Personal Accident, Medical Expenses & Medical Evacuation & Repatriation 1) The Company shall be under no liability to make payment in respect of any routine physical or other examination where there is no objective indication of impairment of normal health, and for medical treatment obtained within the Republic of India same as provided for under Section Medical Expenses & Medical Evacuation. 2) The company shall be under no liability to make payment of any Medical Expenses incurred before the policy inception and beyond the expiry of Policy Period, same as provided for under Section Medical Expenses & Medical Evacuation. 3) The Company shall be under no liability to make payment hereunder in respect of any Claim directly or indirectly caused by, based on, arising out of or howsoever attributable to any of the following: i) Where the insured is: (a) Travelling against the advice of a Physician; or",
+      "id": "bajaj_general_travel_prime_individual_brochure::0013",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nShort description of exclusion is as appended below. Benefit specific Exclusions applicable for Exclusions applicable to Sections Personal Accident, Medical Expenses & Medical Evacuation & Repatriation 1) The Company shall be under no liability to make payment in respect of any routine physical or other examination where there is no objective indication of impairment of normal health, and for medical treatment obtained within the Republic of India same as provided for under Section Medical Expenses & Medical Evacuation. 2) The company shall be under no liability to make payment of any Medical Expenses incurred before the policy inception and beyond the expiry of Policy Period, same as provided for under Section Medical Expenses & Medical Evacuation. 3) The Company shall be under no liability to make payment hereunder in respect of any Claim directly or indirectly caused by, based on, arising out of or howsoever attributable to any of the following: i) Where the insured is: (a) Travelling against the advice of a Physician; or (b) Receiving or on a waiting list for specified medical treatment declared in the Physician's report or certificate provided by the Insured in his proposal; or (c) Travelling for the purpose of obtaining treatment; or (d) In receipt of a terminal prognosis for a medical condition 4) Suicide, attempted suicide or willfully self-inflicted injury orillness, mental disorder, anxiety / stress / depression /nervousness having no underlying physical illness as a cause, alcoholism, drunkenness or the abuse of drugs.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -592,7 +508,7 @@
         "page_start": 5,
         "page_end": 5,
         "content_type": "text",
-        "char_count": 1109,
+        "char_count": 1555,
         "topic": "exclusions",
         "topic_eligibility": false,
         "topic_benefits": true,
@@ -607,8 +523,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0017",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n(b) Receiving or on a waiting list for specified medical treatment declared in the Physician's report or certificate provided by the Insured in his proposal; or (c) Travelling for the purpose of obtaining treatment; or (d) In receipt of a terminal prognosis for a medical condition 4) Suicide, attempted suicide or willfully self-inflicted injury orillness, mental disorder, anxiety / stress / depression /nervousness having no underlying physical illness as a cause, alcoholism, drunkenness or the abuse of drugs. 5) Any injury, illness, death, loss, expenses or other liability attributable to HIV (Human Immunodeficiency Virus) and/or any HIV related illness including AIDS (Acquired Immune Deficiency Syndrome), venereal disease and/or any mutant derivative or variation thereof however caused. 6) The participation of the Insured unless under supervision of a trained professional in winter sports, mountaineering (where ropes or guides are customarily used), caving or potholing, hunting or equestrian, skin diving or other underwater activity, rafting or canoeing involving white water rapids, yachting or boating outside coastal waters (2 miles), professional sports or any other hazardous or potentially dangerous sport. 7) The participation of the Insured in riding or driving in races or rallies. 8) Losses arising from Accidents as a driver on motorized vehicles unless at the time of the Accident the insured is in possession of a current full international driving license and while riding a two wheeler is wearing a safety crash helmet.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0014",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n5) Any injury, illness, death, loss, expenses or other liability attributable to HIV (Human Immunodeficiency Virus) and/or any HIV related illness including AIDS (Acquired Immune Deficiency Syndrome), venereal disease and/or any mutant derivative or variation thereof however caused. 6) The participation of the Insured unless under supervision of a trained professional in winter sports, mountaineering (where ropes or guides are customarily used), caving or potholing, hunting or equestrian, skin diving or other underwater activity, rafting or canoeing involving white water rapids, yachting or boating outside coastal waters (2 miles), professional sports or any other hazardous or potentially dangerous sport.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -622,37 +538,7 @@
         "page_start": 5,
         "page_end": 5,
         "content_type": "text",
-        "char_count": 1551,
-        "topic": "exclusions",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": false,
-        "topic_exclusions": true,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0018",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n9) Losses arising directly or indirectly from manual work or hazardous occupation, self-expo sure to needless peril (except in an attempt to save human life), or if engaging in any criminal or illegal act. 10) Pregnancy, resulting childbirth, miscarriage, abortion, medical termination of pregnancy or complication arising out of any of the foregoing 11) Experimental, unproven or non-standard treatment. 12) Treatment by any other system other than modern medicine (also known as Allopathy). 13) The cost of spectacles, contact lenses, and hearing aids, crutches, and all other external appliances and/or devices whether for diagnosis or treatment. 14) Any medical condition or complication arising from it which existed before the commencement of the Policy Period, or for which care, treatment or advice was sought, recommended by or received from a Physician.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 5,
-        "page_end": 5,
-        "content_type": "text",
-        "char_count": 863,
+        "char_count": 714,
         "topic": "general",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -667,8 +553,68 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0019",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n15) Weight management services and treatment related to weight reduction programs including treatment of obesity and its complications. 16) Congenital anomalies or any complications or conditions arising there from. 17) Any Fertility, sub fertility, impotence, assisted conception operation or sterilization procedure. Loss of Checked in Baggage 1) The self-carried baggage is specifically excluded from the policy coverage. 2) Part or partial destruction of baggage or missing of contents from the baggage is not covered under the policy. 3) The Company shall be under no liability to make payment hereunder in respect of any Claim for valuables. 4) Professional Equipments', belongings, liabilities or instruments in the baggage are excluded from the scope of the policy.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0015",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n7) The participation of the Insured in riding or driving in races or rallies. 8) Losses arising from Accidents as a driver on motorized vehicles unless at the time of the Accident the insured is in possession of a current full international driving license and while riding a two wheeler is wearing a safety crash helmet. 9) Losses arising directly or indirectly from manual work or hazardous occupation, self-expo sure to needless peril (except in an attempt to save human life), or if engaging in any criminal or illegal act.",
+      "metadata": {
+        "doc_id": "bajaj_general_travel_prime_individual_brochure",
+        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
+        "company": "Bajaj General",
+        "product_name": "Travel Prime Individual",
+        "product_type": "travel",
+        "doc_type": "brochure",
+        "uin": "BAJTIOP24007V042324",
+        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
+        "section": "Bajaj General",
+        "page_start": 5,
+        "page_end": 5,
+        "content_type": "text",
+        "char_count": 527,
+        "topic": "general",
+        "topic_eligibility": false,
+        "topic_benefits": false,
+        "topic_premiums": false,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "bajaj_general_travel_prime_individual_brochure::0016",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n10) Pregnancy, resulting childbirth, miscarriage, abortion, medical termination of pregnancy or complication arising out of any of the foregoing 11) Experimental, unproven or non-standard treatment. 12) Treatment by any other system other than modern medicine (also known as Allopathy). 13) The cost of spectacles, contact lenses, and hearing aids, crutches, and all other external appliances and/or devices whether for diagnosis or treatment. 14) Any medical condition or complication arising from it which existed before the commencement of the Policy Period, or for which care, treatment or advice was sought, recommended by or received from a Physician. 15) Weight management services and treatment related to weight reduction programs including treatment of obesity and its complications. 16) Congenital anomalies or any complications or conditions arising there from. 17) Any Fertility, sub fertility, impotence, assisted conception operation or sterilization procedure. Loss of Checked in Baggage 1) The self-carried baggage is specifically excluded from the policy coverage.",
+      "metadata": {
+        "doc_id": "bajaj_general_travel_prime_individual_brochure",
+        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
+        "company": "Bajaj General",
+        "product_name": "Travel Prime Individual",
+        "product_type": "travel",
+        "doc_type": "brochure",
+        "uin": "BAJTIOP24007V042324",
+        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
+        "section": "Bajaj General",
+        "page_start": 5,
+        "page_end": 6,
+        "content_type": "text",
+        "char_count": 1082,
+        "topic": "benefits",
+        "topic_eligibility": false,
+        "topic_benefits": true,
+        "topic_premiums": false,
+        "topic_exclusions": true,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "bajaj_general_travel_prime_individual_brochure::0017",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n2) Part or partial destruction of baggage or missing of contents from the baggage is not covered under the policy. 3) The Company shall be under no liability to make payment hereunder in respect of any Claim for valuables. 4) Professional Equipments', belongings, liabilities or instruments in the baggage are excluded from the scope of the policy. Delay of Checked Baggage 1) Delay of baggage when the intended destination is in India. Specific Condition 2) It is a condition precedent to the Company's Liability hereunder that upon discovering the delay in arrival of the Checked Baggage the Insured shall obtain written nondelivery confirmation from the Airline along with the period of delay, which must be submitted to the Insurance Company / Claims Administrator in the event of a Claim. 3) In case of more than one claim during the insured journey the Company's liability in all claim put together will be restricted to the Section \"Delay of Checked Baggage\" Sum Insured. The time deductible of 12 hrs will apply separately for every claim. Loss of Passport The Company shall be under no liability to make payment for: 1. Loss or damage to the Insured's passport as a result of the confiscation or detention by customs, police or any other authority 2. Loss which is not reported to the appropriate police authoritywithin 24 hours of the discovery of the loss, and in respect of which an official report has not been obtained. 3.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -682,9 +628,9 @@
         "page_start": 6,
         "page_end": 6,
         "content_type": "text",
-        "char_count": 773,
-        "topic": "exclusions",
-        "topic_eligibility": false,
+        "char_count": 1436,
+        "topic": "claims",
+        "topic_eligibility": true,
         "topic_benefits": true,
         "topic_premiums": false,
         "topic_exclusions": true,
@@ -697,8 +643,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0020",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n4) Professional Equipments', belongings, liabilities or instruments in the baggage are excluded from the scope of the policy. Delay of Checked Baggage 1) Delay of baggage when the intended destination is in India. Specific Condition 2) It is a condition precedent to the Company's Liability hereunder that upon discovering the delay in arrival of the Checked Baggage the Insured shall obtain written nondelivery confirmation from the Airline along with the period of delay, which must be submitted to the Insurance Company / Claims Administrator in the event of a Claim. 3) In case of more than one claim during the insured journey the Company's liability in all claim put together will be restricted to the Section \"Delay of Checked Baggage\" Sum Insured. The time deductible of 12 hrs will apply separately for every claim.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0018",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nLoss caused by the Insured's failure to take reasonable steps to guard against the loss of the passport. Personal Liability The Company shall not be under any liability to make payment for Claims arising out of: 1. The Insured's liability to any employee (whether under an contract of or for sevices); 2. Bodily Injury to and/or Property Damage to property belonging to the Insured's Family, any co-worker of the Insured, and any travelling companion of the Insured; 3. Any liability for Bodily Injury and/or Property Damage arising directly or indirectly from or due to: a. Livestock belonging to the Insured or in the Insured's care, custody or control; b. Any wilful, malicious, criminal or unlawful act, error, or omission; c.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -712,12 +658,12 @@
         "page_start": 6,
         "page_end": 6,
         "content_type": "text",
-        "char_count": 824,
+        "char_count": 730,
         "topic": "claims",
-        "topic_eligibility": true,
+        "topic_eligibility": false,
         "topic_benefits": false,
         "topic_premiums": false,
-        "topic_exclusions": true,
+        "topic_exclusions": false,
         "topic_waiting_period": false,
         "topic_claims": true,
         "topic_policy_servicing": false,
@@ -727,8 +673,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0021",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nThe time deductible of 12 hrs will apply separately for every claim. Loss of Passport The Company shall be under no liability to make payment for: 1. Loss or damage to the Insured's passport as a result of the confiscation or detention by customs, police or any other authority 2. Loss which is not reported to the appropriate police authoritywithin 24 hours of the discovery of the loss, and in respect of which an official report has not been obtained. 3. Loss caused by the Insured's failure to take reasonable steps to guard against the loss of the passport.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0019",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nThe pursuit of any trade, business of profession, employment or occupation; d. The ownership, possession or use of vehicles, aircraft, or watercraft; e. Parachuting, hand-gliding, hot air ballooning or the use of firearms or any other angerous or hazardous activity; f. The use or misuse of any alcohol, hallucinogenic substance, drugs (except those used as medically prescribed), or drug addiction; g. The supply of goods or services; h. Any form of ownership or occupation of land or buildings (other than occupation only of any temporary residence). i. Any professional liability arising out of the insured's profession/activities.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -742,12 +688,72 @@
         "page_start": 6,
         "page_end": 6,
         "content_type": "text",
-        "char_count": 562,
-        "topic": "claims",
+        "char_count": 634,
+        "topic": "general",
         "topic_eligibility": false,
         "topic_benefits": false,
         "topic_premiums": false,
         "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "bajaj_general_travel_prime_individual_brochure::0020",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nTrip Delay However, the Company will not pay, 1. For any departure which is delayed as a result of the insured or any other person who have arranged to travel with failing to check-in correctly as required by the airline. 2. For any delayed departure caused by strike or industrial action known to exist or was anticipated at the time the trip was booked 3. If the air craft is taken out of service on the instructions of the Civil Aviation Authority or other competent statutory authority except due to bad weather conditions.",
+      "metadata": {
+        "doc_id": "bajaj_general_travel_prime_individual_brochure",
+        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
+        "company": "Bajaj General",
+        "product_name": "Travel Prime Individual",
+        "product_type": "travel",
+        "doc_type": "brochure",
+        "uin": "BAJTIOP24007V042324",
+        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
+        "section": "Bajaj General",
+        "page_start": 6,
+        "page_end": 6,
+        "content_type": "text",
+        "char_count": 527,
+        "topic": "general",
+        "topic_eligibility": false,
+        "topic_benefits": false,
+        "topic_premiums": false,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "bajaj_general_travel_prime_individual_brochure::0021",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nHospitalization Daily Allowance Hospitalization Daily Allowance benefit shall be extended only if such hospitalization is admissible under section Medical Expenses under the policy. Golfer's Hole-in-one Subject to all other terms and conditions, it is hereby agreed that the insurer shall reimburse expenses incurred in celebration of achieving a hole-in-one by the insured during the trip, anywhere in the world excluding India, in a United States Golfers' Association (USGA) recognized golf course, subject to maximum the limit shown in the Schedule against this cover General Exclusions Applicable to All Sections The Company shall be under no liability to make payment hereunder in respect of any Claim directly or indirectly caused by, based on, arising out of or howsoever attributable to any of the following: a. The Insured's participation in any naval, military or air force operations whether in the form of military exercises or war games or actual engagement with the enemy, whether foreign or domestic. b.",
+      "metadata": {
+        "doc_id": "bajaj_general_travel_prime_individual_brochure",
+        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
+        "company": "Bajaj General",
+        "product_name": "Travel Prime Individual",
+        "product_type": "travel",
+        "doc_type": "brochure",
+        "uin": "BAJTIOP24007V042324",
+        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
+        "section": "Bajaj General",
+        "page_start": 6,
+        "page_end": 7,
+        "content_type": "text",
+        "char_count": 1018,
+        "topic": "benefits",
+        "topic_eligibility": false,
+        "topic_benefits": true,
+        "topic_premiums": false,
+        "topic_exclusions": true,
         "topic_waiting_period": false,
         "topic_claims": true,
         "topic_policy_servicing": false,
@@ -758,67 +764,7 @@
     },
     {
       "id": "bajaj_general_travel_prime_individual_brochure::0022",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n3. Loss caused by the Insured's failure to take reasonable steps to guard against the loss of the passport. Personal Liability The Company shall not be under any liability to make payment for Claims arising out of: 1. The Insured's liability to any employee (whether under an contract of or for sevices); 2. Bodily Injury to and/or Property Damage to property belonging to the Insured's Family, any co-worker of the Insured, and any travelling companion of the Insured; 3. Any liability for Bodily Injury and/or Property Damage arising directly or indirectly from or due to: a. Livestock belonging to the Insured or in the Insured's care, custody or control; b. Any wilful, malicious, criminal or unlawful act, error, or omission; c. The pursuit of any trade, business of profession, employment or occupation; d. The ownership, possession or use of vehicles, aircraft, or watercraft; e. Parachuting, hand-gliding, hot air ballooning or the use of firearms or any other angerous or hazardous activity; f. The use or misuse of any alcohol, hallucinogenic substance, drugs (except those used as medically prescribed), or drug addiction; g. The supply of goods or services; h. Any form of ownership or occupation of land or buildings (other than occupation only of any temporary residence). i. Any professional liability arising out of the insured's profession/activities.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 6,
-        "page_end": 6,
-        "content_type": "text",
-        "char_count": 1368,
-        "topic": "claims",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": false,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": true,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0023",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nAny professional liability arising out of the insured's profession/activities. Trip Delay However, the Company will not pay, 1. For any departure which is delayed as a result of the insured or any other person who have arranged to travel with failing to check-in correctly as required by the airline. 2. For any delayed departure caused by strike or industrial action known to exist or was anticipated at the time the trip was booked 3. If the air craft is taken out of service on the instructions of the Civil Aviation Authority or other competent statutory authority except due to bad weather conditions. Hospitalization Daily Allowance Hospitalization Daily Allowance benefit shall be extended only if such hospitalization is admissible under section Medical Expenses under the policy.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 6,
-        "page_end": 6,
-        "content_type": "text",
-        "char_count": 788,
-        "topic": "benefits",
-        "topic_eligibility": false,
-        "topic_benefits": true,
-        "topic_premiums": false,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0024",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nGolfer's Hole-in-one Subject to all other terms and conditions, it is hereby agreed that the insurer shall reimburse expenses incurred in celebration of achieving a hole-in-one by the insured during the trip, anywhere in the world excluding India, in a United States Golfers' Association (USGA) recognized golf course, subject to maximum the limit shown in the Schedule against this cover General Exclusions Applicable to All Sections The Company shall be under no liability to make payment hereunder in respect of any Claim directly or indirectly caused by, based on, arising out of or howsoever attributable to any of the following: a. The Insured's participation in any naval, military or air force operations whether in the form of military exercises or war games or actual engagement with the enemy, whether foreign or domestic. b. War, invasion, acts of foreign enemy, hostilities (whether war be declared or not), civil war, civil unrest, rebellion, revolution, insurrection, military or usurped power or confiscation or nationalization or requisition of or destruction of or damage to property by or under the order of any government or local authority. c. The loss or destruction or damage to any property whatsoever or any loss or expenses whatsoever resulting or arising there from or any consequential loss directly or indi rectly caused by or contributed to by or arising from: d. Ionising radiation or contamination by radioactivity form any nuclear waste from combustion of nuclear fuel; or e.",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nWar, invasion, acts of foreign enemy, hostilities (whether war be declared or not), civil war, civil unrest, rebellion, revolution, insurrection, military or usurped power or confiscation or nationalization or requisition of or destruction of or damage to property by or under the order of any government or local authority. c. The loss or destruction or damage to any property whatsoever or any loss or expenses whatsoever resulting or arising there from or any consequential loss directly or indi rectly caused by or contributed to by or arising from: d. Ionising radiation or contamination by radioactivity form any nuclear waste from combustion of nuclear fuel; or e. The radioactive, toxic, explosive or other hazardous properties of any explosive nuclear assembly or nuclear component thereof, or f. Asbestosis or any related Sickness or Disease resulting from the existence, production, handling, processing, manufacture, sale, distribution, deposit or use of asbestos, or products thereof. g. The Insured's actual or attempted engagement in any criminal or other unlawful act. h. Any consequential losses.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -832,37 +778,7 @@
         "page_start": 7,
         "page_end": 7,
         "content_type": "text",
-        "char_count": 1508,
-        "topic": "benefits",
-        "topic_eligibility": false,
-        "topic_benefits": true,
-        "topic_premiums": false,
-        "topic_exclusions": true,
-        "topic_waiting_period": false,
-        "topic_claims": true,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0025",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nIonising radiation or contamination by radioactivity form any nuclear waste from combustion of nuclear fuel; or e. The radioactive, toxic, explosive or other hazardous properties of any explosive nuclear assembly or nuclear component thereof, or f. Asbestosis or any related Sickness or Disease resulting from the existence, production, handling, processing, manufacture, sale, distribution, deposit or use of asbestos, or products thereof. g. The Insured's actual or attempted engagement in any criminal or other unlawful act. h. Any consequential losses.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 7,
-        "page_end": 7,
-        "content_type": "text",
-        "char_count": 556,
+        "char_count": 1113,
         "topic": "general",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -877,8 +793,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0026",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nThe Insured's actual or attempted engagement in any criminal or other unlawful act. h. Any consequential losses. i. In respect of travel by the Insured to any country against whom the Republic of India has imposed general or special travel restrictions, or against whom it may be impose such restrictions, or any country which has imposed or may impose subsequently, such restrictions against travel by a citizen of the Republic of India to such country. j. The insured engaging in air travel unless he flies as a passenger on an Airline. For the purpose of this exclusion, air travel means being in or on, or boarding an aircraft for the purpose of flying therein or alighting there from following a flight. What are the deductibles under the policy?",
+      "id": "bajaj_general_travel_prime_individual_brochure::0023",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\ni. In respect of travel by the Insured to any country against whom the Republic of India has imposed general or special travel restrictions, or against whom it may be impose such restrictions, or any country which has imposed or may impose subsequently, such restrictions against travel by a citizen of the Republic of India to such country. j. The insured engaging in air travel unless he flies as a passenger on an Airline. For the purpose of this exclusion, air travel means being in or on, or boarding an aircraft for the purpose of flying therein or alighting there from following a flight.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -892,7 +808,7 @@
         "page_start": 7,
         "page_end": 7,
         "content_type": "text",
-        "char_count": 751,
+        "char_count": 595,
         "topic": "exclusions",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -907,7 +823,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0027",
+      "id": "bajaj_general_travel_prime_individual_brochure::0024",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nWhat are the deductibles under the policy? - Medical Expenses and Evacuation: 100 USD - Emergency dental pain relief: 100 USD - Delay of Checked Baggage: 12 Hours - Trip delay: 12 hours - Loss of Passport: 25 USD - Personal Liability: 100 USD - Missed Connection: 12 Hours Cancellation This Policy may be cancelled by the Insured after the expiry of 15 days from the effective date, in writing to the Company as long as the Insured is able to establish to the Company's satisfaction that the Insured Journey has not commenced, and this Policy shall stand cancelled if the Insured Journey has not commenced within 14 days of the commencement date shown on the Schedule. Upon cancellation, the Company shall be entitled to deduct cancellation charges according to its Cancellation Scale subject to retaining a minimum of INR 224 (Excluding Taxes). In case of any early return of the insured person prior to expiry of the policy period the company will refund premium at the following rates subject to no claims being incurred on the policy",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -937,7 +853,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0028",
+      "id": "bajaj_general_travel_prime_individual_brochure::0025",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Period on Risk | Rate of Premium Retained by the Company |\n|---|---|\n| Above 50% of policy period | 100% |\n| Above 40% to 50% of policy period | 80% |\n| Above 30% t o 40% of policy period | 75% |\n| Above 20% to 30 % of policy period | 60% |\n| Policy Inception 20% of policy period | 50% |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -967,8 +883,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0029",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nRevision/ Modification of the policy: There is a possibility of revision/ modification of terms, conditions, coverage and/or premiums of this product at any time in future, with appropriate approval from IRDA. In such an event of revision/modification of the product, intimation shall be set out to all the existing insured members at least 3 months prior to the date of such revision/modification comes into the effect Withdrawal of Policy There is possibility of withdrawal of this product at any time in future with appropriate approval from IRDA, as We reserve Our right to do so with a intimation of 3 months to all the existing insured members. In such an event of withdrawal of this product, at the time of Your seeking extension of this Policy, You can choose, among Our available similar and closely similar Travel insurance products. Upon Your so choosing Our new product, You will be charged the Premium as per Our Underwriting Policy for such chosen new product, as approved by IRDA",
+      "id": "bajaj_general_travel_prime_individual_brochure::0026",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nRevision/ Modification of the policy: There is a possibility of revision/ modification of terms, conditions, coverage and/or premiums of this product at any time in future, with appropriate approval from IRDA. In such an event of revision/modification of the product, intimation shall be set out to all the existing insured members at least 3 months prior to the date of such revision/modification comes into the effect Withdrawal of Policy There is possibility of withdrawal of this product at any time in future with appropriate approval from IRDA, as We reserve Our right to do so with a intimation of 3 months to all the existing insured members. In such an event of withdrawal of this product, at the time of Your seeking extension of this Policy, You can choose, among Our available similar and closely similar Travel insurance products. Upon Your so choosing Our new product, You will be charged the Premium as per Our Underwriting Policy for such chosen new product, as approved by IRDA Provided however, if You do not respond to Our intimation regarding the withdrawal of the product under which this Policy is issued, then this Policy shall be withdrawn and shall not be available to You for any extension and accordingly upon Your seeking extension of this Policy, You shall have to take a Policy under available new products of Us subject to Your paying the Premium as per Our Underwriting Policy for such available new product chosen by You.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -980,9 +896,9 @@
         "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
         "section": "Bajaj General",
         "page_start": 8,
-        "page_end": 8,
+        "page_end": 9,
         "content_type": "text",
-        "char_count": 994,
+        "char_count": 1454,
         "topic": "premiums",
         "topic_eligibility": false,
         "topic_benefits": true,
@@ -997,37 +913,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0030",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nUpon Your so choosing Our new product, You will be charged the Premium as per Our Underwriting Policy for such chosen new product, as approved by IRDA Provided however, if You do not respond to Our intimation regarding the withdrawal of the product under which this Policy is issued, then this Policy shall be withdrawn and shall not be available to You for any extension and accordingly upon Your seeking extension of this Policy, You shall have to take a Policy under available new products of Us subject to Your paying the Premium as per Our Underwriting Policy for such available new product chosen by You.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 8,
-        "page_end": 9,
-        "content_type": "text",
-        "char_count": 610,
-        "topic": "premiums",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": true,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": true,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0031",
+      "id": "bajaj_general_travel_prime_individual_brochure::0027",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual Premium Chart |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Geographical Location | Silver 50000 USD |  |  |  | Gold 2 Lakhs USD |  |  |  | Platinum 5 Lakhs USD |  |  |  | Super Platinum 7.5 Lakhs USD |  |  |  | Maximum 10 Lakhs USD |  |  |  |\n|  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  | Worldwide USA/ | Excluding Canada | Worldwide Including USA/ Canada |  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  |\n| Age | 0.6 to 40 41 to 60 |  | 0.6 to 40 41 to 60 |  | 0.6 to 40 41 to 60 |  | 0.6 to 40 41 to 60 |  | 0.6 to 40 | 41 to 60 | 0.6 to 40 41 to 60 |  | 0.6 to 40 41 to 60 |  | 0.6 to 40 41 to 60 |  | 0.6 to 40 41 to 60 |  | 0.6 to 40 41 to 60 |  |\n|  | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -1057,7 +943,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0032",
+      "id": "bajaj_general_travel_prime_individual_brochure::0028",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual Premium Chart |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Travel Days 1 - 4 5 - 7 8 - 14 15 -21 22- 28 29 - 35 36 - 47 48 - 60 61 - 75 76 - 90 91 -120 121 - 150 151 - 180 | 479 569 828 871 979 1224 1409 1644 1997 2374 2988 3415 4288 | 563 616 925 979 1115 1414 1631 1930 2366 2799 3674 4133 5165 | 743 853 1169 1257 1431 1743 1992 2652 3829 4561 5464 6338 7457 | 907 959 1319 1494 1685 2120 2421 3857 5512 6652 7917 9007 9922 | 707 768 947 1006 1112 1377 1575 1841 2261 2675 3680 4653 6318 | 790 862 1086 1163 1305 1575 1822 2148 3040 3788 5508 6769 8030 | 940 1027 1342 1426 1598 1946 2234 3364 4681 5601 6870 9235 11468 | 1094 1200 1645 1971 2311 2719 3374 4913 7186 7426 9204 12525 14756 | 1028 1038 1122 1207 1379 1640 1927 3012 4255 5082 6206 7823 9934 | 1464 1499 1655 1836 2148 2556 3083 4846 6849 8235 10295 13961 17132 | 1433 1443 1560 1668 1883 2253 2650 4194 5919 7142 8534 10297 13152 | 2026 2061 2259 2487 2894 3435 4205 6621 9893 11206 14455 18120 23570 | 1209 1220 1319 1419 1621 1928 2266 3540 5001 5974 7296 9196 11678 | 1721 1762 1946 2158 2525 3005 3624 5696 8051 9681 12101 16411 20139 | 1685 1696 1834 1961 2214 2649 3115 4931 6958 8396 10031 12104 15460 | 2381 2423 2655 2924 3402 4038 4943 7783 11629 13173 16991 21300 27707 | 1292 1304 1409 1516 1732 2060 2421 3783 5344 6384 7796 9826 12478 | 1839 1883 2079 2306 2698 3211 3872 6087 8603 10344 12931 17536 21519 | 1800 1812 1960 2095 2365 2830 3329 5269 7435 8971 10719 12934 16520 | 2545 2589 2837 3124 3635 4315 5282 8317 12426 14076 18156 22760 29606 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -1087,7 +973,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0033",
+      "id": "bajaj_general_travel_prime_individual_brochure::0029",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual Premium Chart |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Note | Premium Rates Indicated above are in Indian National Rupees Only |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Premium Rates Indicated above are exclusive of Service Tax |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -1117,7 +1003,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0034",
+      "id": "bajaj_general_travel_prime_individual_brochure::0030",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual Premium Chart Extension Period |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Geographical Location | Silver 50000 USD |  |  |  | Gold 2 Lakhs USD |  |  |  | Platinum 5 Lakhs USD |  |  |  | Super Platinum 7.5 Lakhs USD |  |  |  | Maximum 10 Lakhs USD |  |  |  |\n|  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  | Worldwide Excluding USA/ Canada |  | Worldwide Including USA/ Canada |  |\n| Age | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 | 0.6 to 40 | 41 to 60 |\n|  | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs | yrs |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -1147,7 +1033,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0035",
+      "id": "bajaj_general_travel_prime_individual_brochure::0031",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual Premium Chart Extension Period |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Travel Days 1 - 4 5 - 7 8 - 14 15 -21 22- 28 29 - 35 36 - 47 48 - 60 61 - 75 76 - 90 91 -120 121 - 150 | 526 626 911 958 1077 1530 1761 2055 2696 3205 4482 5976 | 619 678 1017 1077 1226 1767 2038 2412 3194 3778 5512 7233 | 818 939 1286 1383 1574 2178 2490 3315 5169 6157 8196 11091 | 998 1055 1451 1643 1853 2650 3026 4821 7441 8981 11875 15762 | 778 845 1042 1107 1224 1721 1969 2301 3053 3611 5520 8143 | 869 948 1195 1279 1436 1969 2278 2685 4104 5114 8263 11846 | 1034 1129 1476 1568 1758 2432 2793 4205 6319 7562 10306 16162 | 1203 1320 1809 2168 2542 3399 4218 6141 9702 10025 13806 21919 | 1131 1142 1234 1328 1517 2050 2409 3765 5744 6861 9310 13690 | 1611 1649 1821 2020 2363 3196 3854 6057 9246 11118 15442 24432 | 1577 1587 1716 1835 2071 2817 3313 5243 7991 9642 12800 18020 | 2229 2267 2485 2736 3183 4294 5256 8276 13355 15128 21682 31710 | 1330 1342 1451 1561 1783 2410 2832 4426 6752 8065 10943 16092 | 1893 1939 2140 2374 2777 3756 4530 7120 10868 13069 18152 28719 | 1853 1865 2018 2157 2435 3311 3894 6163 9394 11334 15047 21183 | 2620 2665 2921 3216 3742 5047 6179 9729 15699 17783 25487 37275 | 1421 1434 1550 1668 1906 2575 3026 4729 7214 8618 11694 17196 | 2023 2072 2287 2537 2968 4014 4841 7609 11613 13965 19396 30688 | 1980 1993 2156 2304 2602 3538 4161 6586 10038 12111 16078 22635 | 2799 2847 3121 3437 3999 5393 6603 10396 16775 19002 27234 39831 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -1177,7 +1063,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0036",
+      "id": "bajaj_general_travel_prime_individual_brochure::0032",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual Premium Chart Extension Period |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 151 - 180 | 7504 9039 13050 17364 11056 14053 20070 25823 17385 29981 23016 41248 20436 35243 27056 48487 21837 37659 28910 51811 Premium Rates Indicated above are in Indian National Rupees Only |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| Note |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|  | Premium Rates Indicated above are exclusive of Service Tax |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -1207,7 +1093,7 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0038",
+      "id": "bajaj_general_travel_prime_individual_brochure::0034",
       "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\n| Travel Prime Individual Rider : Premium Chart |  |\n|---|---|\n| In case of any claim or assistance abroad call Toll-Free Numbers: |  |\n| Country | Toll Free number |\n| USA (001) Canada (001) Australia (061) Austria (043) Belgium (032) Denmark (045) Finland (358)-carrier TS Finland (358)-carrier Elisa France (033) Germany (049) Hong Kong (852) Hungary (036) Ireland (353) Israel (972) Italy (039) Japan (081)-carrier Tele Japan (081)-carrier IDC Japan (081)-carrier KDD Japan (081)-carrier NTT Malaysia (060) Netherlands (031) New Zealand (064) Norway (047) | 18665876903 18669143705 0011+800 10002005 00+800 10002005 00+800 10002005 00+800 10002005 990+800 10002005 999+800 10002005 00+800 10002005 00+800 10002005 001+800 10002005 00+800 10002005 00+800 10002005 014+800 10002005 00+800 10002005 0041-010+800 10002005 0061-010+800 10002005 001-010+800 10002005 0033-010+800 10002005 00+800 10002005 00+800 10002005 00+800 10002005 00+800 10002005 |",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
@@ -1237,8 +1123,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0039",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nPortugal (351) 00+800 10002005 Singapore (065) 001+800 10002005 So. Korea (082)-carrier Telecom 001+800 10002005 So. Korea (082)-carrier Dacom 002+800 10002005 Spain (034) 00+800 10002005 Sweden (046) 00+800 10002005 Switzerland (041) 00+800 10002005 Thailand (066) 001+800 10002005 UK (044) 00+800 10002005 When dialing a universal toll free number the caller must first dial the appropriate country's int'l access(+) as illustrated above.",
+      "id": "bajaj_general_travel_prime_individual_brochure::0035",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nPortugal (351) 00+800 10002005 Singapore (065) 001+800 10002005 So. Korea (082)-carrier Telecom 001+800 10002005 So. Korea (082)-carrier Dacom 002+800 10002005 Spain (034) 00+800 10002005 Sweden (046) 00+800 10002005 Switzerland (041) 00+800 10002005 Thailand (066) 001+800 10002005 UK (044) 00+800 10002005 When dialing a universal toll free number the caller must first dial the appropriate country's int'l access(+) as illustrated above. Fax : 91-20-30512207 | travel@bajajgeneral.com Disclaimer: The above information is only indicative in nature. For details of the coverage & exclusions please contact our nearest office.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -1252,7 +1138,67 @@
         "page_start": 11,
         "page_end": 11,
         "content_type": "text",
-        "char_count": 440,
+        "char_count": 627,
+        "topic": "benefits",
+        "topic_eligibility": false,
+        "topic_benefits": true,
+        "topic_premiums": false,
+        "topic_exclusions": true,
+        "topic_waiting_period": false,
+        "topic_claims": true,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": true
+      }
+    },
+    {
+      "id": "bajaj_general_travel_prime_individual_brochure::0036",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nThis Policy of Insurance is a Contract between the Company and the Insured Person. The Insured Person shall not transfer, assign, alienate or in any way pass the benefits and/or liabilities to any other person, Institution, Hospital, Company or Body Corporate without specific prior approval in writing by a duly authorized officer of the Company. However, if the Insured Person(s) is permanently incapacitated or deceased, the legal heirs of the Insured may represent him in respect of Claim under the Policy Insurance Act, 1938 Section 41 - Prohibition of Rebates Insurance Act No person shall allow or offer to allow, either directly or indirectly, as an inducement to any person to take out or renew or continue an insurance in respect of any kind of risk relating to lives or property in India, any rebate of the whole or part of the commission payable or any rebate of the premium shown on the policy, nor shall any person taking out or renewing or continuing a policy accept any rebate, except such rebate as may be allowed in accordance with the published prospectus or tables of the insurer. ANY PERSON MAKING FAULT IN COMPLYING WITH THE PROVISIONS OF THIS SECTION SHALL BE PUNISHABLE WITH FINE WHICH MAY EXTEND TO TEN LAKH RUPEES.",
+      "metadata": {
+        "doc_id": "bajaj_general_travel_prime_individual_brochure",
+        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
+        "company": "Bajaj General",
+        "product_name": "Travel Prime Individual",
+        "product_type": "travel",
+        "doc_type": "brochure",
+        "uin": "BAJTIOP24007V042324",
+        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
+        "section": "Bajaj General",
+        "page_start": 11,
+        "page_end": 11,
+        "content_type": "text",
+        "char_count": 1240,
+        "topic": "benefits",
+        "topic_eligibility": false,
+        "topic_benefits": true,
+        "topic_premiums": true,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": true,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "bajaj_general_travel_prime_individual_brochure::0037",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: BAJAJ GENERAL INSURANCE LIMITED\n(Formerly known as Bajaj Allianz General Insurance Co. Ltd.) BAJAJ INSURANCE HOUSE, AIRPORT ROAD, YERAWADA, PUNE - 411006. IRDAI REG NO.: 113. FOR ANY QUERY (TOLL FREE): 1800-209-0144 /1800-209-5858 www.bajajgeneralinsurance.com careforyou@bajajgeneral.com Note: It is mandatory to keep updated your policy with your correct contact details and bank account details, to process any of your service requests faster and hassle-free. To update your contact details i.e.",
+      "metadata": {
+        "doc_id": "bajaj_general_travel_prime_individual_brochure",
+        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
+        "company": "Bajaj General",
+        "product_name": "Travel Prime Individual",
+        "product_type": "travel",
+        "doc_type": "brochure",
+        "uin": "BAJTIOP24007V042324",
+        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
+        "section": "BAJAJ GENERAL INSURANCE LIMITED",
+        "page_start": 12,
+        "page_end": 12,
+        "content_type": "text",
+        "char_count": 466,
         "topic": "contact",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -1267,68 +1213,8 @@
       }
     },
     {
-      "id": "bajaj_general_travel_prime_individual_brochure::0040",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nFax : 91-20-30512207 | travel@bajajgeneral.com Disclaimer: The above information is only indicative in nature. For details of the coverage & exclusions please contact our nearest office. This Policy of Insurance is a Contract between the Company and the Insured Person. The Insured Person shall not transfer, assign, alienate or in any way pass the benefits and/or liabilities to any other person, Institution, Hospital, Company or Body Corporate without specific prior approval in writing by a duly authorized officer of the Company. However, if the Insured Person(s) is permanently incapacitated or deceased, the legal heirs of the Insured may represent him in respect of Claim under the Policy",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 11,
-        "page_end": 11,
-        "content_type": "text",
-        "char_count": 696,
-        "topic": "benefits",
-        "topic_eligibility": false,
-        "topic_benefits": true,
-        "topic_premiums": false,
-        "topic_exclusions": true,
-        "topic_waiting_period": false,
-        "topic_claims": true,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0041",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Bajaj General\nInsurance Act, 1938 Section 41 - Prohibition of Rebates Insurance Act No person shall allow or offer to allow, either directly or indirectly, as an inducement to any person to take out or renew or continue an insurance in respect of any kind of risk relating to lives or property in India, any rebate of the whole or part of the commission payable or any rebate of the premium shown on the policy, nor shall any person taking out or renewing or continuing a policy accept any rebate, except such rebate as may be allowed in accordance with the published prospectus or tables of the insurer. ANY PERSON MAKING FAULT IN COMPLYING WITH THE PROVISIONS OF THIS SECTION SHALL BE PUNISHABLE WITH FINE WHICH MAY EXTEND TO TEN LAKH RUPEES.",
-      "metadata": {
-        "doc_id": "bajaj_general_travel_prime_individual_brochure",
-        "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
-        "company": "Bajaj General",
-        "product_name": "Travel Prime Individual",
-        "product_type": "travel",
-        "doc_type": "brochure",
-        "uin": "BAJTIOP24007V042324",
-        "source_url": "https://www.bajajgeneralinsurance.com/download-documents/travel-insurance/travel-prime-individual/travel-prime-individual-brochure.pdf",
-        "section": "Bajaj General",
-        "page_start": 11,
-        "page_end": 11,
-        "content_type": "text",
-        "char_count": 730,
-        "topic": "premiums",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": true,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "bajaj_general_travel_prime_individual_brochure::0042",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: BAJAJ GENERAL INSURANCE LIMITED\n(Formerly known as Bajaj Allianz General Insurance Co. Ltd.) BAJAJ INSURANCE HOUSE, AIRPORT ROAD, YERAWADA, PUNE - 411006. IRDAI REG NO.: 113. FOR ANY QUERY (TOLL FREE): 1800-209-0144 /1800-209-5858 www.bajajgeneralinsurance.com careforyou@bajajgeneral.com Note: It is mandatory to keep updated your policy with your correct contact details and bank account details, to process any of your service requests faster and hassle-free. To update your contact details i.e. Mobile No., Email ID, PAN Card, and Bank Account details, please use chatbot, visit our website, contact your agent or nearest branch. For more details on risk factors, Terms and Conditions, please read the Policy Wordings and Prospectus before concluding a sale. CIN: U66010PN2000PLC015329 | UIN: BAJTIOP24007V042324 | BGI-O-0208/13-11-2025 Policy holders can download Bajaj General app for one - touch access. Available on - | -",
+      "id": "bajaj_general_travel_prime_individual_brochure::0038",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: BAJAJ GENERAL INSURANCE LIMITED\nMobile No., Email ID, PAN Card, and Bank Account details, please use chatbot, visit our website, contact your agent or nearest branch. For more details on risk factors, Terms and Conditions, please read the Policy Wordings and Prospectus before concluding a sale. CIN: U66010PN2000PLC015329 | UIN: BAJTIOP24007V042324 | BGI-O-0208/13-11-2025 Policy holders can download Bajaj General app for one - touch access. Available on - | -",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -1342,7 +1228,7 @@
         "page_start": 12,
         "page_end": 12,
         "content_type": "text",
-        "char_count": 897,
+        "char_count": 430,
         "topic": "contact",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -1358,7 +1244,7 @@
     },
     {
       "id": "bajaj_general_travel_prime_individual_brochure::summary",
-      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Product summary\nTravel Prime Individual by Bajaj General (Travel).\nUIN: BAJTIOP24007V042324\nPlan summary: This is an overseas travel insurance plan designed to cover individuals traveling abroad. It provides financial protection against medical emergencies, travel inconveniences, and other risks encountered during international trips.\nWho it is for: Indian citizens going overseas with a valid Indian passport and overseas citizens residing in India traveling abroad for a maximum period of 90 days.\nEntry age: 0.6 yrs - 60yrs\nPolicy term: 180 days and can be extended further up to 180 days\nSum assured / sum insured: 50,000 USD; 200,000 USD; 500,000 USD; 750,000 USD; 1,000,000 USD\nFree-look period: This Policy may be cancelled by the Insured after the expiry of 15 days from the effective date, in writing to the Company as long as the Insured is able to establish to the Company's satisfaction that the Insured Journey has not commenced, and this Policy shall stand cancelled if the Insured Journey has not commenced within 14 days of the commencement date shown on the Schedule.\nClaim process: In case of any claim or assistance abroad call Toll-Free Numbers provided for each country or email travel@bajajgeneral.com.\nKey benefits: Personal Accident cover; Medical Expenses and Medical Evacuation; Loss of Checked Baggage; Trip Cancellation and Curtailment; Hospitalization Daily Allowance; Home Burglary Insurance\nMajor exclusions: Routine physical or other examination where there is no objective indication of impairment of normal health, and for medical treatment obtained within the Republic of India.; Medical Expenses incurred before the policy inception and beyond the expiry of Policy Period.; Travelling against the advice of a Physician, travelling for the purpose of obtaining treatment, or in receipt of a terminal prognosis.; Suicide, attempted suicide or willfully self-inflicted injury or illness, mental disorder, alcoholism, drunkenness or the abuse of drugs.; Any injury, illness, death, loss, expenses or other liability attributable to HIV and/or any HIV related illness including AIDS, venereal disease and/or any mutant derivative or variation thereof.; Participation in winter sports, mountaineering (where ropes or guides are customarily used), caving or potholing, hunting or equestrian, skin diving or other underwater activity, rafting or canoeing involving white water rapids, yachting or boating outside coastal waters (2 miles), professional sports or any other hazardous or potentially dangerous sport.",
+      "text": "Bajaj General | Travel Prime Individual | Travel | Section: Product summary\nTravel Prime Individual by Bajaj General (Travel).\nUIN: BAJTIOP24007V042324\nPlan summary: This is an overseas travel insurance plan designed to cover individuals against medical and non-medical emergencies while traveling abroad. It provides financial protection for hospitalization, accidents, baggage loss, and other travel-related risks at a fraction of the cost that would otherwise be incurred.\nWho it is for: Indian citizens with a valid Indian passport and overseas citizens residing in India traveling abroad for a maximum period of 90 days.\nEntry age: 0.6 yrs - 60yrs\nPolicy term: 180 days and can be extended further up to 180 days\nSum assured / sum insured: 50,000 USD; 200,000 USD; 500,000 USD; 750,000 USD; 1,000,000 USD\nFree-look period: 15 days from the effective date, provided the Insured Journey has not commenced. Policy shall stand cancelled if the Insured Journey has not commenced within 14 days of the commencement date shown on the Schedule.\nClaim process: In case of any claim or assistance abroad call the provided Toll-Free Numbers or email travel@bajajgeneral.com. Written non-delivery confirmation from the Airline is required for Delay of Checked Baggage claims.\nKey benefits: Personal Accident cover; Medical Expenses and Medical Evacuation; Loss of Checked Baggage; Trip Cancellation and Curtailment; Hospitalization Daily Allowance; Home Burglary Insurance\nMajor exclusions: Routine physical or other examination where there is no objective indication of impairment of normal health, and for medical treatment obtained within the Republic of India.; Medical Expenses incurred before the policy inception and beyond the expiry of Policy Period.; Travelling against the advice of a Physician, travelling for the purpose of obtaining treatment, or in receipt of a terminal prognosis.; Suicide, attempted suicide or willfully self-inflicted injury or illness, mental disorder, alcoholism, drunkenness or the abuse of drugs.; Any injury, illness, death, loss, expenses or other liability attributable to HIV and/or any HIV related illness including AIDS, venereal disease and/or any mutant derivative or variation thereof.; Participation in hazardous sports or activities (e.g., winter sports, mountaineering, caving, hunting, professional sports, etc.) unless under supervision of a trained professional.",
       "metadata": {
         "doc_id": "bajaj_general_travel_prime_individual_brochure",
         "file_name": "bajaj_general_travel_prime_individual_brochure.pdf",
@@ -1372,7 +1258,7 @@
         "page_start": 1,
         "page_end": 12,
         "content_type": "key_facts",
-        "char_count": 2527,
+        "char_count": 2333,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,

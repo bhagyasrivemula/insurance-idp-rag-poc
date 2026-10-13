@@ -16,8 +16,8 @@
     "pdf_title": "0151835326-HDFC Life Sanchay Plus Brochure_V29.ai",
     "classification_method": "manifest"
   },
-  "processed_at": "2026-10-12T15:19:38+00:00",
-  "processing_seconds": 11.0,
+  "processed_at": "2026-10-13T14:59:25+00:00",
+  "processing_seconds": 15.3,
   "extraction_stats": {
     "pages": 28,
     "tables": 16,
@@ -26,19 +26,25 @@
     "furniture_lines_removed": 98,
     "body_font_size": 11.0
   },
+  "chunking": {
+    "method": "semantic",
+    "sentences": 228,
+    "similarity_threshold": 0.781,
+    "text_chunks": 50
+  },
   "key_facts": {
     "facts": {
-      "plan_summary": "This is an individual, non-participating, non-linked savings life insurance plan that provides guaranteed benefit payouts. Its main purpose is to offer assured returns and financial security for key life milestones and unforeseen events.",
-      "target_customer": "Individuals seeking guaranteed returns and financial security for themselves and their families at key life stages such as marriage, parenthood, and retirement.",
-      "entry_age": "Guaranteed Income: 301 days - 60 years; Guaranteed Maturity: 301 days - 60 years; Life Long Income: 50 - 65 years; Long Term Income: 31 - 65 years; POSP Variant: Guaranteed Income: 301 days - 60 years; Guaranteed Maturity: 301 days - 60 years; Life Long Income: 55 - 65 years; Long Term Income: 18 - 65 years",
+      "plan_summary": "This is an individual, non-participating, non-linked savings life insurance plan that offers guaranteed returns. Its main purpose is to provide assured benefit payouts to help achieve financial security for key life milestones.",
+      "target_customer": "Individuals seeking guaranteed savings and life insurance benefits for personal milestones such as marriage, parenthood, and retirement.",
+      "entry_age": "Guaranteed Income: 301 days - 60 years; Guaranteed Maturity: 301 days - 60 years; Life Long Income: 50 - 65 years; Long Term Income: 31 - 65 years; POSP Variant: Guaranteed Income: 301 days - 55 years; Guaranteed Maturity: 301 days - 55 years; Life Long Income: 50 - 60 years; Long Term Income: 31 - 65 years",
       "maturity_age": "Guaranteed Income: 18 - 85 years; Guaranteed Maturity: 18 - 85 years; Life Long Income: 18 - 85 years; Long Term Income: 18 - 75 years; POSP Variant: Guaranteed Income: 18 - 65 years; Guaranteed Maturity: 18 - 65 years; Life Long Income: 18 - 65 years; Long Term Income: 18 - 65 years",
       "policy_term": "Guaranteed Maturity: Single Pay: 5, 6, 7, 8, 9, 10 years; 12, 15, 20 years; Guaranteed Income: 5 to 20 years; Long Term Income: 10 to 30 years; Life Long Income: Equivalent to Premium Paying Term to 30 years",
-      "premium_payment_term": "Single Pay; 5 to 20 years (varies by option and policy term)",
-      "sum_assured_or_insured": "No limit, subject to Board Approved Underwriting Policy (BAUP); POSP Variant: Maximum Sum Assured on Death of Rs. 25,00,000",
+      "premium_payment_term": "Single Pay; 5 to 20 years (varies by option); see plan option tables for details",
+      "sum_assured_or_insured": "No minimum sum assured stated; Maximum Sum Assured on Death for POSP Variant: Rs. 25,00,000; Sum Assured on Maturity: Single Premium (for Single Pay) or total Annualized Premium payable during premium payment term (for Limited/Regular Pay); Death Benefit: Highest of 10 times Annualized Premium / 1.25 times Single Premium, or 105% of Total Premiums paid, or Sum Assured on Maturity, or absolute amount assured to be paid on death (equal to Sum Assured)",
       "premium_payment_modes": "Single, annual, half yearly, quarterly, monthly",
       "waiting_periods": "Not mentioned",
       "free_look_period": "30 days from the date of receipt of the policy",
-      "grace_period": "15 days for monthly frequency and 30 days for other frequencies to pay the premium without any penalty",
+      "grace_period": "15 days for monthly frequency and 30 days for other frequencies (not applicable for Single Premium Policy)",
       "claim_process": "Not mentioned",
       "tax_benefits": "Tax Benefits may be available as per prevailing tax laws. You are requested to consult your tax advisor.",
       "key_benefits": [
@@ -104,15 +110,15 @@
     ],
     "model": "gpt-4.1"
   },
-  "chunk_count": 74,
+  "chunk_count": 71,
   "topic_distribution": {
-    "benefits": 32,
+    "benefits": 34,
     "eligibility": 16,
-    "premiums": 11,
     "policy_servicing": 8,
+    "premiums": 6,
     "riders": 4,
-    "exclusions": 1,
     "contact": 1,
+    "general": 1,
     "tax": 1
   },
   "chunks": [
@@ -418,7 +424,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0010",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: BENEFITS IN DETAIL\nThis section details the benefits payable during the policy term and payout period as per the option chosen. Premium excludes taxes, extra premium on account underwriting or payment frequency and rider premiums, if any. PLAN OPTION - GUARANTEED MATURITY: Maturity Benefit: This option offers a maturity benefit payable as lump sum at the end of policy term upon payment of all due premiums and the life assured surviving the policy term. Pay premium during the premium payment term Get Guaranteed Benefit at maturity The maturity benefit is equal to Sum Assured on Maturity plus accrued Guaranteed Additions. Where, Sum Assured on Maturity shall be equal to Single Premium in case of Single Pay Policy and equal to total Annualized Premium payable under the policy during the premium payment term in case of Limited / Regular Pay Policy.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: BENEFITS IN DETAIL\nThis section details the benefits payable during the policy term and payout period as per the option chosen. Premium excludes taxes, extra premium on account underwriting or payment frequency and rider premiums, if any. PLAN OPTION - GUARANTEED MATURITY:",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -432,7 +438,7 @@
         "page_start": 6,
         "page_end": 6,
         "content_type": "text",
-        "char_count": 837,
+        "char_count": 254,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -448,7 +454,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0011",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: BENEFITS IN DETAIL\nGuaranteed Additions (GA) will accrue at every policy anniversary as detailed below - For Single Pay; from year 2 onwards - For PPT 5 years GA will start accruing from year 6 onwards - For PPT 6, 7 & 8 GA will start accruing from year 7 onwards - For PPT 9 & 10 GA will start accruing from year 8 onwards - For PPT 12 GA will start accruing from year 9 onwards - For PPT 15 GA will start accruing from year 10 onwards - For PPT 20 GA will start accruing from year 11 onwards Guaranteed Additions varies depending on the Premium Payment Term, Policy Term and Age of Life Assured. Death Benefit: In case of death of Life Assured during the policy term, the death benefit equal to Sum Assured on Death plus Accrued Guaranteed Additions shall be payable to the nominee.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: BENEFITS IN DETAIL\nMaturity Benefit: This option offers a maturity benefit payable as lump sum at the end of policy term upon payment of all due premiums and the life assured surviving the policy term. Pay premium during the premium payment term Get Guaranteed Benefit at maturity The maturity benefit is equal to Sum Assured on Maturity plus accrued Guaranteed Additions. Where, Sum Assured on Maturity shall be equal to Single Premium in case of Single Pay Policy and equal to total Annualized Premium payable under the policy during the premium payment term in case of Limited / Regular Pay Policy. Guaranteed Additions (GA) will accrue at every policy anniversary as detailed below - For Single Pay; from year 2 onwards - For PPT 5 years GA will start accruing from year 6 onwards - For PPT 6, 7 & 8 GA will start accruing from year 7 onwards - For PPT 9 & 10 GA will start accruing from year 8 onwards - For PPT 12 GA will start accruing from year 9 onwards - For PPT 15 GA will start accruing from year 10 onwards - For PPT 20 GA will start accruing from year 11 onwards Guaranteed Additions varies depending on the Premium Payment Term, Policy Term and Age of Life Assured. Death Benefit: In case of death of Life Assured during the policy term, the death benefit equal to Sum Assured on Death plus Accrued Guaranteed Additions shall be payable to the nominee.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -462,7 +468,7 @@
         "page_start": 6,
         "page_end": 7,
         "content_type": "text",
-        "char_count": 765,
+        "char_count": 1348,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -478,7 +484,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0012",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: BENEFITS IN DETAIL\nSum Assured on Death is the highest of: - 10 times the Annualized Premium1 / 1.25 times the Single Premium, or - 105% of Total Premiums paid2, or - Sum Assured on Maturity, or - an absolute amount assured to be paid on death, which is equal to the Sum Assured. Sum Assured shall be equal to the applicable Death Benefit Multiple times the Annualized/ Single Premium. The applicable Death Benefit Multiples are specified below. Upon the payment of the death benefit, the policy terminates and no further benefits are payable. The amount of guaranteed income^ shall be equal to the percentage of Annualized / Single Premium depending on the Premium Payment Term and Policy Term. ^An additional income is payable in case of higher premium amount, please refer to the Enhanced Benefit for High Premium Policies",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: BENEFITS IN DETAIL\nSum Assured on Death is the highest of: - 10 times the Annualized Premium1 / 1.25 times the Single Premium, or - 105% of Total Premiums paid2, or - Sum Assured on Maturity, or - an absolute amount assured to be paid on death, which is equal to the Sum Assured. Sum Assured shall be equal to the applicable Death Benefit Multiple times the Annualized/ Single Premium. The applicable Death Benefit Multiples are specified below.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -492,7 +498,7 @@
         "page_start": 7,
         "page_end": 7,
         "content_type": "text",
-        "char_count": 806,
+        "char_count": 426,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -508,7 +514,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0013",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - GUARANTEED INCOME\nMaturity Benefit: This option pays you a maturity benefit in the form of Guaranteed Income for fixed term of 10 or 12 years upon payment of all due premiums and life assured surviving the policy term. Pay premium during the premium payment term Get Guaranteed Income during the payout period 1 Annualized Premium shall be the premium amount payable in a year excluding taxes, rider premiums, underwriting extra premiums and loadings for modal premiums 2 Total Premiums Paid means total of all the premiums paid under the base product, excluding any extra premium and taxes, if collected explicitly.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: BENEFITS IN DETAIL\nUpon the payment of the death benefit, the policy terminates and no further benefits are payable. The amount of guaranteed income^ shall be equal to the percentage of Annualized / Single Premium depending on the Premium Payment Term and Policy Term. ^An additional income is payable in case of higher premium amount, please refer to the Enhanced Benefit for High Premium Policies",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -518,41 +524,11 @@
         "doc_type": "brochure",
         "uin": "101B033V01",
         "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "PLAN OPTION - GUARANTEED INCOME",
+        "section": "BENEFITS IN DETAIL",
         "page_start": 7,
         "page_end": 7,
         "content_type": "text",
-        "char_count": 598,
-        "topic": "premiums",
-        "topic_eligibility": true,
-        "topic_benefits": true,
-        "topic_premiums": true,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": true,
-        "topic_tax": true,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "hdfc_life_sanchay_plus_brochure::0014",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - GUARANTEED INCOME\nOn the maturity date, you shall have an option to receive the Sum Assured on Maturity, which under this option, shall be the present value of future payouts, discounted at a rate of 9% p.a. This interest rate is not guaranteed. However, any change in the interest rate will be subject to prior approval of the Authority and will be applicable only to the policies sold after the date of change. At any point of time during the Payout Period, you shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates described below. On death of the Life Assured during the Payout Period, the nominee shall continue receiving Guaranteed Income as per Income Payout Frequency & benefit option chosen till the end of Payout Period. The nominee shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates as described below.",
-      "metadata": {
-        "doc_id": "hdfc_life_sanchay_plus_brochure",
-        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
-        "company": "HDFC Life",
-        "product_name": "Sanchay Plus",
-        "product_type": "savings",
-        "doc_type": "brochure",
-        "uin": "101B033V01",
-        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "PLAN OPTION - GUARANTEED INCOME",
-        "page_start": 8,
-        "page_end": 8,
-        "content_type": "text",
-        "char_count": 1074,
+        "char_count": 379,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -567,8 +543,38 @@
       }
     },
     {
+      "id": "hdfc_life_sanchay_plus_brochure::0014",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - GUARANTEED INCOME\nMaturity Benefit: This option pays you a maturity benefit in the form of Guaranteed Income for fixed term of 10 or 12 years upon payment of all due premiums and life assured surviving the policy term. Pay premium during the premium payment term Get Guaranteed Income during the payout period 1 Annualized Premium shall be the premium amount payable in a year excluding taxes, rider premiums, underwriting extra premiums and loadings for modal premiums 2 Total Premiums Paid means total of all the premiums paid under the base product, excluding any extra premium and taxes, if collected explicitly. On the maturity date, you shall have an option to receive the Sum Assured on Maturity, which under this option, shall be the present value of future payouts, discounted at a rate of 9% p.a. This interest rate is not guaranteed.",
+      "metadata": {
+        "doc_id": "hdfc_life_sanchay_plus_brochure",
+        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
+        "company": "HDFC Life",
+        "product_name": "Sanchay Plus",
+        "product_type": "savings",
+        "doc_type": "brochure",
+        "uin": "101B033V01",
+        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
+        "section": "PLAN OPTION - GUARANTEED INCOME",
+        "page_start": 7,
+        "page_end": 8,
+        "content_type": "text",
+        "char_count": 826,
+        "topic": "benefits",
+        "topic_eligibility": true,
+        "topic_benefits": true,
+        "topic_premiums": true,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": true,
+        "topic_tax": true,
+        "topic_contact": false
+      }
+    },
+    {
       "id": "hdfc_life_sanchay_plus_brochure::0015",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - GUARANTEED INCOME\nDeath Benefit: In case of death of Life Assured during the policy term, the death benefit equal to Sum Assured on Death shall be payable to the nominee. Sum Assured on Death is the highest of: - 10 times the Annualized Premium / 1.25 times the Single Premium,or - 105% of Total Premiums paid, or - Premiums paid accumulated at an interest of 5% p.a. compounded annually, or - Sum Assured on Maturity, or - an absolute amount assured to be paid on death, which is equal to the Sum Assured Sum Assured shall be equal to the applicable Death Benefit Multiple times the Annualized / Single Premium. The applicable Death Benefit Multiples are specified below. Upon the payment of the death benefit, the policy terminates and no further benefits are payable. ^An additional income is payable in case of higher premium amount, please refer to the Enhanced Benefit for High Premium Policies",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - GUARANTEED INCOME\nHowever, any change in the interest rate will be subject to prior approval of the Authority and will be applicable only to the policies sold after the date of change. At any point of time during the Payout Period, you shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates described below. On death of the Life Assured during the Payout Period, the nominee shall continue receiving Guaranteed Income as per Income Payout Frequency & benefit option chosen till the end of Payout Period. The nominee shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates as described below. Death Benefit: In case of death of Life Assured during the policy term, the death benefit equal to Sum Assured on Death shall be payable to the nominee. Sum Assured on Death is the highest of: - 10 times the Annualized Premium / 1.25 times the Single Premium,or - 105% of Total Premiums paid, or - Premiums paid accumulated at an interest of 5% p.a. compounded annually, or - Sum Assured on Maturity, or - an absolute amount assured to be paid on death, which is equal to the Sum Assured Sum Assured shall be equal to the applicable Death Benefit Multiple times the Annualized / Single Premium. The applicable Death Benefit Multiples are specified below.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -582,7 +588,7 @@
         "page_start": 8,
         "page_end": 8,
         "content_type": "text",
-        "char_count": 882,
+        "char_count": 1501,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -598,7 +604,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0016",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LIFE LONG INCOME\nMaturity Benefit: This option offers a benefit of a guaranteed income up to age 99 years and a return of premium at the end of payout period upon payment of all due premiums and life assured surviving the policy term. Get Guaranteed Income up to age 99 Pay premium during the premium payment term Return of Total premiums paid 14 - - - - - - - - - - - - - age 99 The amount of guaranteed income^ shall be equal to the percentage of Annualized / Single Premium depending on the Premium Payment Term and Policy Term.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - GUARANTEED INCOME\nUpon the payment of the death benefit, the policy terminates and no further benefits are payable. ^An additional income is payable in case of higher premium amount, please refer to the Enhanced Benefit for High Premium Policies",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -608,12 +614,12 @@
         "doc_type": "brochure",
         "uin": "101B033V01",
         "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "PLAN OPTION - LIFE LONG INCOME",
+        "section": "PLAN OPTION - GUARANTEED INCOME",
         "page_start": 8,
         "page_end": 8,
         "content_type": "text",
-        "char_count": 514,
-        "topic": "premiums",
+        "char_count": 227,
+        "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
         "topic_premiums": true,
@@ -628,7 +634,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0017",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LIFE LONG INCOME\nAt the end of the Payout Period, the policy terminates by returning Total Premiums paid. On the maturity date, you shall have an option to receive the Sum Assured on Maturity, which under this option, shall be the present value of future payouts, discounted at a rate of 9% p.a. This interest rate is not guaranteed. However, any change in the interest rate will be subject to prior approval of the Authority and will be applicable only to the policies sold after the date of change. At any point of time during the Payout Period, you shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates described below. On death of the Life Assured during the Payout Period, the nominee shall continue receiving Guaranteed Income as per Income Payout Frequency & benefit option chosen till the end of Payout Period. The nominee shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates as described below. Death Benefit: In case of death of Life Assured during the policy term, the death benefit equal to Sum Assured on Death shall be payable to the nominee.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LIFE LONG INCOME\nMaturity Benefit: This option offers a benefit of a guaranteed income up to age 99 years and a return of premium at the end of payout period upon payment of all due premiums and life assured surviving the policy term. Get Guaranteed Income up to age 99 Pay premium during the premium payment term Return of Total premiums paid 14 - - - - - - - - - - - - - age 99 The amount of guaranteed income^ shall be equal to the percentage of Annualized / Single Premium depending on the Premium Payment Term and Policy Term. At the end of the Payout Period, the policy terminates by returning Total Premiums paid. On the maturity date, you shall have an option to receive the Sum Assured on Maturity, which under this option, shall be the present value of future payouts, discounted at a rate of 9% p.a. This interest rate is not guaranteed.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -639,10 +645,10 @@
         "uin": "101B033V01",
         "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
         "section": "PLAN OPTION - LIFE LONG INCOME",
-        "page_start": 9,
+        "page_start": 8,
         "page_end": 9,
         "content_type": "text",
-        "char_count": 1316,
+        "char_count": 831,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -658,7 +664,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0018",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LIFE LONG INCOME\nSum Assured on Death is the highest of: - 10 times the Annualized Premium / 1.25 times the Single Premium, or - 105% of Total Premiums paid, or - Premiums paid accumulated at an interest of 5% p.a. compounded annually, or - Sum assured on Maturity, or - an absolute amount assured to be paid on death, which is equal to the Sum Assured. Sum Assured shall be equal to the applicable Death Benefit Multiple times the Annualized/ Single Premium. The applicable Death Benefit Multiples are specified below. Upon the payment of the death benefit, the policy terminates and no further benefits are payable.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LIFE LONG INCOME\nHowever, any change in the interest rate will be subject to prior approval of the Authority and will be applicable only to the policies sold after the date of change. At any point of time during the Payout Period, you shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates described below. On death of the Life Assured during the Payout Period, the nominee shall continue receiving Guaranteed Income as per Income Payout Frequency & benefit option chosen till the end of Payout Period. The nominee shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates as described below. Death Benefit: In case of death of Life Assured during the policy term, the death benefit equal to Sum Assured on Death shall be payable to the nominee. Sum Assured on Death is the highest of: - 10 times the Annualized Premium / 1.25 times the Single Premium, or - 105% of Total Premiums paid, or - Premiums paid accumulated at an interest of 5% p.a. compounded annually, or - Sum assured on Maturity, or - an absolute amount assured to be paid on death, which is equal to the Sum Assured. Sum Assured shall be equal to the applicable Death Benefit Multiple times the Annualized/ Single Premium. The applicable Death Benefit Multiples are specified below.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -672,7 +678,7 @@
         "page_start": 9,
         "page_end": 9,
         "content_type": "text",
-        "char_count": 600,
+        "char_count": 1502,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -688,7 +694,37 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0019",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LONG TERM INCOME\nThe amount of guaranteed income^ shall be equal to the percentage of Annualized / Single Premium depending upon the Premium Payment Term and Policy Term. Maturity Benefit: This option offers a benefit of guaranteed income for fixed term of 25 or 30 years and a return of premium at the end of payout period upon payment of all due premiums and life assured surviving the policy term. Pay premium during the premium payment term Get Guaranteed Income up to 30 years Return of Total premiums paid 35 36 - - - - - - - - - - - - - - - ^An additional income is payable in case of higher premium amount, please refer to the Enhanced Benefit for High Premium Policies At the end of the Payout Period, the policy terminates by returning Total Premiums paid.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LIFE LONG INCOME\nUpon the payment of the death benefit, the policy terminates and no further benefits are payable.",
+      "metadata": {
+        "doc_id": "hdfc_life_sanchay_plus_brochure",
+        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
+        "company": "HDFC Life",
+        "product_name": "Sanchay Plus",
+        "product_type": "savings",
+        "doc_type": "brochure",
+        "uin": "101B033V01",
+        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
+        "section": "PLAN OPTION - LIFE LONG INCOME",
+        "page_start": 9,
+        "page_end": 9,
+        "content_type": "text",
+        "char_count": 97,
+        "topic": "benefits",
+        "topic_eligibility": true,
+        "topic_benefits": true,
+        "topic_premiums": false,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "hdfc_life_sanchay_plus_brochure::0020",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LONG TERM INCOME\nThe amount of guaranteed income^ shall be equal to the percentage of Annualized / Single Premium depending upon the Premium Payment Term and Policy Term. Maturity Benefit: This option offers a benefit of guaranteed income for fixed term of 25 or 30 years and a return of premium at the end of payout period upon payment of all due premiums and life assured surviving the policy term. Pay premium during the premium payment term Get Guaranteed Income up to 30 years Return of Total premiums paid 35 36 - - - - - - - - - - - - - - - ^An additional income is payable in case of higher premium amount, please refer to the Enhanced Benefit for High Premium Policies At the end of the Payout Period, the policy terminates by returning Total Premiums paid. On the maturity date, you shall have an option to receive the Sum Assured on Maturity, which under this option, shall be the present value of future payouts, discounted at a rate of 9% p.a. This interest rate is not guaranteed.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -702,37 +738,7 @@
         "page_start": 9,
         "page_end": 10,
         "content_type": "text",
-        "char_count": 749,
-        "topic": "premiums",
-        "topic_eligibility": true,
-        "topic_benefits": true,
-        "topic_premiums": true,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "hdfc_life_sanchay_plus_brochure::0020",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LONG TERM INCOME\nOn the maturity date, you shall have an option to receive the Sum Assured on Maturity, which under this option, shall be the present value of future payouts, discounted at a rate of 9% p.a. This interest rate is not guaranteed. However, any change in the interest rate will be subject to prior approval of the Authority and will be applicable only to the policies sold after the date of change. At any point of time during the Payout Period, you shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates described below.",
-      "metadata": {
-        "doc_id": "hdfc_life_sanchay_plus_brochure",
-        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
-        "company": "HDFC Life",
-        "product_name": "Sanchay Plus",
-        "product_type": "savings",
-        "doc_type": "brochure",
-        "uin": "101B033V01",
-        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "PLAN OPTION - LONG TERM INCOME",
-        "page_start": 10,
-        "page_end": 10,
-        "content_type": "text",
-        "char_count": 654,
+        "char_count": 977,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -748,7 +754,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0021",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LONG TERM INCOME\nOn death of the Life Assured during the Payout Period, the nominee shall continue receiving Guaranteed Income as per Income Payout Frequency & benefit option chosen till the end of Payout Period. The nominee shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates as described below. Death Benefit: In case of death of Life Assured during the policy term, the death benefit equal to Sum Assured on Death shall be payable to the nominee. Sum Assured on Death is the highest of: - 10 times the Annualized Premium / 1.25 times the Single Premium, or - 105% of Total Premiums paid, or - Premiums paid accumulated at an interest of 5% p.a. compounded annually, or - Sum Assured on Maturity, or - an absolute amount assured to be paid on death, which is equal to the Sum Assured.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LONG TERM INCOME\nHowever, any change in the interest rate will be subject to prior approval of the Authority and will be applicable only to the policies sold after the date of change. At any point of time during the Payout Period, you shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates described below. On death of the Life Assured during the Payout Period, the nominee shall continue receiving Guaranteed Income as per Income Payout Frequency & benefit option chosen till the end of Payout Period. The nominee shall have an option to receive the future income as a lump sum, which shall be the present value of future payouts, discounted at a rate which is computed using the prevailing interest rates as described below. Death Benefit: In case of death of Life Assured during the policy term, the death benefit equal to Sum Assured on Death shall be payable to the nominee. Sum Assured on Death is the highest of: - 10 times the Annualized Premium / 1.25 times the Single Premium, or - 105% of Total Premiums paid, or - Premiums paid accumulated at an interest of 5% p.a. compounded annually, or - Sum Assured on Maturity, or - an absolute amount assured to be paid on death, which is equal to the Sum Assured. Sum Assured shall be equal to the applicable Death Benefit Multiple times the Annualized / Single Premium. The applicable Death Benefit Multiples are specified below.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -762,7 +768,7 @@
         "page_start": 10,
         "page_end": 10,
         "content_type": "text",
-        "char_count": 909,
+        "char_count": 1503,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -778,7 +784,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0022",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LONG TERM INCOME\nSum Assured shall be equal to the applicable Death Benefit Multiple times the Annualized / Single Premium. The applicable Death Benefit Multiples are specified below. Upon the payment of the death benefit, the policy terminates and no further benefits are payable. Death Benefit Multiple (applicable for all plan options): For Single Premium Policy - Sum Assured will be determined based on your entry age and the Single Premium you commit to pay.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: PLAN OPTION - LONG TERM INCOME\nUpon the payment of the death benefit, the policy terminates and no further benefits are payable. Death Benefit Multiple (applicable for all plan options): For Single Premium Policy - Sum Assured will be determined based on your entry age and the Single Premium you commit to pay.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -792,7 +798,7 @@
         "page_start": 10,
         "page_end": 11,
         "content_type": "text",
-        "char_count": 447,
+        "char_count": 280,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -1078,7 +1084,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0032",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\n1 Lac + Taxes per annum throughout the premium paying term and survives the policy term. The premiums are excluding applicable taxes & levies. The values shown are for illustrative purpose only. ^ Guaranteed Income Amount payable in arrears on annual frequency during the payout period (After the policy term). * Please refer to the Benefit Illustration for year wise Death Benefit. If a due premium is unpaid upon the expiry of the grace period, the policy shall: - lapse if it has not acquired a Surrender Value - become reduced paid-up if it has acquired a Surrender Value In case of a lapsed policy, all the benefits shall cease and nothing is payable on death, maturity or surrender Once the policy becomes paid-up, the survival and death benefit payouts shall reduce as defined below:",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nThe premiums are excluding applicable taxes & levies. The values shown are for illustrative purpose only. ^ Guaranteed Income Amount payable in arrears on annual frequency during the payout period (After the policy term). * Please refer to the Benefit Illustration for year wise Death Benefit. If a due premium is unpaid upon the expiry of the grace period, the policy shall: - lapse if it has not acquired a Surrender Value - become reduced paid-up if it has acquired a Surrender Value In case of a lapsed policy, all the benefits shall cease and nothing is payable on death, maturity or surrender Once the policy becomes paid-up, the survival and death benefit payouts shall reduce as defined below: Paid-up Maturity/Death benefit: For Limited / Regular Pay Policy - Once the policy becomes reduced paid-up, the maturity and death benefit payouts shall be computed by multiplying the death/maturity payouts as specified in \"Benefits in detail\" section to the ratio of the premiums paid to the premiums payable under the policy. Under the Guaranteed Maturity option, no further Guaranteed Additions shall accrue in the future.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1092,7 +1098,7 @@
         "page_start": 14,
         "page_end": 15,
         "content_type": "text",
-        "char_count": 790,
+        "char_count": 1127,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -1108,7 +1114,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0033",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nPaid-up Maturity/Death benefit: For Limited / Regular Pay Policy - Once the policy becomes reduced paid-up, the maturity and death benefit payouts shall be computed by multiplying the death/maturity payouts as specified in \"Benefits in detail\" section to the ratio of the premiums paid to the premiums payable under the policy. Under the Guaranteed Maturity option, no further Guaranteed Additions shall accrue in the future. The Guaranteed Additions accrued till the date of paid-up shall continue to remain attached. Surrender: The Policyholder may surrender the policy during the Policy Term. The Surrender Benefit will be higher of GSV (Guaranteed Surrender Value) and SSV (Special Surrender Value). The policy shall acquire a Guaranteed Surrender Value (GSV) immediately on the payment of Single Premium and upon the payment of at least first two years' premiums in case of a Limited/ Regular Premium Policy.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nThe Guaranteed Additions accrued till the date of paid-up shall continue to remain attached. Surrender: The Policyholder may surrender the policy during the Policy Term. The Surrender Benefit will be higher of GSV (Guaranteed Surrender Value) and SSV (Special Surrender Value). The policy shall acquire a Guaranteed Surrender Value (GSV) immediately on the payment of Single Premium and upon the payment of at least first two years' premiums in case of a Limited/ Regular Premium Policy. The minimum GSV shall be the sum of: a) the GSV of the total premiums paid and b) the Surrender Value of the Guaranteed Additions, already accrued to the policy, if applicable. In case of a valid claim during the grace period, before payment of due premium, the claim shall be payable after deducting the due modal premium. Lapse, Paid-up and Surrender: (1) For Single Premium Policy - Lapse and Paid-Up not applicable.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1122,14 +1128,14 @@
         "page_start": 15,
         "page_end": 15,
         "content_type": "text",
-        "char_count": 913,
-        "topic": "benefits",
+        "char_count": 907,
+        "topic": "policy_servicing",
         "topic_eligibility": true,
         "topic_benefits": true,
         "topic_premiums": true,
         "topic_exclusions": false,
         "topic_waiting_period": false,
-        "topic_claims": false,
+        "topic_claims": true,
         "topic_policy_servicing": true,
         "topic_riders": false,
         "topic_tax": false,
@@ -1138,7 +1144,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0034",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nThe minimum GSV shall be the sum of: a) the GSV of the total premiums paid and b) the Surrender Value of the Guaranteed Additions, already accrued to the policy, if applicable. In case of a valid claim during the grace period, before payment of due premium, the claim shall be payable after deducting the due modal premium. Lapse, Paid-up and Surrender: (1) For Single Premium Policy - Lapse and Paid-Up not applicable. Refer below section for surrender. (2) For Limited / Regular Premium Policy - The policy shall acquire a Surrender Value (cash value) after completion of first policy year provided one full year premium has been received. Where, - the GSV of the total premiums paid shall be determined as the applicable GSV factors on total premiums paid at the time of surrender multiplied to the total premiums paid to date. The premium is excluding any taxes and levies paid as applicable or any extra premiums paid.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nRefer below section for surrender. (2) For Limited / Regular Premium Policy - The policy shall acquire a Surrender Value (cash value) after completion of first policy year provided one full year premium has been received. Where, - the GSV of the total premiums paid shall be determined as the applicable GSV factors on total premiums paid at the time of surrender multiplied to the total premiums paid to date. The premium is excluding any taxes and levies paid as applicable or any extra premiums paid. - the Surrender Value of the Guaranteed Additions paid shall be determined as the applicable GSV factors on the Guaranteed Addition at the time of surrender multiplied to the Guaranteed Additions already accrued to the policy (applicable to Plan Option: Guaranteed Maturity). For details on GSV percentage, please refer \"Terms and Conditions\" section below. Special Surrender Value (SSV) shall become payable after completion of first policy year provided one full year premium has been received. For single premium policies, SSV shall become payable immediately after receipt of single premium. On payment of the Surrender Benefit, the policy will terminate and no more benefits will be payable.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1152,37 +1158,7 @@
         "page_start": 15,
         "page_end": 16,
         "content_type": "text",
-        "char_count": 923,
-        "topic": "premiums",
-        "topic_eligibility": false,
-        "topic_benefits": true,
-        "topic_premiums": true,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": true,
-        "topic_policy_servicing": true,
-        "topic_riders": false,
-        "topic_tax": true,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "hdfc_life_sanchay_plus_brochure::0035",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nThe premium is excluding any taxes and levies paid as applicable or any extra premiums paid. - the Surrender Value of the Guaranteed Additions paid shall be determined as the applicable GSV factors on the Guaranteed Addition at the time of surrender multiplied to the Guaranteed Additions already accrued to the policy (applicable to Plan Option: Guaranteed Maturity). For details on GSV percentage, please refer \"Terms and Conditions\" section below. Special Surrender Value (SSV) shall become payable after completion of first policy year provided one full year premium has been received. For single premium policies, SSV shall become payable immediately after receipt of single premium. On payment of the Surrender Benefit, the policy will terminate and no more benefits will be payable. Revival:",
-      "metadata": {
-        "doc_id": "hdfc_life_sanchay_plus_brochure",
-        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
-        "company": "HDFC Life",
-        "product_name": "Sanchay Plus",
-        "product_type": "savings",
-        "doc_type": "brochure",
-        "uin": "101B033V01",
-        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "NON-FORFEITURE BENEFITS",
-        "page_start": 16,
-        "page_end": 16,
-        "content_type": "text",
-        "char_count": 798,
+        "char_count": 1200,
         "topic": "benefits",
         "topic_eligibility": false,
         "topic_benefits": true,
@@ -1197,8 +1173,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0036",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nOn payment of the Surrender Benefit, the policy will terminate and no more benefits will be payable. Revival: If your Policy has been discontinued due to the non-payment of Premium, it would be revived /restored by the Insurer with all the benefits mentioned in the Policy document, with or without rider benefits, if any, upon the receipt of all the Premiums due and other charges/late fee, if any, during the revival period, as per the terms and conditions of the Policy, upon being satisfied as to the continued insurability of the insured/Policyholder on the basis of the information, documents and reports furnished by the Policyholder; in accordance with Board approved Underwriting Policy. Currently, the application for the revival should be made within five years from the due date of the first unpaid Premium and before the expiry of the Policy Term. The current rate of interest for revival is 9% p.a. Any change in the revival interest rates will be in accordance with the following formula: Average Annualised 10-year benchmark G-Sec Yield (over last 6 months & rounded upto the nearest 50 bps) + 2%, at the time of the review. The source of 10-year benchmark G-sec yield shall be RBI Negotiated Dealing System-Order Matching segment (NDS-OM).",
+      "id": "hdfc_life_sanchay_plus_brochure::0035",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nRevival: If your Policy has been discontinued due to the non-payment of Premium, it would be revived /restored by the Insurer with all the benefits mentioned in the Policy document, with or without rider benefits, if any, upon the receipt of all the Premiums due and other charges/late fee, if any, during the revival period, as per the terms and conditions of the Policy, upon being satisfied as to the continued insurability of the insured/Policyholder on the basis of the information, documents and reports furnished by the Policyholder; in accordance with Board approved Underwriting Policy. Currently, the application for the revival should be made within five years from the due date of the first unpaid Premium and before the expiry of the Policy Term.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1212,7 +1188,7 @@
         "page_start": 16,
         "page_end": 16,
         "content_type": "text",
-        "char_count": 1256,
+        "char_count": 759,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
@@ -1227,8 +1203,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0037",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nThe source of 10-year benchmark G-sec yield shall be RBI Negotiated Dealing System-Order Matching segment (NDS-OM). During revival campaigns, the Company may offer reduced interest rates, subject to the rules of the special revival campaign. The reduced interest rates offered during the revival campaign may vary from year to year. The maximum interest rate waiver may be set up to the prevailing revival interest rate. Once the Policy is revived, you are entitled to receive all contractual Benefits.",
+      "id": "hdfc_life_sanchay_plus_brochure::0036",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: NON-FORFEITURE BENEFITS\nThe current rate of interest for revival is 9% p.a. Any change in the revival interest rates will be in accordance with the following formula: Average Annualised 10-year benchmark G-Sec Yield (over last 6 months & rounded upto the nearest 50 bps) + 2%, at the time of the review. The source of 10-year benchmark G-sec yield shall be RBI Negotiated Dealing System-Order Matching segment (NDS-OM). During revival campaigns, the Company may offer reduced interest rates, subject to the rules of the special revival campaign. The reduced interest rates offered during the revival campaign may vary from year to year. The maximum interest rate waiver may be set up to the prevailing revival interest rate. Once the Policy is revived, you are entitled to receive all contractual Benefits.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1242,8 +1218,8 @@
         "page_start": 16,
         "page_end": 16,
         "content_type": "text",
-        "char_count": 502,
-        "topic": "benefits",
+        "char_count": 782,
+        "topic": "policy_servicing",
         "topic_eligibility": false,
         "topic_benefits": true,
         "topic_premiums": false,
@@ -1257,8 +1233,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0038",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nWe recommend that you read and understand this product brochure & customised benefit illustration and understand what the plan is, how it works and the risks involved before you purchase. A) Risk Factors: - HDFC Life Insurance Company Limited is the name of our Insurance Company and \"HDFC Life Sanchay Plus\" is the name of this plan. The name of our company and the name of our plan do not, in any way, indicate the quality of the plan, its future prospects or returns. - Please know the associated risks and the applicable charges, from your Insurance agent or the Intermediary or policy document issued by insurance company. B) Suicide Exclusions:",
+      "id": "hdfc_life_sanchay_plus_brochure::0037",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nWe recommend that you read and understand this product brochure & customised benefit illustration and understand what the plan is, how it works and the risks involved before you purchase. A) Risk Factors: - HDFC Life Insurance Company Limited is the name of our Insurance Company and \"HDFC Life Sanchay Plus\" is the name of this plan. The name of our company and the name of our plan do not, in any way, indicate the quality of the plan, its future prospects or returns. - Please know the associated risks and the applicable charges, from your Insurance agent or the Intermediary or policy document issued by insurance company.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1272,12 +1248,12 @@
         "page_start": 17,
         "page_end": 17,
         "content_type": "text",
-        "char_count": 650,
-        "topic": "exclusions",
+        "char_count": 627,
+        "topic": "benefits",
         "topic_eligibility": false,
         "topic_benefits": true,
         "topic_premiums": true,
-        "topic_exclusions": true,
+        "topic_exclusions": false,
         "topic_waiting_period": false,
         "topic_claims": false,
         "topic_policy_servicing": false,
@@ -1287,38 +1263,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0039",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nB) Suicide Exclusions: In case of death due to suicide within 12 months from the date of commencement of risk under the policy or from the date of revival of the policy, as applicable, the nominee or beneficiary of the policyholder shall be entitled to at least 80% of the total premiums paid till the date of death or the surrender value available as on the date of death whichever is higher, provided the policy is in force. C) Tax Benefits Tax Benefits may be available as per prevailing tax laws. You are requested to consult your tax advisor. D) Cancellation in the Free-Look period:",
-      "metadata": {
-        "doc_id": "hdfc_life_sanchay_plus_brochure",
-        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
-        "company": "HDFC Life",
-        "product_name": "Sanchay Plus",
-        "product_type": "savings",
-        "doc_type": "brochure",
-        "uin": "101B033V01",
-        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "TERMS & CONDITIONS",
-        "page_start": 17,
-        "page_end": 17,
-        "content_type": "text",
-        "char_count": 588,
-        "topic": "policy_servicing",
-        "topic_eligibility": false,
-        "topic_benefits": true,
-        "topic_premiums": true,
-        "topic_exclusions": true,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": true,
-        "topic_riders": false,
-        "topic_tax": true,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "hdfc_life_sanchay_plus_brochure::0040",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nYou are requested to consult your tax advisor. D) Cancellation in the Free-Look period: In case you are not agreeable to the any of the policy terms and conditions, you have the option of returning the policy to us stating the reasons thereof, within 30 days from the date of receipt of the policy. On receipt of your letter along with the original policy document, we shall arrange to refund the premium paid by you, subject to deduction of the proportionate risk premium for the period on cover and the expenses incurred by us on medical examination (if any) and stamp duty charges. H) Income Payout : The policyholder can choose to receive the Annual income under the Guaranteed Income, Lifelong Income and Long Term Income option at less frequent intervals. Income for other than annual frequencies shall be allowed. The amount of income shall be as given below:",
+      "id": "hdfc_life_sanchay_plus_brochure::0038",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nB) Suicide Exclusions: In case of death due to suicide within 12 months from the date of commencement of risk under the policy or from the date of revival of the policy, as applicable, the nominee or beneficiary of the policyholder shall be entitled to at least 80% of the total premiums paid till the date of death or the surrender value available as on the date of death whichever is higher, provided the policy is in force. C) Tax Benefits Tax Benefits may be available as per prevailing tax laws. You are requested to consult your tax advisor. D) Cancellation in the Free-Look period: In case you are not agreeable to the any of the policy terms and conditions, you have the option of returning the policy to us stating the reasons thereof, within 30 days from the date of receipt of the policy. On receipt of your letter along with the original policy document, we shall arrange to refund the premium paid by you, subject to deduction of the proportionate risk premium for the period on cover and the expenses incurred by us on medical examination (if any) and stamp duty charges. H) Income Payout : The policyholder can choose to receive the Annual income under the Guaranteed Income, Lifelong Income and Long Term Income option at less frequent intervals. Income for other than annual frequencies shall be allowed. The amount of income shall be as given below:",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1332,12 +1278,12 @@
         "page_start": 17,
         "page_end": 18,
         "content_type": "text",
-        "char_count": 866,
+        "char_count": 1367,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
         "topic_premiums": true,
-        "topic_exclusions": false,
+        "topic_exclusions": true,
         "topic_waiting_period": false,
         "topic_claims": false,
         "topic_policy_servicing": true,
@@ -1347,7 +1293,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0041",
+      "id": "hdfc_life_sanchay_plus_brochure::0039",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Frequency | Income (per frequency) |\n|---|---|\n| Semi-annual | 98% of Annual Income x 1/2 |\n| Quarterly | 97% of Annual Income x 1/4 |\n| Monthly | 96% of Annual Income x 1/12 |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1377,7 +1323,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0042",
+      "id": "hdfc_life_sanchay_plus_brochure::0040",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nNote: Annual Income refers to the guaranteed income paid in respect of annual frequency. E) Alterations: - Change of Premium Payment frequency is allowed. - Change of Income Payout frequency is allowed. - Plan Option, once chosen at inception cannot be changed throughout the policy term. Such alteration will be in accordance with the Board approved underwriting policy. F) Policy Loan: Once your policy has acquired the surrender value, you may avail of a policy loan upto 80% of the surrender value of your policy subject to applicable terms and conditions G) Enhanced Benefit for High Premium Policies We also offer enhanced benefit for the policies with Annual/Single Premium more than Rs. 1.5 lakhs. I) Guaranteed Surrender Value Factors: Guaranteed Surrender Value Factors as percentage of total premiums paid Note: This would only be payable once the policy has acquired a guaranteed surrender value. Single Premium Policy -",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1407,7 +1353,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0043",
+      "id": "hdfc_life_sanchay_plus_brochure::0041",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |\n| 1 | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% |\n| 2 | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% | 80% |\n| 3 | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% | 85% |\n| 4 | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 5 | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 6 |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 7 |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 8 |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 9 |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 10 |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 11 |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 12 |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 13 |  |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 14 |  |  |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 15 |  |  |  |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1437,7 +1383,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0044",
+      "id": "hdfc_life_sanchay_plus_brochure::0042",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 16 |  |  |  |  |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% |\n| 17 |  |  |  |  |  |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% |\n| 18 |  |  |  |  |  |  |  |  |  |  |  |  |  | 90% | 90% | 90% |\n| 19 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 90% | 90% |\n| 20 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 90% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1467,7 +1413,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0045",
+      "id": "hdfc_life_sanchay_plus_brochure::0043",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nLimited / Regular Premium Policy - For Guaranteed Maturity option",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1497,7 +1443,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0046",
+      "id": "hdfc_life_sanchay_plus_brochure::0044",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 1 | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |\n| 2 | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% |\n| 3 | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% |\n| 4 | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 5 | 90% | 90% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 6 |  | 90% | 90% | 75% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 7 |  |  | 90% | 90% | 75% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 8 |  |  |  | 90% | 90% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% |\n| 9 |  |  |  |  | 90% | 90% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% |\n| 10 |  |  |  |  |  | 90% | 90% | 75% | 75% | 75% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 11 |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 100% |\n| 12 |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 100% | 100% |\n| 13 |  |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 100% | 100% | 100% |\n| 14 |  |  |  |  |  |  |  |  |  | 90% | 90% | 90% | 100% | 100% | 100% | 100% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1527,7 +1473,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0047",
+      "id": "hdfc_life_sanchay_plus_brochure::0045",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 15 |  |  |  |  |  |  |  |  |  |  | 90% | 100% | 100% | 100% | 100% | 100% |\n| 16 |  |  |  |  |  |  |  |  |  |  |  | 100% | 100% | 100% | 100% | 100% |\n| 17 |  |  |  |  |  |  |  |  |  |  |  |  | 100% | 100% | 100% | 100% |\n| 18 |  |  |  |  |  |  |  |  |  |  |  |  |  | 100% | 100% | 100% |\n| 19 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 100% | 100% |\n| 20 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 100% |\n| 21 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 22 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 23 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 24 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 25 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 26 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 27 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 28 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 29 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| 30 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1557,7 +1503,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0048",
+      "id": "hdfc_life_sanchay_plus_brochure::0046",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nLimited / Regular Premium Policy - For Guaranteed Maturity option",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1587,7 +1533,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0049",
+      "id": "hdfc_life_sanchay_plus_brochure::0047",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|\n|  | 21 22 23 24 25 26 27 28 29 30 |  |  |  |  |  |  |  |  |  |\n| 1 | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |\n| 2 | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% |\n| 3 | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% |\n| 4 | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 5 | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 6 | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 7 | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 8 | 53% | 53% | 53% | 53% | 52% | 52% | 52% | 52% | 52% | 52% |\n| 9 | 56% | 56% | 55% | 55% | 55% | 54% | 54% | 54% | 54% | 55% |\n| 10 | 59% | 59% | 58% | 58% | 57% | 57% | 56% | 56% | 56% | 57% |\n| 11 | 62% | 61% | 61% | 60% | 59% | 59% | 58% | 58% | 58% | 59% |\n| 12 | 65% | 64% | 63% | 63% | 62% | 61% | 61% | 60% | 60% | 62% |\n| 13 | 68% | 67% | 66% | 65% | 64% | 63% | 63% | 62% | 61% | 64% |\n| 14 | 72% | 70% | 69% | 68% | 66% | 66% | 65% | 64% | 63% | 66% |\n| 15 | 75% | 73% | 71% | 70% | 69% | 68% | 67% | 66% | 65% | 69% |\n| 16 | 78% | 76% | 74% | 73% | 71% | 70% | 69% | 68% | 67% | 71% |\n| 17 | 81% | 79% | 77% | 75% | 74% | 72% | 71% | 70% | 69% | 74% |\n| 18 | 84% | 81% | 79% | 78% | 76% | 74% | 73% | 72% | 71% | 76% |\n| 19 | 87% | 84% | 82% | 80% | 78% | 77% | 75% | 74% | 73% | 78% |\n| 20 | 90% | 87% | 85% | 83% | 81% | 79% | 77% | 76% | 75% | 81% |\n| 21 | 100% | 90% | 87% | 85% | 83% | 81% | 79% | 78% | 77% | 83% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1617,7 +1563,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0050",
+      "id": "hdfc_life_sanchay_plus_brochure::0048",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|\n| 22 |  | 100% | 90% | 88% | 85% | 83% | 82% | 80% | 79% | 85% |\n| 23 |  |  | 100% | 90% | 88% | 86% | 84% | 82% | 80% | 88% |\n| 24 |  |  |  | 100% | 90% | 88% | 86% | 84% | 82% | 81% |\n| 25 |  |  |  |  | 100% | 90% | 88% | 86% | 84% | 83% |\n| 26 |  |  |  |  |  | 100% | 90% | 88% | 86% | 85% |\n| 27 |  |  |  |  |  |  | 100% | 90% | 88% | 86% |\n| 28 |  |  |  |  |  |  |  | 100% | 90% | 88% |\n| 29 |  |  |  |  |  |  |  |  | 100% | 90% |\n| 30 |  |  |  |  |  |  |  |  |  | 100% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1647,7 +1593,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0051",
+      "id": "hdfc_life_sanchay_plus_brochure::0049",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nGuaranteed Surrender Value (GSV) Factor for Accrued Guaranteed Additions is 30%(applicable for Guaranteed Maturity Option) For Guaranteed Income Option",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1677,7 +1623,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0052",
+      "id": "hdfc_life_sanchay_plus_brochure::0050",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |\n| 1 | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |\n| 2 | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% |\n| 3 | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% |\n| 4 | 90% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 5 | 90% | 90% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 6 |  | 90% | 90% | 75% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 7 |  |  | 90% | 90% | 75% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 8 |  |  |  | 90% | 90% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% |\n| 9 |  |  |  |  | 90% | 90% | 90% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% |\n| 10 |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 11 |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 12 |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 13 |  |  |  |  |  |  |  |  | 100% | 90% | 90% | 90% | 90% | 90% | 90% | 90 % |\n| 14 |  |  |  |  |  |  |  |  |  | 100% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 15 |  |  |  |  |  |  |  |  |  |  | 100 % | 90% | 90% | 90% | 90% | 90% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1707,7 +1653,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0053",
+      "id": "hdfc_life_sanchay_plus_brochure::0051",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 16 |  |  |  |  |  |  |  |  |  |  |  | 100% | 90% | 90% | 90% | 90 % |\n| 17 |  |  |  |  |  |  |  |  |  |  |  |  | 100% | 90% | 90% | 90 % |\n| 18 |  |  |  |  |  |  |  |  |  |  |  |  |  | 100 % | 100% | 100% |\n| 19 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 100% | 100% |\n| 20 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 100% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1737,7 +1683,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0055",
+      "id": "hdfc_life_sanchay_plus_brochure::0053",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |\n| 1 | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |\n| 2 | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% |\n| 3 | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% |\n| 4 | 90% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 5 | 90% | 90% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 6 |  | 90% | 90% | 75% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 7 |  |  | 90% | 90% | 75% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 8 |  |  |  | 90% | 90% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% |\n| 9 |  |  |  |  | 90% | 90% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% | 75% |\n| 10 |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 11 |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 12 |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 13 |  |  |  |  |  |  |  |  | 100% | 90% | 90% | 90% | 90% | 90% | 90% | 90 % |\n| 14 |  |  |  |  |  |  |  |  |  | 100% | 90% | 90% | 90% | 90% | 90% | 90% |\n| 15 |  |  |  |  |  |  |  |  |  |  | 100 % | 90% | 90% | 90% | 90% | 90% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1767,7 +1713,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0056",
+      "id": "hdfc_life_sanchay_plus_brochure::0054",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 16 |  |  |  |  |  |  |  |  |  |  |  | 100% | 90% | 90% | 90% | 90 % |\n| 17 |  |  |  |  |  |  |  |  |  |  |  |  | 100% | 90% | 90% | 90 % |\n| 18 |  |  |  |  |  |  |  |  |  |  |  |  |  | 100 % | 100% | 100% |\n| 19 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 100% | 100% |\n| 20 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 100% |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1797,7 +1743,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0058",
+      "id": "hdfc_life_sanchay_plus_brochure::0056",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n| Policy Year | Policy Term |  |  |  |  |  |  |  |  |  |  |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n|  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |\n| 1 | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0% |\n| 2 | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% | 30% |\n| 3 | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% | 35% |\n| 4 | 90% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 5 | 90% | 90% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 6 |  | 90% | 90% | 75% | 50% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 7 |  |  | 90% | 90% | 75% | 50% | 50% | 50% | 50% | 50% | 50% |\n| 8 |  |  |  | 90% | 90% | 75% | 75% | 75% | 75% | 75% | 75% |\n| 9 |  |  |  |  | 90% | 90% | 75% | 75% | 75% | 75% | 75% |\n| 10 |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% | 90% |\n| 11 |  |  |  |  |  |  | 90% | 90% | 90% | 90% | 90% |\n| 12 |  |  |  |  |  |  |  | 90% | 90% | 90% | 90% |\n| 13 |  |  |  |  |  |  |  |  | 100% | 90% | 90% |\n| 14 |  |  |  |  |  |  |  |  |  | 100% | 90% |\n| 15 |  |  |  |  |  |  |  |  |  |  | 100 % |",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -1827,8 +1773,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0059",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nJ) Grievance Redressal Mechanism You can contact us at any of the below touchpoints in case of any concern: Helpline number: 022-68446530 (Call Charges apply) | NRI Helpline number +91 89166 94100 (Call Charges apply) E-mail Address: service@hdfclife.com | nriservice@hdfclife.com (For NRI customers only) You can let us know of your concerns/grievances through any of below options: Option 1: Written letter duly signed by the policyholder at any HDFC Life Branch. There is a Grievance Redressal Officer at the respective branch to address the customer's complaint. To know more about branch address and timing's you can visit this link: https://www.hdfclife.com/contact-us#BranchLocator Please note, branches are closed on Sundays, national holidays and region-specific public holidays. Option 2: Write to us from your registered email ID at service@hdfclife.com. Option 3: Visit us at our website https://www.hdfclife.com/ customer-service/grievance-redressal You may refer to the escalation matrix in case there is no response to a grievance within the prescribed timelines If you are still not satisfied with our response, you may approach the Insurance Ombudsman located in your region. For more information on our Grievance Redressal Mechanism and the detailed address of the Insurance Ombudsman, please refer Part G of the policy document given to you.",
+      "id": "hdfc_life_sanchay_plus_brochure::0057",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nJ) Grievance Redressal Mechanism You can contact us at any of the below touchpoints in case of any concern: Helpline number: 022-68446530 (Call Charges apply) | NRI Helpline number +91 89166 94100 (Call Charges apply) E-mail Address: service@hdfclife.com | nriservice@hdfclife.com (For NRI customers only) You can let us know of your concerns/grievances through any of below options: Option 1: Written letter duly signed by the policyholder at any HDFC Life Branch. There is a Grievance Redressal Officer at the respective branch to address the customer's complaint. To know more about branch address and timing's you can visit this link: https://www.hdfclife.com/contact-us#BranchLocator Please note, branches are closed on Sundays, national holidays and region-specific public holidays. Option 2: Write to us from your registered email ID at service@hdfclife.com. Option 3: Visit us at our website https://www.hdfclife.com/ customer-service/grievance-redressal You may refer to the escalation matrix in case there is no response to a grievance within the prescribed timelines If you are still not satisfied with our response, you may approach the Insurance Ombudsman located in your region. For more information on our Grievance Redressal Mechanism and the detailed address of the Insurance Ombudsman, please refer Part G of the policy document given to you. K) Nomination as per Section 39 of the Insurance Act 1938 as amended from time to time:",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1842,7 +1788,7 @@
         "page_start": 24,
         "page_end": 24,
         "content_type": "text",
-        "char_count": 1360,
+        "char_count": 1448,
         "topic": "contact",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -1850,15 +1796,15 @@
         "topic_exclusions": false,
         "topic_waiting_period": false,
         "topic_claims": false,
-        "topic_policy_servicing": false,
+        "topic_policy_servicing": true,
         "topic_riders": false,
         "topic_tax": false,
         "topic_contact": true
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0060",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nK) Nomination as per Section 39 of the Insurance Act 1938 as amended from time to time:",
+      "id": "hdfc_life_sanchay_plus_brochure::0058",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n1) The policyholder of a life insurance on his own life may nominate a person or persons to whom money secured by the policy shall be paid in the event of his death. 2) Where the nominee is a minor, the policyholder may appoint any person to receive the money secured by the policy in the event of policyholder's death during the minority of the nominee. The manner of appointment to be laid down by the insurer.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1872,7 +1818,67 @@
         "page_start": 24,
         "page_end": 24,
         "content_type": "text",
-        "char_count": 87,
+        "char_count": 412,
+        "topic": "general",
+        "topic_eligibility": false,
+        "topic_benefits": false,
+        "topic_premiums": false,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "hdfc_life_sanchay_plus_brochure::0059",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n3) Nomination can be made at any time before the maturity of the policy. 4) Nomination may be incorporated in the text of the policy itself or may be endorsed on the policy communicated to the insurer and can be registered by the insurer in the records relating to the policy. 5) Nomination can be cancelled or changed at any time before policy matures, by an endorsement or a further endorsement or a will as the case may be. 6) A notice in writing of Change or Cancellation of nomination must be delivered to the insurer for the insurer to be liable to such nominee. Otherwise, insurer will not be liable if a bonafide payment is made to the person named in the text of the policy or in the registered records of the insurer. 7) Fee to be paid to the insurer for registering change or cancellation of a nomination can be specified by the Authority through Regulations. 8) A transfer or assignment made in accordance with Section 38 shall automatically cancel the nomination except in case of assignment to the insurer or other transferee or assignee for purpose of loan or against security or its reassignment after repayment. In such case, the nomination will not get cancelled to the extent of insurer's or transferee's or assignee's interest in the policy.",
+      "metadata": {
+        "doc_id": "hdfc_life_sanchay_plus_brochure",
+        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
+        "company": "HDFC Life",
+        "product_name": "Sanchay Plus",
+        "product_type": "savings",
+        "doc_type": "brochure",
+        "uin": "101B033V01",
+        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
+        "section": "TERMS & CONDITIONS",
+        "page_start": 24,
+        "page_end": 25,
+        "content_type": "text",
+        "char_count": 1261,
+        "topic": "policy_servicing",
+        "topic_eligibility": false,
+        "topic_benefits": true,
+        "topic_premiums": false,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": true,
+        "topic_riders": false,
+        "topic_tax": false,
+        "topic_contact": false
+      }
+    },
+    {
+      "id": "hdfc_life_sanchay_plus_brochure::0060",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nThe nomination will get revived on repayment of the loan. 9) The provisions of Section 39 are not applicable to any life insurance policy to which Section 6 of Married Women's Property Act, 1874 applies or has at any time applied except where before or after Insurance Laws (Amendment) Act 2015, a nomination is made in favour of spouse or children or spouse and children whether or not on the face of the policy it is mentioned that it is made under Section 39. Where nomination is intended to be made to spouse or children or spouse and children under Section 6 of MWP Act, it should be specifically mentioned on the policy. In such a case only, the provisions of Section 39 will not apply.",
+      "metadata": {
+        "doc_id": "hdfc_life_sanchay_plus_brochure",
+        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
+        "company": "HDFC Life",
+        "product_name": "Sanchay Plus",
+        "product_type": "savings",
+        "doc_type": "brochure",
+        "uin": "101B033V01",
+        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
+        "section": "TERMS & CONDITIONS",
+        "page_start": 25,
+        "page_end": 25,
+        "content_type": "text",
+        "char_count": 692,
         "topic": "policy_servicing",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -1888,67 +1894,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::0061",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nK) Nomination as per Section 39 of the Insurance Act 1938 as amended from time to time: 1) The policyholder of a life insurance on his own life may nominate a person or persons to whom money secured by the policy shall be paid in the event of his death. 2) Where the nominee is a minor, the policyholder may appoint any person to receive the money secured by the policy in the event of policyholder's death during the minority of the nominee. The manner of appointment to be laid down by the insurer. 3) Nomination can be made at any time before the maturity of the policy. 4) Nomination may be incorporated in the text of the policy itself or may be endorsed on the policy communicated to the insurer and can be registered by the insurer in the records relating to the policy. 5) Nomination can be cancelled or changed at any time before policy matures, by an endorsement or a further endorsement or a will as the case may be. 6) A notice in writing of Change or Cancellation of nomination must be delivered to the insurer for the insurer to be liable to such nominee. Otherwise, insurer will not be liable if a bonafide payment is made to the person named in the text of the policy or in the registered records of the insurer. 7) Fee to be paid to the insurer for registering change or cancellation of a",
-      "metadata": {
-        "doc_id": "hdfc_life_sanchay_plus_brochure",
-        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
-        "company": "HDFC Life",
-        "product_name": "Sanchay Plus",
-        "product_type": "savings",
-        "doc_type": "brochure",
-        "uin": "101B033V01",
-        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "TERMS & CONDITIONS",
-        "page_start": 24,
-        "page_end": 24,
-        "content_type": "text",
-        "char_count": 1305,
-        "topic": "policy_servicing",
-        "topic_eligibility": false,
-        "topic_benefits": true,
-        "topic_premiums": false,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": true,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "hdfc_life_sanchay_plus_brochure::0062",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n7) Fee to be paid to the insurer for registering change or cancellation of a nomination can be specified by the Authority through Regulations. 8) A transfer or assignment made in accordance with Section 38 shall automatically cancel the nomination except in case of assignment to the insurer or other transferee or assignee for purpose of loan or against security or its reassignment after repayment. In such case, the nomination will not get cancelled to the extent of insurer's or transferee's or assignee's interest in the policy. The nomination will get revived on repayment of the loan. 9) The provisions of Section 39 are not applicable to any life insurance policy to which Section 6 of Married Women's Property Act, 1874 applies or has at any time applied except where before or after Insurance Laws (Amendment) Act 2015, a nomination is made in favour of spouse or children or spouse and children whether or not on the face of the policy it is mentioned that it is made under Section 39. Where nomination is intended to be made to spouse or children or spouse and children under Section 6 of MWP Act, it should be specifically mentioned on the policy. In such a case only, the provisions of Section 39 will not apply. L) Assignment as per Section 38 of the Insurance Act 1938 as amended from time to",
-      "metadata": {
-        "doc_id": "hdfc_life_sanchay_plus_brochure",
-        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
-        "company": "HDFC Life",
-        "product_name": "Sanchay Plus",
-        "product_type": "savings",
-        "doc_type": "brochure",
-        "uin": "101B033V01",
-        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "TERMS & CONDITIONS",
-        "page_start": 24,
-        "page_end": 25,
-        "content_type": "text",
-        "char_count": 1308,
-        "topic": "policy_servicing",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": false,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": true,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "hdfc_life_sanchay_plus_brochure::0063",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nIn such a case only, the provisions of Section 39 will not apply. L) Assignment as per Section 38 of the Insurance Act 1938 as amended from time to time: 1) This policy may be transferred/assigned, wholly or in part, with or without consideration. 2) An Assignment may be effected in a policy by an endorsement upon the policy itself or by a separate instrument under notice to the Insurer. 3) The instrument of assignment should indicate the fact of transfer or assignment and the reasons for the assignment or transfer, antecedents of the assignee and terms on which assignment is made. 4) The assignment must be signed by the transferor or assignor or duly authorized agent and attested by at least one witness. 5) The transfer or assignment shall not be operative as against an Insurer until a notice in writing of the transfer or assignment and either the said endorsement or instrument itself or copy there of certified to be correct by both transferor and transferee or their duly authorized agents have been delivered to the Insurer. 6) Fee to be paid for assignment or transfer can be specified by the Authority through Regulations. 7) On receipt of notice with fee, the Insurer should Grant a written acknowledgement of receipt of notice. Such notice shall be conclusive evidence against the insurer of duly receiving the notice. 8) The Insurer may accept or decline to act upon any transfer or assignment or endorsement, if it has sufficient reasons to believe that it is (a) not bonafide or (b) not in the interest of the policyholder or (c) not in public interest or (d) is for the purpose of trading of the insurance policy.",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nL) Assignment as per Section 38 of the Insurance Act 1938 as amended from time to time: 1) This policy may be transferred/assigned, wholly or in part, with or without consideration. 2) An Assignment may be effected in a policy by an endorsement upon the policy itself or by a separate instrument under notice to the Insurer. 3) The instrument of assignment should indicate the fact of transfer or assignment and the reasons for the assignment or transfer, antecedents of the assignee and terms on which assignment is made. 4) The assignment must be signed by the transferor or assignor or duly authorized agent and attested by at least one witness. 5) The transfer or assignment shall not be operative as against an Insurer until a notice in writing of the transfer or assignment and either the said endorsement or instrument itself or copy there of certified to be correct by both transferor and transferee or their duly authorized agents have been delivered to the Insurer. 6) Fee to be paid for assignment or transfer can be specified by the Authority through Regulations. 7) On receipt of notice with fee, the Insurer should Grant a written acknowledgement of receipt of notice.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1962,7 +1908,7 @@
         "page_start": 25,
         "page_end": 25,
         "content_type": "text",
-        "char_count": 1638,
+        "char_count": 1182,
         "topic": "policy_servicing",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -1977,8 +1923,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0064",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n9) In case of refusal to act upon the endorsement by the Insurer, any person aggrieved by the refusal may prefer a claim to IRDAI within 30 days of receipt of the refusal letter from the Insurer. Section K (Nomination) and L (Assignment or Transfer) are simplified versions prepared for general information only and hence are not comprehensive. For full texts of these sections please refer to Section 38 and Section 39 of the Insurance Act, 1938 as amended by The Insurance Laws (Amendment) Act, 2015. M) Prohibition of Rebates: In accordance with Section 41 of the Insurance Act, 1938 as",
+      "id": "hdfc_life_sanchay_plus_brochure::0062",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nSuch notice shall be conclusive evidence against the insurer of duly receiving the notice. 8) The Insurer may accept or decline to act upon any transfer or assignment or endorsement, if it has sufficient reasons to believe that it is (a) not bonafide or (b) not in the interest of the policyholder or (c) not in public interest or (d) is for the purpose of trading of the insurance policy. 9) In case of refusal to act upon the endorsement by the Insurer, any person aggrieved by the refusal may prefer a claim to IRDAI within 30 days of receipt of the refusal letter from the Insurer. Section K (Nomination) and L (Assignment or Transfer) are simplified versions prepared for general information only and hence are not comprehensive. For full texts of these sections please refer to Section 38 and Section 39 of the Insurance Act, 1938 as amended by The Insurance Laws (Amendment) Act, 2015.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -1989,10 +1935,10 @@
         "uin": "101B033V01",
         "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
         "section": "TERMS & CONDITIONS",
-        "page_start": 26,
+        "page_start": 25,
         "page_end": 26,
         "content_type": "text",
-        "char_count": 589,
+        "char_count": 892,
         "topic": "policy_servicing",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -2007,7 +1953,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0065",
+      "id": "hdfc_life_sanchay_plus_brochure::0063",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nM) Prohibition of Rebates: In accordance with Section 41 of the Insurance Act, 1938 as amended from time to time: 1) No person shall allow or offer to allow, either directly or indirectly, as an inducement to any person to take out or renew or continue an insurance in respect of any kind of risk relating to lives or property in India, any rebate of the whole or part of the commission payable or any rebate of the premium shown on the policy, nor shall any person taking out or renewing or continuing a policy accept any rebate, except such rebate as may be allowed in accordance with the published prospectuses or tables of the insurer. 2) Any person making default in complying with the provisions of this section shall be liable for a penalty which may extend to ten lakh rupees. N) Non-Disclosure: In accordance with Section 45 of the Insurance Act, 1938 as",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -2037,8 +1983,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0066",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nN) Non-Disclosure: In accordance with Section 45 of the Insurance Act, 1938 as amended from time to time: 1) No policy of life insurance shall be called in question on any ground whatsoever after the expiry of three years from the date of the policy, i.e., from the date of issuance of the policy or the date of commencement of risk or the date of revival of the policy or the date of the rider to the policy, whichever is later. 2) A policy of life insurance may be called in question at any time within three years from the date of issuance of the policy or the date of commencement of risk or the date of revival of the policy or the date of the rider to the policy, whichever is later, on the ground of fraud: Provided that the insurer shall have to communicate in writing to the insured or the legal representatives or nominees or assignees of the insured the grounds and materials on which such decision is based. 3) Notwithstanding anything contained in sub-section (2), no insurer shall repudiate a life insurance policy on the ground of fraud if the insured can prove that the mis-statement of or suppression of a material fact was true to the best of his knowledge and belief or that there was no deliberate intention to suppress the fact or that such mis-statement of or suppression of a material fact are within the knowledge of the insurer: Provided that in case of fraud, the onus of disproving lies upon the beneficiaries, in case the policyholder is not alive.",
+      "id": "hdfc_life_sanchay_plus_brochure::0064",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\namended from time to time: 1) No policy of life insurance shall be called in question on any ground whatsoever after the expiry of three years from the date of the policy, i.e., from the date of issuance of the policy or the date of commencement of risk or the date of revival of the policy or the date of the rider to the policy, whichever is later.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -2052,7 +1998,7 @@
         "page_start": 26,
         "page_end": 26,
         "content_type": "text",
-        "char_count": 1476,
+        "char_count": 350,
         "topic": "policy_servicing",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -2067,8 +2013,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0067",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n4) A policy of life insurance may be called in question at any time within three years from the date of issuance of the policy or the date of commencement of risk or the date of revival of the policy or the date of the rider to the policy, whichever is later, on the ground that any statement of or suppression of a fact material to the expectancy of the life of the insured was incorrectly made in the proposal or other document on the basis of which the policy was issued or revived or rider issued:",
+      "id": "hdfc_life_sanchay_plus_brochure::0065",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\n2) A policy of life insurance may be called in question at any time within three years from the date of issuance of the policy or the date of commencement of risk or the date of revival of the policy or the date of the rider to the policy, whichever is later, on the ground of fraud: Provided that the insurer shall have to communicate in writing to the insured or the legal representatives or nominees or assignees of the insured the grounds and materials on which such decision is based. 3) Notwithstanding anything contained in sub-section (2), no insurer shall repudiate a life insurance policy on the ground of fraud if the insured can prove that the mis-statement of or suppression of a material fact was true to the best of his knowledge and belief or that there was no deliberate intention to suppress the fact or that such mis-statement of or suppression of a material fact are within the knowledge of the insurer: Provided that in case of fraud, the onus of disproving lies upon the beneficiaries, in case the policyholder is not alive. 4) A policy of life insurance may be called in question at any time within three years from the date of issuance of the policy or the date of commencement of risk or the date of revival of the policy or the date of the rider to the policy, whichever is later, on the ground that any statement of or suppression of a fact material to the expectancy of the life of the insured was incorrectly made in the proposal or other document on the basis of which the policy was issued or revived or rider issued:",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -2082,7 +2028,7 @@
         "page_start": 26,
         "page_end": 27,
         "content_type": "text",
-        "char_count": 501,
+        "char_count": 1548,
         "topic": "riders",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -2097,7 +2043,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0068",
+      "id": "hdfc_life_sanchay_plus_brochure::0066",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nProvided that the insurer shall have to communicate in writing to the insured or the legal representatives or nominees or assignees of the insured the grounds and materials on which such decision to repudiate the policy of life insurance is based: Provided further that in case of repudiation of the policy on the ground of misstatement or suppression of a material fact, and not on the ground of fraud, the premiums collected on the policy till the date of repudiation shall be paid to the insured or the legal representatives or nominees or assignees of the insured within a period of ninety days from the date of such repudiation. 5) Nothing in this section shall prevent the insurer from calling for proof of age at any time if he is entitled to do so, and no policy shall be deemed to be called in question merely because the terms of the policy are adjusted on subsequent proof that the age of the Life Insured was incorrectly stated in the proposal. O) In case of fraud or misrepresentation including non-disclosure of any material facts,",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -2127,8 +2073,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0069",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nO) In case of fraud or misrepresentation including non-disclosure of any material facts, the Policy shall be cancelled immediately and the Surrender Value shall be payable, subject to the fraud or misrepresentation being established in accordance with Section 45 of the Insurance Act, 1938, as amended from time to time. P) This is not a comprehensive list of amendments of Insurance Laws (Amendment) Ordinance, 2014 and only a simplified version prepared for general information. Policy Holders are advised to refer to Original Ordinance Gazette Notification dated December 26 , 2014 for complete and accurate details Q) Taxes:",
+      "id": "hdfc_life_sanchay_plus_brochure::0067",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nthe Policy shall be cancelled immediately and the Surrender Value shall be payable, subject to the fraud or misrepresentation being established in accordance with Section 45 of the Insurance Act, 1938, as amended from time to time. P) This is not a comprehensive list of amendments of Insurance Laws (Amendment) Ordinance, 2014 and only a simplified version prepared for general information. Policy Holders are advised to refer to Original Ordinance Gazette Notification dated December 26 , 2014 for complete and accurate details Q) Taxes:",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -2142,7 +2088,7 @@
         "page_start": 27,
         "page_end": 27,
         "content_type": "text",
-        "char_count": 628,
+        "char_count": 539,
         "topic": "policy_servicing",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -2157,68 +2103,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0070",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nPolicy Holders are advised to refer to Original Ordinance Gazette Notification dated December 26 , 2014 for complete and accurate details Q) Taxes: Indirect Taxes Taxes and levies as applicable shall be levied as applicable. Any taxes, statutory levy becoming applicable in future may become payable by you by any method including by levy of an additional monetary amount in addition to premium and or charges. Direct Taxes Direct Taxes Tax will be deducted at the applicable rate from the payments made under the policy, as per the provisions of the Income-tax Act, 2025 (corresponding Income-tax Act 1961), as amended from time to time.",
-      "metadata": {
-        "doc_id": "hdfc_life_sanchay_plus_brochure",
-        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
-        "company": "HDFC Life",
-        "product_name": "Sanchay Plus",
-        "product_type": "savings",
-        "doc_type": "brochure",
-        "uin": "101B033V01",
-        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "TERMS & CONDITIONS",
-        "page_start": 27,
-        "page_end": 27,
-        "content_type": "text",
-        "char_count": 638,
-        "topic": "tax",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": true,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": true,
-        "topic_contact": false
-      }
-    },
-    {
-      "id": "hdfc_life_sanchay_plus_brochure::0071",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nR) A policyholder can now have his life insurance policies in dematerialized form through a password protected online account called an electronic Insurance Account (eIA). This eIA can hold insurance policies issued from any insurer in dematerialized form, thereby facilitating the policy holder to access his policies on a common online platform. Facilities such as online premium payment, changes in address are available through the eIA. Furthermore, you would not be required to provide any KYC documents for any future policy purchase with any insurer. For more information on eIA visit http://www.hdfclife.com/customer-service/ life-insurance-policy-dematerialization",
-      "metadata": {
-        "doc_id": "hdfc_life_sanchay_plus_brochure",
-        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
-        "company": "HDFC Life",
-        "product_name": "Sanchay Plus",
-        "product_type": "savings",
-        "doc_type": "brochure",
-        "uin": "101B033V01",
-        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
-        "section": "TERMS & CONDITIONS",
-        "page_start": 27,
-        "page_end": 27,
-        "content_type": "text",
-        "char_count": 673,
-        "topic": "premiums",
-        "topic_eligibility": false,
-        "topic_benefits": false,
-        "topic_premiums": true,
-        "topic_exclusions": false,
-        "topic_waiting_period": false,
-        "topic_claims": false,
-        "topic_policy_servicing": false,
-        "topic_riders": false,
-        "topic_tax": false,
-        "topic_contact": true
-      }
-    },
-    {
-      "id": "hdfc_life_sanchay_plus_brochure::0072",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nFor more information on eIA visit http://www.hdfclife.com/customer-service/ life-insurance-policy-dematerialization Contact us today To buy: 1800-266-9777 (Toll free) (Available all days 10am to 7pm) Visit us at www.hdfclife.com HDFC Life Insurance Company Limited (\"HDFC Life\"). CIN: L65110MH2000PLC128245, IRDAI Registration No. 101. Registered Office: 13th Floor, Lodha Excelus, Apollo Mills Compound, N.M. Joshi Marg, Mahalaxmi, Mumbai - 400 011. Email: service@hdfclife.com,Tel No: 022-6844-6530 (Local charges apply). Website: www.hdfclife.com The name/letters \"HDFC\" in the name/logo of HDFC Life Insurance Company Limited (HDFC Life) belongs to HDFC Bank Limited and is used by HDFC Life under licence from HDFC Bank Limited. HDFC Life Sanchay Plus (101N134V29) is a individual, non-participating, non-linked savings life insurance plan. Life Insurance Coverage is available in this product. HDFC Life Income Benefit on Accidental Disability Rider - Non Linked (101B041V01) is a Non-Linked, Non- Participating, Pure risk premium, Individual Life rider. HDFC Life Protect Plus Rider - Non Linked (101B040V01) is a Non-Linked, Non- Participating, Pure risk premium, Individual Life rider. HDFC Life Health Plus Rider - Non Linked (101B031V02) is a Non-Linked, Non- Participating/Participating, Pure risk premium, Individual Health rider. HDFC Life Waiver of Premium Rider - Non Linked (101B032V02) is a Non-Linked, Non- Participating/Participating, Pure risk premium, Individual Health rider. HDFC Life LiveWell Rider - Non Linked (UIN: 101B033V01) is A Non-Linked, Non-Participating, Individual, Pure Risk Premium/Savings, Life/Health Insurance Rider.",
+      "id": "hdfc_life_sanchay_plus_brochure::0068",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nIndirect Taxes Taxes and levies as applicable shall be levied as applicable. Any taxes, statutory levy becoming applicable in future may become payable by you by any method including by levy of an additional monetary amount in addition to premium and or charges. Direct Taxes Direct Taxes Tax will be deducted at the applicable rate from the payments made under the policy, as per the provisions of the Income-tax Act, 2025 (corresponding Income-tax Act 1961), as amended from time to time. R) A policyholder can now have his life insurance policies in dematerialized form through a password protected online account called an electronic Insurance Account (eIA). This eIA can hold insurance policies issued from any insurer in dematerialized form, thereby facilitating the policy holder to access his policies on a common online platform. Facilities such as online premium payment, changes in address are available through the eIA. Furthermore, you would not be required to provide any KYC documents for any future policy purchase with any insurer. For more information on eIA visit http://www.hdfclife.com/customer-service/ life-insurance-policy-dematerialization Contact us today To buy: 1800-266-9777 (Toll free) (Available all days 10am to 7pm) Visit us at www.hdfclife.com HDFC Life Insurance Company Limited (\"HDFC Life\"). CIN: L65110MH2000PLC128245, IRDAI Registration No. 101.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -2232,7 +2118,37 @@
         "page_start": 27,
         "page_end": 28,
         "content_type": "text",
-        "char_count": 1658,
+        "char_count": 1384,
+        "topic": "tax",
+        "topic_eligibility": false,
+        "topic_benefits": false,
+        "topic_premiums": true,
+        "topic_exclusions": false,
+        "topic_waiting_period": false,
+        "topic_claims": false,
+        "topic_policy_servicing": false,
+        "topic_riders": false,
+        "topic_tax": true,
+        "topic_contact": true
+      }
+    },
+    {
+      "id": "hdfc_life_sanchay_plus_brochure::0069",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nRegistered Office: 13th Floor, Lodha Excelus, Apollo Mills Compound, N.M. Joshi Marg, Mahalaxmi, Mumbai - 400 011. Email: service@hdfclife.com,Tel No: 022-6844-6530 (Local charges apply). Website: www.hdfclife.com The name/letters \"HDFC\" in the name/logo of HDFC Life Insurance Company Limited (HDFC Life) belongs to HDFC Bank Limited and is used by HDFC Life under licence from HDFC Bank Limited. HDFC Life Sanchay Plus (101N134V29) is a individual, non-participating, non-linked savings life insurance plan. Life Insurance Coverage is available in this product. HDFC Life Income Benefit on Accidental Disability Rider - Non Linked (101B041V01) is a Non-Linked, Non- Participating, Pure risk premium, Individual Life rider. HDFC Life Protect Plus Rider - Non Linked (101B040V01) is a Non-Linked, Non- Participating, Pure risk premium, Individual Life rider. HDFC Life Health Plus Rider - Non Linked (101B031V02) is a Non-Linked, Non- Participating/Participating, Pure risk premium, Individual Health rider. HDFC Life Waiver of Premium Rider - Non Linked (101B032V02) is a Non-Linked, Non- Participating/Participating, Pure risk premium, Individual Health rider. HDFC Life LiveWell Rider - Non Linked (UIN: 101B033V01) is A Non-Linked, Non-Participating, Individual, Pure Risk Premium/Savings, Life/Health Insurance Rider. This version of the product brochure invalidates all previous printed versions for this particular plan.",
+      "metadata": {
+        "doc_id": "hdfc_life_sanchay_plus_brochure",
+        "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
+        "company": "HDFC Life",
+        "product_name": "Sanchay Plus",
+        "product_type": "savings",
+        "doc_type": "brochure",
+        "uin": "101B033V01",
+        "source_url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/customer-services/brochure-documents-pdfs/savings-live/HDFC-Life-Sanchay-Plus-Brochure.pdf",
+        "section": "TERMS & CONDITIONS",
+        "page_start": 28,
+        "page_end": 28,
+        "content_type": "text",
+        "char_count": 1427,
         "topic": "riders",
         "topic_eligibility": false,
         "topic_benefits": true,
@@ -2247,8 +2163,8 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0073",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nThis version of the product brochure invalidates all previous printed versions for this particular plan. This Product brochure is indicative of the terms, warranties, conditions and exclusions contained in the insurance policy. Please know the associated risk and applicable charges from your insurance agent or the intermediary or policy document of the insurer. ARN: PP/07/26/36583.",
+      "id": "hdfc_life_sanchay_plus_brochure::0070",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: TERMS & CONDITIONS\nThis Product brochure is indicative of the terms, warranties, conditions and exclusions contained in the insurance policy. Please know the associated risk and applicable charges from your insurance agent or the intermediary or policy document of the insurer. ARN: PP/07/26/36583.",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -2262,7 +2178,7 @@
         "page_start": 28,
         "page_end": 28,
         "content_type": "text",
-        "char_count": 384,
+        "char_count": 279,
         "topic": "premiums",
         "topic_eligibility": false,
         "topic_benefits": false,
@@ -2277,7 +2193,7 @@
       }
     },
     {
-      "id": "hdfc_life_sanchay_plus_brochure::0074",
+      "id": "hdfc_life_sanchay_plus_brochure::0071",
       "text": "HDFC Life | Sanchay Plus | Savings | Section: BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS/FRAUDULENT OFFERS\n- IRDAI or its officials do not involve in any activities of insurance business like selling insurance policies, announcing bonus or investment of premiums,refund of amounts. Policyholders or the prospects receiving such phone calls are requested to lodge a police complaint",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
@@ -2308,7 +2224,7 @@
     },
     {
       "id": "hdfc_life_sanchay_plus_brochure::summary",
-      "text": "HDFC Life | Sanchay Plus | Savings | Section: Product summary\nSanchay Plus by HDFC Life (Savings).\nUIN: 101B033V01\nPlan summary: This is an individual, non-participating, non-linked savings life insurance plan that provides guaranteed benefit payouts. Its main purpose is to offer assured returns and financial security for key life milestones and unforeseen events.\nWho it is for: Individuals seeking guaranteed returns and financial security for themselves and their families at key life stages such as marriage, parenthood, and retirement.\nEntry age: Guaranteed Income: 301 days - 60 years; Guaranteed Maturity: 301 days - 60 years; Life Long Income: 50 - 65 years; Long Term Income: 31 - 65 years; POSP Variant: Guaranteed Income: 301 days - 60 years; Guaranteed Maturity: 301 days - 60 years; Life Long Income: 55 - 65 years; Long Term Income: 18 - 65 years\nMaturity / cover-till age: Guaranteed Income: 18 - 85 years; Guaranteed Maturity: 18 - 85 years; Life Long Income: 18 - 85 years; Long Term Income: 18 - 75 years; POSP Variant: Guaranteed Income: 18 - 65 years; Guaranteed Maturity: 18 - 65 years; Life Long Income: 18 - 65 years; Long Term Income: 18 - 65 years\nPolicy term: Guaranteed Maturity: Single Pay: 5, 6, 7, 8, 9, 10 years; 12, 15, 20 years; Guaranteed Income: 5 to 20 years; Long Term Income: 10 to 30 years; Life Long Income: Equivalent to Premium Paying Term to 30 years\nPremium payment term: Single Pay; 5 to 20 years (varies by option and policy term)\nSum assured / sum insured: No limit, subject to Board Approved Underwriting Policy (BAUP); POSP Variant: Maximum Sum Assured on Death of Rs. 25,00,000\nPremium payment modes: Single, annual, half yearly, quarterly, monthly\nFree-look period: 30 days from the date of receipt of the policy\nGrace period: 15 days for monthly frequency and 30 days for other frequencies to pay the premium without any penalty\nTax benefits: Tax Benefits may be available as per prevailing tax laws. You are requested to consult your tax advisor.\nKey benefits: Guaranteed benefits and returns; Flexibility to receive benefits as lump sum or regular income; Life Long Income option with guaranteed income till age 99 years; Long Term Income option with guaranteed income for 25 to 30 years; Tax benefits as per prevailing tax laws; Optional riders to enhance protection coverage\nOptional riders / add-ons: HDFC Life Income Benefit on Accidental Disability Rider - Non Linked (101B041V01); HDFC Life Protect Plus Rider - Non Linked (101B040V01); HDFC Life Health Plus Rider - Non Linked (101B031V02); HDFC Life Waiver of Premium Rider - Non Linked (101B032V02); HDFC Life LiveWell Rider - Non Linked (101B033V01)\nMajor exclusions: Death due to suicide within 12 months from the date of commencement of risk under the policy or from the date of revival of the policy",
+      "text": "HDFC Life | Sanchay Plus | Savings | Section: Product summary\nSanchay Plus by HDFC Life (Savings).\nUIN: 101B033V01\nPlan summary: This is an individual, non-participating, non-linked savings life insurance plan that offers guaranteed returns. Its main purpose is to provide assured benefit payouts to help achieve financial security for key life milestones.\nWho it is for: Individuals seeking guaranteed savings and life insurance benefits for personal milestones such as marriage, parenthood, and retirement.\nEntry age: Guaranteed Income: 301 days - 60 years; Guaranteed Maturity: 301 days - 60 years; Life Long Income: 50 - 65 years; Long Term Income: 31 - 65 years; POSP Variant: Guaranteed Income: 301 days - 55 years; Guaranteed Maturity: 301 days - 55 years; Life Long Income: 50 - 60 years; Long Term Income: 31 - 65 years\nMaturity / cover-till age: Guaranteed Income: 18 - 85 years; Guaranteed Maturity: 18 - 85 years; Life Long Income: 18 - 85 years; Long Term Income: 18 - 75 years; POSP Variant: Guaranteed Income: 18 - 65 years; Guaranteed Maturity: 18 - 65 years; Life Long Income: 18 - 65 years; Long Term Income: 18 - 65 years\nPolicy term: Guaranteed Maturity: Single Pay: 5, 6, 7, 8, 9, 10 years; 12, 15, 20 years; Guaranteed Income: 5 to 20 years; Long Term Income: 10 to 30 years; Life Long Income: Equivalent to Premium Paying Term to 30 years\nPremium payment term: Single Pay; 5 to 20 years (varies by option); see plan option tables for details\nSum assured / sum insured: No minimum sum assured stated; Maximum Sum Assured on Death for POSP Variant: Rs. 25,00,000; Sum Assured on Maturity: Single Premium (for Single Pay) or total Annualized Premium payable during premium payment term (for Limited/Regular Pay); Death Benefit: Highest of 10 times Annualized Premium / 1.25 times Single Premium, or 105% of Total Premiums paid, or Sum Assured on Maturity, or absolute amount assured to be paid on death (equal to Sum Assured)\nPremium payment modes: Single, annual, half yearly, quarterly, monthly\nFree-look period: 30 days from the date of receipt of the policy\nGrace period: 15 days for monthly frequency and 30 days for other frequencies (not applicable for Single Premium Policy)\nTax benefits: Tax Benefits may be available as per prevailing tax laws. You are requested to consult your tax advisor.\nKey benefits: Guaranteed benefits and returns; Flexibility to receive benefits as lump sum or regular income; Life Long Income option with guaranteed income till age 99 years; Long Term Income option with guaranteed income for 25 to 30 years; Tax benefits as per prevailing tax laws; Optional riders to enhance protection coverage\nOptional riders / add-ons: HDFC Life Income Benefit on Accidental Disability Rider - Non Linked (101B041V01); HDFC Life Protect Plus Rider - Non Linked (101B040V01); HDFC Life Health Plus Rider - Non Linked (101B031V02); HDFC Life Waiver of Premium Rider - Non Linked (101B032V02); HDFC Life LiveWell Rider - Non Linked (101B033V01)\nMajor exclusions: Death due to suicide within 12 months from the date of commencement of risk under the policy or from the date of revival of the policy",
       "metadata": {
         "doc_id": "hdfc_life_sanchay_plus_brochure",
         "file_name": "hdfc_life_sanchay_plus_brochure.pdf",
@@ -2322,7 +2238,7 @@
         "page_start": 1,
         "page_end": 28,
         "content_type": "key_facts",
-        "char_count": 2756,
+        "char_count": 3076,
         "topic": "benefits",
         "topic_eligibility": true,
         "topic_benefits": true,
