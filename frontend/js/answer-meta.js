@@ -26,7 +26,7 @@ export function answerFooter(meta, timings, traceUrl) {
     meta.sources.length ? `<span class="tag">${meta.sources.length} sources</span>` : "",
     traceUrl ? `<a class="tag trace" href="${esc(traceUrl)}" target="_blank" rel="noopener">LangSmith trace \u2197</a>` : "",
     timings?.total_ms
-      ? `<span>\u00b7 ${seconds(timings.total_ms)}s (first words in ${seconds(timings.first_token_ms)}s)</span>` : "",
+      ? `<span>\u00b7 ${seconds(timings.total_ms)}s${timings.first_token_ms ? ` (first words in ${seconds(timings.first_token_ms)}s)` : ""}</span>` : "",
   ];
   return el("div", "answer-meta", parts.join(""));
 }
