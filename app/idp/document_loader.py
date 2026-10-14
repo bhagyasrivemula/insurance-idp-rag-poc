@@ -51,6 +51,8 @@ PRODUCT_TYPE_LABELS = {
 # (e.g. 104N118V13, BAJHLIP26073V082526, IRDAN113RP0025V01200102) and company CIN.
 UIN_PATTERN = re.compile(r"\bUIN\s*(?:No\.?|Number)?\s*[:\-]?\s*([A-Z0-9]{8,30})\b", re.IGNORECASE)
 CIN_PATTERN = re.compile(r"\bCIN\s*(?:No\.?)?\s*[:\-]?\s*([LU]\d{5}[A-Z]{2}\d{4}[A-Z]{3}\d{6})\b", re.IGNORECASE)
+# Life-insurer UINs look like 101N134V29: insurer code, type letter, product number, version.
+LIFE_UIN_PATTERN = re.compile(r"\b(\d{3}[A-Z]\d{3}V\d{2})\b")
 
 
 @dataclass
@@ -113,6 +115,22 @@ def classify_doc_type(file_name: str, cover_text: str, page_count: int) -> str:
     return "brochure"
 
 
+def find_product_uin(text: str, product_name: str) -> str:
+    """
+    The UIN of the plan itself. Brochures also list the UINs of optional riders, so "the first
+    UIN in the file" can be a rider's. Prefer an id written right after the product name and
+    never one written after the word "rider"; otherwise fall back to the first labelled UIN.
+    """
+    flat = " ".join(text.split())
+    name = re.sub(r"\(.*?\)", "", product_name).strip().lower()
+    for match in LIFE_UIN_PATTERN.finditer(flat):
+        before = flat[max(0, match.start() - 60):match.start()].lower()
+        if name and name in before and "rider" not in before:
+            return match.group(1).upper()
+    labelled = UIN_PATTERN.search(flat)
+    return labelled.group(1).upper() if labelled else ""
+
+
 def _guess_from_filename(file_name: str) -> tuple[str, str]:
     """Fallback company/product guess: 'hdfc_life_sanchay_plus_brochure.pdf' -> ('Hdfc Life', 'Sanchay Plus')."""
     parts = Path(file_name).stem.replace("_brochure", "").split("_")
@@ -141,7 +159,6 @@ def load_document(path: Path, manifest: dict[str, dict]) -> DocumentInfo:
         product_type, method = classify_product_type(full_text), "keywords"
         source_url = ""
 
-    uin_match = UIN_PATTERN.search(full_text)
     cin_match = CIN_PATTERN.search(full_text)
 
     return DocumentInfo(
@@ -156,7 +173,7 @@ def load_document(path: Path, manifest: dict[str, dict]) -> DocumentInfo:
         product_type_label=PRODUCT_TYPE_LABELS.get(product_type, product_type.title()),
         doc_type=(entry or {}).get("doc_type") or classify_doc_type(path.name, cover_text, page_count),
         source_url=source_url,
-        uin=uin_match.group(1).upper() if uin_match else "",
+        uin=find_product_uin(full_text, product),
         cin=cin_match.group(1).upper() if cin_match else "",
         pdf_title=pdf_title.strip(),
         classification_method=method,

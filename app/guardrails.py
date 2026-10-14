@@ -107,7 +107,8 @@ def _result(check: str, status: str, detail: str) -> dict:
 # --------------------------------------------------------------------------- #
 # Public API
 # --------------------------------------------------------------------------- #
-@traceable(run_type="tool", name="Guardrails: input")
+@traceable(run_type="tool", name="Guardrails: input",
+           process_inputs=lambda i: {"question": mask_pii(i["question"])[0]})   # never trace raw PII
 def check_input(question: str) -> dict:
     """
     Run input guardrails. Returns

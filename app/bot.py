@@ -96,8 +96,8 @@ def _trace_url() -> str | None:
 
 
 @traceable(run_type="chain", name="InsureAssist: answer question", reduce_fn=_summarise_events,
-           process_inputs=lambda i: {"question": i["question"], "persona": i.get("persona"),
-                                     "filters": i.get("ui_filters")})
+           process_inputs=lambda i: {"question": guardrails.mask_pii(i["question"])[0],   # never trace raw PII
+                                     "persona": i.get("persona"), "filters": i.get("ui_filters")})
 def answer_stream(question: str, persona: str = "buyer", history: list[dict] | None = None,
                   ui_filters: dict | None = None, previous_filters: dict | None = None) -> Iterator[dict]:
     """
@@ -108,7 +108,9 @@ def answer_stream(question: str, persona: str = "buyer", history: list[dict] | N
         done        - timings (+ LangSmith trace link when tracing is on)
     """
     persona = persona if persona in prompts.PERSONA_PROMPTS else "buyer"
-    history = history or []
+    # Earlier turns come back from the browser unmasked: mask them too, so personal data typed in a
+    # previous question is never sent to the model (or a trace) in a later one.
+    history = [{**h, "content": guardrails.mask_pii(h["content"])[0]} for h in (history or [])]
     t_start = time.perf_counter()
 
     def finish(timings: dict):
